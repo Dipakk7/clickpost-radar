@@ -1,7 +1,7 @@
 [
   {
     "company": "Chubbies",
-    "collected_at": "2026-07-31T08:42:02.493739+00:00",
+    "collected_at": "2026-07-31T08:54:53.970432+00:00",
     "signals_count": 1,
     "signals": [
       {
@@ -18,7 +18,7 @@
   },
   {
     "company": "Rothy's",
-    "collected_at": "2026-07-31T08:42:08.133401+00:00",
+    "collected_at": "2026-07-31T08:55:10.343503+00:00",
     "signals_count": 5,
     "signals": [
       {
@@ -75,7 +75,7 @@
   },
   {
     "company": "Brooklinen",
-    "collected_at": "2026-07-31T08:42:14.087335+00:00",
+    "collected_at": "2026-07-31T08:55:28.058264+00:00",
     "signals_count": 5,
     "signals": [
       {
@@ -132,7 +132,7 @@
   },
   {
     "company": "Solo Stove",
-    "collected_at": "2026-07-31T08:42:24.801426+00:00",
+    "collected_at": "2026-07-31T08:55:52.822340+00:00",
     "signals_count": 1,
     "signals": [
       {
@@ -149,8 +149,8 @@
   },
   {
     "company": "Vuori",
-    "collected_at": "2026-07-31T08:42:29.692287+00:00",
-    "signals_count": 9,
+    "collected_at": "2026-07-31T08:56:07.816223+00:00",
+    "signals_count": 6,
     "signals": [
       {
         "company": "Vuori",
@@ -171,36 +171,6 @@
         "url": "https://vuoriclothing.com/blogs/journal",
         "date": "2026-07-31",
         "confidence": "High"
-      },
-      {
-        "company": "Vuori",
-        "signal_type": "OTHER",
-        "title": "Vuori names first Chief Product Officer - Sporting Goods Intelligence Europe",
-        "evidence": "Vuori names first Chief Product Officer  Sporting Goods Intelligence Europe",
-        "source": "News / Press Releases",
-        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNQmxKSzRmMm40b01wYnRNeTBnWTV2MGRHeFhBZEptbHVKVXRXWW1aRXNpeGxiWE1TVTJHWjY3dDRNblZzaTdzSF8yN3pMZG9TYW0yUkRZM3d6RTNrcmFjb25SbzJ3N3lETW9aXzlob1FySEpweFI3dFdRZjhXNUhDWThXNUhMRGlwbDFLdjZkMWoxb3NO?oc=5",
-        "date": "Wed, 15 Apr 2026 07:00:00 GMT",
-        "confidence": "Medium"
-      },
-      {
-        "company": "Vuori",
-        "signal_type": "EXPANSION",
-        "title": "Vuori Names Heather Archibald Chief Product Officer as Activewear Brand Scales Global Expansion - citybiz",
-        "evidence": "Vuori Names Heather Archibald Chief Product Officer as Activewear Brand Scales Global Expansion  citybiz",
-        "source": "News / Press Releases",
-        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOcDdvb3hPWXBQZndDV0xfd3pWcWoxNjR5VTRpRVZJMy1RNVp4OHZDZUxFM2IycnliZmtCQ1dSUk11bllHRnhQM0RPd0xiZTFwby1ELXBnR1FpYjA3TWZsWkZFcmhRX01tM0JRdm1sNGgyaVQ3RkgwMjk3TkdLUDd1TXNLdy0tOEpxeVl5R0lHRzJ3SHBnWEdrZDNXS2Q2T1NzN3lLeW5XN2JCZ2V3Vks1NDBncDByRXdSbjNaZV96WDN1Slc3emluQkV4X0VhY0E?oc=5",
-        "date": "Wed, 15 Apr 2026 07:00:00 GMT",
-        "confidence": "Medium"
-      },
-      {
-        "company": "Vuori",
-        "signal_type": "EXPANSION",
-        "title": "Vuori expands global footprint with new stores in Seoul and Beijing - FashionNetwork - The World's Fashion Business News",
-        "evidence": "Vuori expands global footprint with new stores in Seoul and Beijing  FashionNetwork - The World's Fashion Business News",
-        "source": "News / Press Releases",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOd2VyMWUyNEphbEliWVJQN25LaUpuMEhKOVVEVUdzczJiN3hscDB5LS1OX1hVcjdJN3RWQkNLX2k1V3JYMFRRa29hVXJ1S1Q4Q3N6TWxBcWNfRDVBQVRuTGYzSXNUMnNSbnAwbUJTZll5UFZhQUpjLURnNlBDREJmRkIxQTBwcVNaOVkxU1JJRkM1MEliZDZ2TXNZM2hfREhaRXJEN0pZbEI3WVk1ZlZxcWpJdUlhQQ?oc=5",
-        "date": "Mon, 21 Jul 2025 07:00:00 GMT",
-        "confidence": "Medium"
       },
       {
         "company": "Vuori",
@@ -246,7 +216,7 @@
   },
   {
     "company": "Outdoor Voices",
-    "collected_at": "2026-07-31T08:42:38.950472+00:00",
+    "collected_at": "2026-07-31T08:56:23.621200+00:00",
     "signals_count": 8,
     "signals": [
       {
@@ -333,8 +303,8 @@
   },
   {
     "company": "Blueland",
-    "collected_at": "2026-07-31T08:42:49.337232+00:00",
-    "signals_count": 4,
+    "collected_at": "2026-07-31T08:56:44.385286+00:00",
+    "signals_count": 3,
     "signals": [
       {
         "company": "Blueland",
@@ -345,16 +315,6 @@
         "url": "https://www.blueland.com/careers",
         "date": "2026-07-31",
         "confidence": "High"
-      },
-      {
-        "company": "Blueland",
-        "signal_type": "OTHER",
-        "title": "This Founder's Unusual Strategy Led Her Business to Profitability — and $300M in Lifetime Sales - entrepreneur.com",
-        "evidence": "This Founder's Unusual Strategy Led Her Business to Profitability — and $300M in Lifetime Sales  entrepreneur.com",
-        "source": "News / Press Releases",
-        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQb1dFWnVrTWg2MXdacDJoNG54VEg3RFhVWkxZOGVGeWFzd1VlY0xNbjdJbk9hWGwtaGpHVzhIc1NEbVJBNVJQbVlhWDZIMWFnOFZlT1N5OFhaa0xZcndSSUpMaGxXQXp1RHBTcWpIOHA1dUdVQm5SWU1KY0JRMldiZGhFUURZMnBkVlZUZmtISGRNQWtCT2gyTDIxc0wtM21NbmZXRkl6WFdoOC1OdzRxRXVZWUkwYmEwdG1iZE9XeUgtM3M1bGdhdG1xNUNKOXlLbDlFMS10NA?oc=5",
-        "date": "Mon, 24 Nov 2025 08:00:00 GMT",
-        "confidence": "Medium"
       },
       {
         "company": "Blueland",
@@ -380,7 +340,7 @@
   },
   {
     "company": "True Classic",
-    "collected_at": "2026-07-31T08:42:56.214836+00:00",
+    "collected_at": "2026-07-31T08:57:01.287622+00:00",
     "signals_count": 7,
     "signals": [
       {
@@ -392,6 +352,16 @@
         "url": "https://trueclassicclothing.com/blogs/journal",
         "date": "2026-07-31",
         "confidence": "High"
+      },
+      {
+        "company": "True Classic",
+        "signal_type": "FUNDING",
+        "title": "True Classic Secures Strategic Investment from 1686 Partners, Accelerating Global Expansion and Category Growth - Business Wire",
+        "evidence": "True Classic Secures Strategic Investment from 1686 Partners, Accelerating Global Expansion and Category Growth  Business Wire",
+        "source": "News / Press Releases",
+        "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNZkFTbHVHRURnQndqS3c1cWpSa3FUVGRLcjJMR2NSbklIV2M5NUN5QW1lUjZoZlYySkdRRGFKX3JqNW91WDdROEVBNXFsdjJ3Q0VpYk0xV0pSWTQ2dTFES0EwOW1XUEdjbm12X2YxUGdjZXdSdFNqUVZhY1NwckFucjFmRDhNSnhjTE1NZE9sdmgzMXRrT0hjcHZacDhCN05QdzhtMENkWC12YkU2eTNQLTVVbzQ5M2JFcUhvSXB5cHVHeHRIT0RISW4tajF3aDBfQ3U2NWhGN3EzMUF1bzEtU0R5bm12YW1adWRNbXdqNlVjaENPRE9tZDhkbw?oc=5",
+        "date": "Thu, 01 May 2025 07:00:00 GMT",
+        "confidence": "Medium"
       },
       {
         "company": "True Classic",
@@ -411,16 +381,6 @@
         "source": "News / Press Releases",
         "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNekVYVV9NMnVvczJUb2tDUlg3NnJNSm1GQXE4bUJrSlFWWnlCNlgzb0dxa2tlWktwZmJVcDBVdGhTNkhmQXNscU1nM19QQmZjdlpacDJqLVJDZ0hHdURBUU42RjRTcEJTa292OXpXVnoxckJBcnFNaGVaTWtVSzFvdktzb0V4VVBDWFc2Nm9QOUdneDl6RGg3N2k4WHZHbTJwWFEtdlgyV2ZSUGNpOXpWY1NjVHlSZlQy?oc=5",
         "date": "Fri, 19 Dec 2025 08:00:00 GMT",
-        "confidence": "Medium"
-      },
-      {
-        "company": "True Classic",
-        "signal_type": "FUNDING",
-        "title": "True Classic Secures Strategic Investment from 1686 Partners, Accelerating Global Expansion and Category Growth - Business Wire",
-        "evidence": "True Classic Secures Strategic Investment from 1686 Partners, Accelerating Global Expansion and Category Growth  Business Wire",
-        "source": "News / Press Releases",
-        "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNZkFTbHVHRURnQndqS3c1cWpSa3FUVGRLcjJMR2NSbklIV2M5NUN5QW1lUjZoZlYySkdRRGFKX3JqNW91WDdROEVBNXFsdjJ3Q0VpYk0xV0pSWTQ2dTFES0EwOW1XUEdjbm12X2YxUGdjZXdSdFNqUVZhY1NwckFucjFmRDhNSnhjTE1NZE9sdmgzMXRrT0hjcHZacDhCN05QdzhtMENkWC12YkU2eTNQLTVVbzQ5M2JFcUhvSXB5cHVHeHRIT0RISW4tajF3aDBfQ3U2NWhGN3EzMUF1bzEtU0R5bm12YW1adWRNbXdqNlVjaENPRE9tZDhkbw?oc=5",
-        "date": "Thu, 01 May 2025 07:00:00 GMT",
         "confidence": "Medium"
       },
       {
@@ -457,8 +417,8 @@
   },
   {
     "company": "Feastables",
-    "collected_at": "2026-07-31T08:43:03.039098+00:00",
-    "signals_count": 6,
+    "collected_at": "2026-07-31T08:57:23.333648+00:00",
+    "signals_count": 3,
     "signals": [
       {
         "company": "Feastables",
@@ -472,6 +432,16 @@
       },
       {
         "company": "Feastables",
+        "signal_type": "OTHER",
+        "title": "Toronto Film Festival’s New Market Unveils Four Additions To Leadership Team - Deadline",
+        "evidence": "Toronto Film Festival’s New Market Unveils Four Additions To Leadership Team  Deadline",
+        "source": "News / Press Releases",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPdGJWeFdGS3pQaTdkS25ULWNsbDI3TmowdXFmRHVmeVQ5LTBCTG5uRjdCbTZZT2VadGxacVRWT1h1V1N4cFFWQ3ljVzA4MTdGamxqMi1qVlRTcmY0SEVESTQ0RWtHSXpwcDdEd09EYk1QUURzQWFTUlJkRmVUWTRraXBRdWQ2M0NRQk9kLUkxTXFHMFU?oc=5",
+        "date": "Sun, 15 Feb 2026 08:00:00 GMT",
+        "confidence": "Medium"
+      },
+      {
+        "company": "Feastables",
         "signal_type": "FUNDING",
         "title": "£30 million funding boost to help the next generation of games developers take their ideas to the next level - GOV.UK",
         "evidence": "£30 million funding boost to help the next generation of games developers take their ideas to the next level  GOV.UK",
@@ -479,52 +449,12 @@
         "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPekxhN0NuRWR6aG5QdkpUV2xMUmVpLWJsXzBVVEtKOHREZmtHdXhNMVQwMWdJVTJKR1RsWXY0UWVLUTY0M1hCN0Z0VE9YNzlySzdLZnNSMGx5ZXZKT2Q4MENDNmVWY2IwRUYweVRQWElmQlUybjFoU0xITHlCLTJFM29CVko5N0xSNzN2cGZhX00waVJGVDdFRXRwZ1FNM1VaRDdfNDFkakRkdGVpZzF5Y1dWNk5qSy1hc29xY3I1RVRRWWxQWFdTY0pVanZXZk12THRpdFRwYTN2Zw?oc=5",
         "date": "Mon, 13 Apr 2026 07:00:00 GMT",
         "confidence": "Medium"
-      },
-      {
-        "company": "Feastables",
-        "signal_type": "OTHER",
-        "title": "Major Projects: The City-Shaping Projects Underway, Approved or Planned in Adelaide - Adelaide Economic Development Agency",
-        "evidence": "Major Projects: The City-Shaping Projects Underway, Approved or Planned in Adelaide  Adelaide Economic Development Agency",
-        "source": "News / Press Releases",
-        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9VM0VERU91TExJTW9aV213Y3l6RUdrTUhjaS1VcnlYQ2ZwRmtKNE81Z3hwcWh0Y2VULXJ1bWxiYl94V1RySVQxYWxJZzAxQ2oyQmJOSTViY0FKcFRhdHZPZTA0ZDlVZw?oc=5",
-        "date": "Tue, 16 Jun 2026 07:00:00 GMT",
-        "confidence": "Medium"
-      },
-      {
-        "company": "Feastables",
-        "signal_type": "FUNDING",
-        "title": "Apollo affiliate raises $1.4B for logistics real estate fund - FreightWaves",
-        "evidence": "Apollo affiliate raises $1.4B for logistics real estate fund  FreightWaves",
-        "source": "News / Press Releases",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxONnNMOEREeE13SElfd0tFTTlIUmF4NTR1SHNtMXJUckxsV2hZRkFkMmU3T05VWWhfYUw3elBhbUZKTU03Z1o3QnFXS1dyVDRTYmhVNy1rSFQ4aWhpUEZVb2Z1bkVmZVp1eGhsMWNLTEozYkJzNnl0aHJ1RG53dkZaSWlybE1OT1YwNkpUcTFkS2tfb2FVeEZ5SA?oc=5",
-        "date": "Wed, 03 Jun 2026 07:00:00 GMT",
-        "confidence": "Medium"
-      },
-      {
-        "company": "Feastables",
-        "signal_type": "FUNDING",
-        "title": "Lincolnshire to submit bid for ambitious transport investment programme under new Local Transport Grant - lincolnshireworld.com",
-        "evidence": "Lincolnshire to submit bid for ambitious transport investment programme under new Local Transport Grant  lincolnshireworld.com",
-        "source": "News / Press Releases",
-        "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPR2s4eENaUTdkTlUwbkVfdHh0NWdFX1hMYWNyZTJhVXhYNTRoNk1OOE5IWktnUkZzaUFwc1d5SWFwYXBaTzBQNEtEc2dfV25PNDF4T1Q3dDJSYmtZdlRzSFFuNmhQSXVDTFBYVERxd3h4M2xCakYyTHkxd0l6a282MldXdHR4WWF4NW5lZnd5UjhycU1jNGg4cURkbm1YbVJ2aTdKcUw3QmFIalRkMUU3aXhqbHVyZlN5OWE4SWE4Y2lrNnVkTFFfX3NwdV9mMnpYNHYyU0tHMkhjNmtqYmFMUV81VVo4Z2daRUVOR1hPUVRhZw?oc=5",
-        "date": "Mon, 13 Jul 2026 07:00:00 GMT",
-        "confidence": "Medium"
-      },
-      {
-        "company": "Feastables",
-        "signal_type": "FUNDING",
-        "title": "Liverpool City Region launches £2bn Investment Fund to accelerate growth, jobs and housebuilding - liverpoolcityregion-ca.gov.uk",
-        "evidence": "Liverpool City Region launches £2bn Investment Fund to accelerate growth, jobs and housebuilding  liverpoolcityregion-ca.gov.uk",
-        "source": "News / Press Releases",
-        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPbWQ4WVNoTHMyUnZiV19ZWThpaXJoN3VVYjZrbUc0TW85dGdkNU9wMUFwQUU5TUFPNk96Ynhkcm5nY1ZhRWVOd29ZTzZkbnBJcThUR2Z1cXRkMWotZWhHaUkxZjl4Znk4ZzZQSUxud2dSQnVPcndDRW1URks5Z3JhSkFvVXRiZ1BlcWQ0Mml4RWh6U2RGVDg5OXlHLUZUQW9ENDdCTk1NUXZiOEF5MVYxVmxGUm1ZT0pTYWhHX3RoQTYtMmVMZU02djdiTTNpc2tTdzlGLU1ZR2g?oc=5",
-        "date": "Tue, 10 Mar 2026 07:00:00 GMT",
-        "confidence": "Medium"
       }
     ]
   },
   {
     "company": "Kosas",
-    "collected_at": "2026-07-31T08:43:11.078490+00:00",
+    "collected_at": "2026-07-31T08:57:46.335868+00:00",
     "signals_count": 3,
     "signals": [
       {
@@ -561,19 +491,9 @@
   },
   {
     "company": "Olipop",
-    "collected_at": "2026-07-31T08:43:22.911874+00:00",
+    "collected_at": "2026-07-31T08:58:03.535407+00:00",
     "signals_count": 6,
     "signals": [
-      {
-        "company": "Olipop",
-        "signal_type": "OTHER",
-        "title": "An Inside Look At Olipop’s Dream Job Contest & The Creators Who Won - Forbes",
-        "evidence": "An Inside Look At Olipop’s Dream Job Contest & The Creators Who Won  Forbes",
-        "source": "News / Press Releases",
-        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQS1hxMWdFWl9Ob1pMXzV6bURQMlJWVTJzdnZiVkgyU1VNa2pUTklkU2tkSVA1cHRWdGlnYXhmVHhXbnBXR0FFaTFXSEI5WS05bGlvX0xoSDJlRC15RXRBc3NDZzhaUGZNaGtwbEpwNE54ZWlvemczYjVKcS1JcnQyc0M4ZG1RWDVWU2xFQU03ZTU5QTRwenNUSnZUQ1A2ajhkN1FWY2dYNDFteUNVaUJXQmEyLUt1SlFMbDJN?oc=5",
-        "date": "Tue, 16 Apr 2024 07:00:00 GMT",
-        "confidence": "Medium"
-      },
       {
         "company": "Olipop",
         "signal_type": "FUNDING",
@@ -582,6 +502,16 @@
         "source": "News / Press Releases",
         "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNY0FFekRVRVY4YTJtak5KeXN4OVMxYVVKdjVnVHVMT0x1QlhKZDlIbXFwQzhuVy1jbXFqOFk4ZHlGcGxfTEs2QktPdUlKeXgyb3pVMjNnRFdTX3QzdjZSOXhsVTlSWF9ycEVTbjdtcldtc2QzUWpuelRQZk9heVVwUmxqX0FmXzJjN1VHa0FvMS1JeThzVVVSRmJ4elJ6ZXFhdlM0Rk9DaVlSQdIBrwFBVV95cUxNOXVhc2RfaFMzWjU3ak4wSndUNl91aUJzcFl4Y0dsR0stVHNaakhwTFhLQk9SaVYyTnE1MUVtczVVNWw1WnlmazlSV09qbWpSMEVkZWVpVnk1cnZWaVRxdGxYVmRwNGl2V1FxbHlCQnVKZDBPSjE3YTUybEphTE1oWWxGMkUwdFFqT0R1SnE1TTVMQWJGYTZMbnZXcHY5N080Yk5CYmNlRWFXc2IzMHA4?oc=5",
         "date": "Sat, 16 Sep 2023 07:00:00 GMT",
+        "confidence": "Medium"
+      },
+      {
+        "company": "Olipop",
+        "signal_type": "OTHER",
+        "title": "An Inside Look At Olipop’s Dream Job Contest & The Creators Who Won - Forbes",
+        "evidence": "An Inside Look At Olipop’s Dream Job Contest & The Creators Who Won  Forbes",
+        "source": "News / Press Releases",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQS1hxMWdFWl9Ob1pMXzV6bURQMlJWVTJzdnZiVkgyU1VNa2pUTklkU2tkSVA1cHRWdGlnYXhmVHhXbnBXR0FFaTFXSEI5WS05bGlvX0xoSDJlRC15RXRBc3NDZzhaUGZNaGtwbEpwNE54ZWlvemczYjVKcS1JcnQyc0M4ZG1RWDVWU2xFQU03ZTU5QTRwenNUSnZUQ1A2ajhkN1FWY2dYNDFteUNVaUJXQmEyLUt1SlFMbDJN?oc=5",
+        "date": "Tue, 16 Apr 2024 07:00:00 GMT",
         "confidence": "Medium"
       },
       {
@@ -628,19 +558,9 @@
   },
   {
     "company": "Magic Spoon",
-    "collected_at": "2026-07-31T08:43:34.719904+00:00",
+    "collected_at": "2026-07-31T08:58:28.042023+00:00",
     "signals_count": 5,
     "signals": [
-      {
-        "company": "Magic Spoon",
-        "signal_type": "OTHER",
-        "title": "Magic Spoon Debuts Protein Pastries and Marshmallow Protein Cereal, Expanding Its Better-For-You Breakfast Lineup - finance.yahoo.com",
-        "evidence": "Magic Spoon Debuts Protein Pastries and Marshmallow Protein Cereal, Expanding Its Better-For-You Breakfast Lineup  finance.yahoo.com",
-        "source": "News / Press Releases",
-        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQSWx1UDcxVG5IcFk3SnlnQnhtbjZnSzlpT2RHTmFqRGJxSGp4VjB1endZeW1paV9PTDFrRndtQjhRSEU0cTZkN0ZaQVVTbEFQeTAtWDF3RFVDcGZvRE54aExSLTlLRVYzeHF4NjBNdnBLSmxldFhpcWdmQ3dSNzdUTWQyN200Z2Jo?oc=5",
-        "date": "Wed, 21 Jan 2026 08:00:00 GMT",
-        "confidence": "Medium"
-      },
       {
         "company": "Magic Spoon",
         "signal_type": "OTHER",
@@ -659,6 +579,16 @@
         "source": "News / Press Releases",
         "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOc1gybEtiNnQ4V1lpX3ZwczFrUnBISDNaaFVEdDRTUkhWR3FUNy0tNXNsVUxPQzEzVXNFZ2pzb1J2LUdEclF4NmRyUnZGWW1kZzNFTzlLWDRydjhUQ0NlUGs5UFFuOXg0U1hDWTN3VjNTLUZNRVdlVTd3VEdKTUR0M1BjU1B5NjItOTRuYzJZR1JNaWpXQ1Q0cDN0bE9ibzd1STgzTlRR?oc=5",
         "date": "Wed, 16 Dec 2020 13:14:31 GMT",
+        "confidence": "Medium"
+      },
+      {
+        "company": "Magic Spoon",
+        "signal_type": "OTHER",
+        "title": "$85 Million to the Clearance Bin – Is Magic Spoon Done? - The Food Institute",
+        "evidence": "$85 Million to the Clearance Bin – Is Magic Spoon Done?  The Food Institute",
+        "source": "News / Press Releases",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNcEpDX3ZSb2pQbk9iUFFTUkxUMTlRYXVpSklFb3JmeFdSSUxkM1Z0RzBhd2NhdDlULUtDWEtqQ2tvVWhLYVlUMFJmS1VNYVdCakJ1V0lJRTlKY0x0NDF3LVREcHhWbHNoNFB3LWNrMjN3Y0kxSWZ6cXdQQVVSOWR6ZW1OcEZFYTk3N2RWbQ?oc=5",
+        "date": "Thu, 11 Apr 2024 07:00:00 GMT",
         "confidence": "Medium"
       },
       {
@@ -685,14 +615,14 @@
   },
   {
     "company": "Liquid Death",
-    "collected_at": "2026-07-31T08:43:40.874346+00:00",
+    "collected_at": "2026-07-31T08:58:44.262663+00:00",
     "signals_count": 6,
     "signals": [
       {
         "company": "Liquid Death",
         "signal_type": "EXPANSION",
-        "title": "Exclusive: $1.4 billion beverage company Liquid Death names new CFO as it gears up for expansion - finance.yahoo.com",
-        "evidence": "Exclusive: $1.4 billion beverage company Liquid Death names new CFO as it gears up for expansion  finance.yahoo.com",
+        "title": "Exclusive: $1.4 billion beverage company Liquid Death names new CFO as it gears up for expansion - Yahoo Finance",
+        "evidence": "Exclusive: $1.4 billion beverage company Liquid Death names new CFO as it gears up for expansion  Yahoo Finance",
         "source": "News / Press Releases",
         "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOTldJNGNXNHBYbmM3QWlFOWotWXg3R3lLbWF5QkpIcFZpeXEzNUVYTUVUYjVXY05DOVIyX1dNbVNhaG5KTjVsSVotdENySnVNUVdkRGs1QU4zaXZoWGE2XzhzRjV6b2dndFFqcGR3QmxBZlVxWTFER0Z6Z1lDZUVhTGNn?oc=5",
         "date": "Tue, 14 Oct 2025 07:00:00 GMT",
@@ -752,7 +682,7 @@
   },
   {
     "company": "Poppi",
-    "collected_at": "2026-07-31T08:43:47.308432+00:00",
+    "collected_at": "2026-07-31T08:58:55.463713+00:00",
     "signals_count": 6,
     "signals": [
       {
@@ -819,7 +749,7 @@
   },
   {
     "company": "Graza",
-    "collected_at": "2026-07-31T08:43:58.584572+00:00",
+    "collected_at": "2026-07-31T08:59:11.281433+00:00",
     "signals_count": 2,
     "signals": [
       {
@@ -846,7 +776,7 @@
   },
   {
     "company": "Ridge Wallet",
-    "collected_at": "2026-07-31T08:44:06.863048+00:00",
+    "collected_at": "2026-07-31T08:59:31.532314+00:00",
     "signals_count": 3,
     "signals": [
       {
@@ -883,7 +813,7 @@
   },
   {
     "company": "Manscaped",
-    "collected_at": "2026-07-31T08:44:12.927237+00:00",
+    "collected_at": "2026-07-31T08:59:55.271939+00:00",
     "signals_count": 3,
     "signals": [
       {
@@ -920,7 +850,7 @@
   },
   {
     "company": "Native Deodorant",
-    "collected_at": "2026-07-31T08:44:22.873343+00:00",
+    "collected_at": "2026-07-31T09:00:11.159375+00:00",
     "signals_count": 2,
     "signals": [
       {
@@ -947,7 +877,7 @@
   },
   {
     "company": "Beardbrand",
-    "collected_at": "2026-07-31T08:44:29.925808+00:00",
+    "collected_at": "2026-07-31T09:00:29.510753+00:00",
     "signals_count": 1,
     "signals": [
       {
@@ -964,7 +894,7 @@
   },
   {
     "company": "Caraway",
-    "collected_at": "2026-07-31T08:44:37.073920+00:00",
+    "collected_at": "2026-07-31T09:00:51.097853+00:00",
     "signals_count": 6,
     "signals": [
       {
@@ -1031,7 +961,7 @@
   },
   {
     "company": "Our Place",
-    "collected_at": "2026-07-31T08:44:48.331094+00:00",
+    "collected_at": "2026-07-31T09:01:04.929060+00:00",
     "signals_count": 9,
     "signals": [
       {
@@ -1046,22 +976,22 @@
       },
       {
         "company": "Our Place",
+        "signal_type": "HIRING",
+        "title": "Create Energy Acquires 338,000-Square-Foot Facility, Expansion to Create 1,000 New Jobs - Tennessee Department of Economic and Community Development",
+        "evidence": "Create Energy Acquires 338,000-Square-Foot Facility, Expansion to Create 1,000 New Jobs  Tennessee Department of Economic and Community Development",
+        "source": "News / Press Releases",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQUW5KY0djbklEOVMxeFFCVjljZmk0VXByZjdHNVUyQW1zemJVWEtUNnhlckNETFhNUXdZQzVDcmxfeFlTbFFMVlB6UEdFcElIZ2hpTTc3b2IwS3BYNDE1eThLOU54eVdybVVWWHRfTk1CZ2hibGJHTGtDVnJQV1l3Umc4RW4tVzdOSVl4R2h6TTJNdEtVSHoyd0N0T3BNY2VucElRMEVNV2M4NXBw?oc=5",
+        "date": "Wed, 11 Mar 2026 07:00:00 GMT",
+        "confidence": "Medium"
+      },
+      {
+        "company": "Our Place",
         "signal_type": "FUNDING",
         "title": "Creating Jobs in Allegheny County: Governor Shapiro Secures $80 Million Investment from Curtiss-Wright to Expand Operations, Creating 150 New Jobs - PA Department of Community & Economic Development (.gov)",
         "evidence": "Creating Jobs in Allegheny County: Governor Shapiro Secures $80 Million Investment from Curtiss-Wright to Expand Operations, Creating 150 New Jobs  PA Department of Community & Economic Development (.gov)",
         "source": "News / Press Releases",
         "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPQmgwSW9CaTFMcEhIU2xGMGNua25wZjU5UXBoWHpNZ19NdEF2YlhyS21ibEtzYng3MkRRVHNhQnBMMTlsQ2NZVXRYS2x4S3NhNmFueVVuVnI3UGptWUM4QU5zUzRrSUpCX1lRNDJERFlCQnJSRmxPSWpERWN3M19xUDVBdExpMU5FQ2FvS3RkMmRWb1Jfd2xMRHJpM0k1ZURXRnlWcVRSU2xPbFZXTmpTTEM5UDJURzlPVTc5RkM5TllzSC03c29sVDRVWEt4Z0N2NlNuMk9fMnRkUGdNZGtiMUhZQ3RNdnZMMFQwOVh4RllnM09YWTZ2cU5uUzZQWEQ4T2Vr?oc=5",
         "date": "Mon, 06 Jul 2026 07:00:00 GMT",
-        "confidence": "Medium"
-      },
-      {
-        "company": "Our Place",
-        "signal_type": "HIRING",
-        "title": "Genie Recon to add jobs with $11.5 million expansion in Springfield - Springfield News-Leader",
-        "evidence": "Genie Recon to add jobs with $11.5 million expansion in Springfield  Springfield News-Leader",
-        "source": "News / Press Releases",
-        "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQcE55eTdNWUdRMFNuaGpEWEE0RXpBcDFxRHRqUnpQcHJGSllMbF9oVVhyQ0JWQVJnSWc4NEc0Zk5GSkEtbm1VVFZ6ekd1eVhqXzlFY0ZPNWxwaEx6eHNsQmpSVGhGUmpvZ0hQaFlxRWZvbktqUmp5djJfcDd6YW93NU1KdWhBUlZwTW1jUlpZdVFfbWRTRGs5R0R1WFpYWXFSSlFiY2UxdGY3ME1GLXI1QTBqcXc4Y3VHSE5lc1VVSmpCLTJBc000ZlF2aFBrNmk3dGNmUEJBMXF0ZmZrUUFmR3B6dEVUdw?oc=5",
-        "date": "Sat, 18 Jul 2026 09:03:00 GMT",
         "confidence": "Medium"
       },
       {
@@ -1128,7 +1058,7 @@
   },
   {
     "company": "Jones Road Beauty",
-    "collected_at": "2026-07-31T08:44:58.509482+00:00",
+    "collected_at": "2026-07-31T09:01:18.111539+00:00",
     "signals_count": 7,
     "signals": [
       {
@@ -1184,11 +1114,11 @@
       {
         "company": "Jones Road Beauty",
         "signal_type": "OTHER",
-        "title": "What the parties are promising on transport in Wales ahead of the Senedd Election - business-live.co.uk",
-        "evidence": "What the parties are promising on transport in Wales ahead of the Senedd Election  business-live.co.uk",
+        "title": "Inside Anchorage Capital Partners, the very private PE deal makers - afr.com",
+        "evidence": "Inside Anchorage Capital Partners, the very private PE deal makers  afr.com",
         "source": "News / Press Releases",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxObDFHSHNkUVV1aVEyVWtIdHZRbmZtU3k0OEZNZ3R0Q29CZEhkemFqcEIwLVFrdDZ6MG9rUDc3RzhqTzNmcFNEZGw1MlQ3NGRJVWN4akk4bmJwVko1VGdfOEkxLUhjdWlHMGlGbWlKaUR0QVBOWGlEdnMtSGZVeC1Bb29taGhscXdKNnhPX3AtT3lLSG81MUdYdUk2WXTSAaIBQVVfeXFMTnFFUWctcDZaTmh6SkRRMnYyNlUweUFkVjFrenhtOEJkN3BibzBUNF95ZzZSVlRNR1YxMGJrWXdfdERoOW9DSVUxdHIxdTNicGV4TklMYnRkMGNxRE53MjhsWjVXU0dkSW5XU0UydndlUm9UTDRwbEtyY2N6TXduRVhSYlF5TVFsSWJiVWp0eUo2OVhXRENvOXN4YVU2Rko5alN3?oc=5",
-        "date": "Mon, 04 May 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQX3F4Si1IY3ZQdWVEVnliX0YwN09yQWhaZkRPeVFCeXdlX0RZZ2FzSHN3TVMzRFhtTDZUZzJTMl9OaGREWU1uU19XV1dnZ2UzaGt4bHNoTmMyWEl2b0thaHhyMzIzUnAyZnR6WlNnaFhTdTEwQXFYVGpDUnFOS2NET0NmUkhkcnJ0VHAxNDNiWmpEc0hpTVVleUdVMGxGdVI5NlNPQUlMc0tpNzdnaVcyUFlGUzNOQ2VuUTVySVh6czZJUnJidlBJT19R?oc=5",
+        "date": "Sun, 12 Mar 2023 08:00:00 GMT",
         "confidence": "Medium"
       },
       {
@@ -1205,13 +1135,13 @@
   },
   {
     "company": "Tushy",
-    "collected_at": "2026-07-31T08:45:06.216495+00:00",
+    "collected_at": "2026-07-31T09:01:33.454418+00:00",
     "signals_count": 0,
     "signals": []
   },
   {
     "company": "Momofuku Goods",
-    "collected_at": "2026-07-31T08:45:12.496985+00:00",
+    "collected_at": "2026-07-31T09:01:41.415709+00:00",
     "signals_count": 4,
     "signals": [
       {
@@ -1258,7 +1188,7 @@
   },
   {
     "company": "Parade Underwear",
-    "collected_at": "2026-07-31T08:45:17.782537+00:00",
+    "collected_at": "2026-07-31T09:01:58.817926+00:00",
     "signals_count": 3,
     "signals": [
       {

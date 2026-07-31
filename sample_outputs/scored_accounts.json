@@ -57,11 +57,11 @@
     "why_now": "Public customer feedback indicates opportunities to improve the post-purchase experience."
   },
   {
-    "company": "Vuori",
+    "company": "True Classic",
     "intent_score": 45,
     "priority": "Low",
     "confidence": "High",
-    "evidence_count": 9,
+    "evidence_count": 7,
     "detected_signals": [
       "EXPANSION",
       "FUNDING",
@@ -71,11 +71,11 @@
     "why_now": "Recent funding combined with active hiring suggests operational expansion and increasing logistics complexity."
   },
   {
-    "company": "True Classic",
+    "company": "Vuori",
     "intent_score": 45,
     "priority": "Low",
     "confidence": "High",
-    "evidence_count": 7,
+    "evidence_count": 6,
     "detected_signals": [
       "EXPANSION",
       "FUNDING",
@@ -102,11 +102,10 @@
     "intent_score": 35,
     "priority": "Low",
     "confidence": "High",
-    "evidence_count": 4,
+    "evidence_count": 3,
     "detected_signals": [
       "FUNDING",
-      "HIRING",
-      "OTHER"
+      "HIRING"
     ],
     "why_now": "Recent funding combined with active hiring suggests operational expansion and increasing logistics complexity."
   },
@@ -189,18 +188,6 @@
     "why_now": "Recent capital infusion paired with market expansion points to rapid business growth."
   },
   {
-    "company": "Feastables",
-    "intent_score": 10,
-    "priority": "Low",
-    "confidence": "Medium",
-    "evidence_count": 6,
-    "detected_signals": [
-      "FUNDING",
-      "OTHER"
-    ],
-    "why_now": "Recent funding allocation indicates financial backing for strategic growth initiatives."
-  },
-  {
     "company": "Olipop",
     "intent_score": 10,
     "priority": "Low",
@@ -230,6 +217,18 @@
     "priority": "Low",
     "confidence": "Medium",
     "evidence_count": 5,
+    "detected_signals": [
+      "FUNDING",
+      "OTHER"
+    ],
+    "why_now": "Recent funding allocation indicates financial backing for strategic growth initiatives."
+  },
+  {
+    "company": "Feastables",
+    "intent_score": 10,
+    "priority": "Low",
+    "confidence": "Medium",
+    "evidence_count": 3,
     "detected_signals": [
       "FUNDING",
       "OTHER"

@@ -418,8 +418,8 @@ class SignalCollector:
         logger.info("Searching source: Trustpilot...")
         signals: list[Signal] = []
 
-        clean_name = company_name.lower().replace(" ", "")
-        url = f"https://www.trustpilot.com/review/{clean_name}clothing.com"
+        clean_name = re.sub(r'[^a-zA-Z0-9]', '', company_name.lower())
+        url = f"https://www.trustpilot.com/review/{clean_name}.com"
 
         html = self._http_get(url, timeout=2, max_retries=1)
         if not html:

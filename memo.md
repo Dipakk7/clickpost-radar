@@ -10,14 +10,14 @@ Modern B2B Sales Development Representatives (SDRs) spend over 65% of their work
 
 ## Buying Intent Taxonomy
 
-To prevent inconsistent, free-form signal classifications, IntentIQ establishes a centralized signal taxonomy (`config.SIGNAL_TYPES`):
+To prevent inconsistent, free-form signal classifications, IntentIQ establishes a centralized signal taxonomy (`config.SIGNAL_TYPES`). The pipeline supports six signal categories:
 
 - `HIRING`: Openings in engineering, retail, logistics, and customer support indicating operational scaling.
 - `FUNDING`: Capital infusions, venture investment rounds, and private equity backing indicating budget availability.
 - `EXPANSION`: Retail store launches, international market entries, and warehouse infrastructure growth.
 - `LEADERSHIP_CHANGE`: Executive, C-suite, and VP appointments indicating strategic operational transformations.
-- `CUSTOMER_COMPLAINT`: Customer review spikes and delivery experience issues indicating immediate solution demand.
-- `COMPETITOR_USAGE`: Usage of legacy or competing post-purchase tracking tools indicating category awareness and displacement opportunities.
+- `CUSTOMER_COMPLAINT`: Customer review spikes and delivery experience issues indicating immediate solution demand (captured via public news RSS search queries).
+- `COMPETITOR_USAGE`: Usage of legacy or competing post-purchase tracking tools (implemented in taxonomy/mapping, though monitored competitor names were not present in this specific sample dataset).
 - `OTHER`: Internal catch-all for unclassified public signals (automatically filtered from all user-facing SDR artifacts).
 
 ---
