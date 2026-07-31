@@ -64,9 +64,9 @@
     <!-- File Icon -->
     <path d="M 25 24 L 37 24 L 43 30 L 43 46 L 25 46 Z" fill="none" stroke="#2563EB" stroke-width="2" stroke-linejoin="round" />
     <path d="M 37 24 L 37 30 L 43 30" fill="none" stroke="#2563EB" stroke-width="2" />
-    <text x="55" y="32" font-size="14" font-weight="700" fill="#0F172A">INPUT DATA</text>
-    <text x="55" y="50" font-size="12" font-weight="600" fill="#2563EB">companies.csv</text>
-    <text x="165" y="50" font-size="12" font-weight="400" fill="#64748B">• Target Account List (25 E-commerce Brands)</text>
+    <text x="58" y="33" font-size="15" font-weight="700" fill="#0F172A">Input Data</text>
+    <text x="145" y="33" font-size="12" font-weight="600" fill="#2563EB">companies.csv</text>
+    <text x="58" y="52" font-size="12" font-weight="400" fill="#64748B">25 Sample Accounts</text>
   </g>
 
 
