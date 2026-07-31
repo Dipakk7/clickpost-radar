@@ -1,9 +1,19 @@
 [
   {
     "company": "Chubbies",
-    "collected_at": "2026-07-31T11:19:46.091694+00:00",
-    "signals_count": 1,
+    "collected_at": "2026-07-31T11:37:29.831191+00:00",
+    "signals_count": 2,
     "signals": [
+      {
+        "company": "Chubbies",
+        "signal_type": "EXPANSION",
+        "title": "Chubbies Shorts",
+        "evidence": "Chubbies ShortsEnable AccessibilityAccessibility Statementðºð¸Rewards ðBlogHelpFeatured ShortsSwimPantsTopsKidsClearance For HerAfterpartyExtrasNFL ElementElementAbout UsFoundation 43 by ChubbiesStore LocationsChubjobsNeed Help?Search: ShortsS",
+        "source": "Company Blog",
+        "url": "https://www.chubbies.com/blog",
+        "date": "2026-07-31",
+        "confidence": "High"
+      },
       {
         "company": "Chubbies",
         "signal_type": "OTHER",
@@ -18,7 +28,7 @@
   },
   {
     "company": "Rothy's",
-    "collected_at": "2026-07-31T11:20:02.953786+00:00",
+    "collected_at": "2026-07-31T11:37:35.105430+00:00",
     "signals_count": 4,
     "signals": [
       {
@@ -65,7 +75,7 @@
   },
   {
     "company": "Brooklinen",
-    "collected_at": "2026-07-31T11:20:10.799386+00:00",
+    "collected_at": "2026-07-31T11:37:40.408754+00:00",
     "signals_count": 3,
     "signals": [
       {
@@ -102,7 +112,7 @@
   },
   {
     "company": "Solo Stove",
-    "collected_at": "2026-07-31T11:20:20.478804+00:00",
+    "collected_at": "2026-07-31T11:37:49.267513+00:00",
     "signals_count": 1,
     "signals": [
       {
@@ -119,7 +129,7 @@
   },
   {
     "company": "Vuori",
-    "collected_at": "2026-07-31T11:20:25.761069+00:00",
+    "collected_at": "2026-07-31T11:37:53.621774+00:00",
     "signals_count": 9,
     "signals": [
       {
@@ -205,8 +215,8 @@
       {
         "company": "Vuori",
         "signal_type": "OTHER",
-        "title": "Updated: Vuori to Add U.S. Warehouse Due to New Rules in Mexico - Shop Eat Surf Outdoor",
-        "evidence": "Updated: Vuori to Add U.S. Warehouse Due to New Rules in Mexico  Shop Eat Surf Outdoor",
+        "title": "Updated: Vuori to Add U.S. Warehouse Due to New Rules in Mexico - shop-eat-surf-outdoor.com",
+        "evidence": "Updated: Vuori to Add U.S. Warehouse Due to New Rules in Mexico  shop-eat-surf-outdoor.com",
         "source": "News / Press Releases",
         "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQVlNfTC1wOWl3Sl9oUVUzcEdvX2o1dnc4T0E3cjVqMUlWNzJQZVNIOUFITHF3bVlSVlJsSGwySFJtc2RJNXRLem1qQU95dEtYSVdZOEVwRUUtZHRnMFNnanpKZGxibElHNXlaNjhEcF9PeGl6aTFKc0JkQzhUS2FESWlkSXpRUEI5eXdyTDdOUndJY3JQNnVvdXhUQUpsQkd4VmxHYlctdWVZZk9jTFhDUQ?oc=5",
         "date": "Thu, 06 Feb 2025 08:00:00 GMT",
@@ -216,7 +226,7 @@
   },
   {
     "company": "Outdoor Voices",
-    "collected_at": "2026-07-31T11:20:30.950698+00:00",
+    "collected_at": "2026-07-31T11:37:58.609667+00:00",
     "signals_count": 4,
     "signals": [
       {
@@ -263,7 +273,7 @@
   },
   {
     "company": "Blueland",
-    "collected_at": "2026-07-31T11:20:40.719307+00:00",
+    "collected_at": "2026-07-31T11:38:05.790466+00:00",
     "signals_count": 3,
     "signals": [
       {
@@ -300,7 +310,7 @@
   },
   {
     "company": "True Classic",
-    "collected_at": "2026-07-31T11:20:47.114295+00:00",
+    "collected_at": "2026-07-31T11:38:12.110171+00:00",
     "signals_count": 4,
     "signals": [
       {
@@ -347,7 +357,7 @@
   },
   {
     "company": "Feastables",
-    "collected_at": "2026-07-31T11:21:01.553404+00:00",
+    "collected_at": "2026-07-31T11:38:17.412583+00:00",
     "signals_count": 1,
     "signals": [
       {
@@ -364,7 +374,7 @@
   },
   {
     "company": "Kosas",
-    "collected_at": "2026-07-31T11:21:16.148286+00:00",
+    "collected_at": "2026-07-31T11:38:23.515943+00:00",
     "signals_count": 3,
     "signals": [
       {
@@ -401,7 +411,7 @@
   },
   {
     "company": "Olipop",
-    "collected_at": "2026-07-31T11:21:27.370468+00:00",
+    "collected_at": "2026-07-31T11:38:33.753540+00:00",
     "signals_count": 2,
     "signals": [
       {
@@ -428,19 +438,9 @@
   },
   {
     "company": "Magic Spoon",
-    "collected_at": "2026-07-31T11:21:33.613354+00:00",
+    "collected_at": "2026-07-31T11:38:40.057574+00:00",
     "signals_count": 6,
     "signals": [
-      {
-        "company": "Magic Spoon",
-        "signal_type": "OTHER",
-        "title": "Magic Spoon Debuts Protein Pastries and Marshmallow Protein Cereal, Expanding Its Better-For-You Breakfast Lineup - Yahoo Finance",
-        "evidence": "Magic Spoon Debuts Protein Pastries and Marshmallow Protein Cereal, Expanding Its Better-For-You Breakfast Lineup  Yahoo Finance",
-        "source": "News / Press Releases",
-        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQSWx1UDcxVG5IcFk3SnlnQnhtbjZnSzlpT2RHTmFqRGJxSGp4VjB1endZeW1paV9PTDFrRndtQjhRSEU0cTZkN0ZaQVVTbEFQeTAtWDF3RFVDcGZvRE54aExSLTlLRVYzeHF4NjBNdnBLSmxldFhpcWdmQ3dSNzdUTWQyN200Z2Jo?oc=5",
-        "date": "Wed, 21 Jan 2026 08:00:00 GMT",
-        "confidence": "Medium"
-      },
       {
         "company": "Magic Spoon",
         "signal_type": "OTHER",
@@ -449,6 +449,16 @@
         "source": "News / Press Releases",
         "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE56ZDRpbk0ybHJzc3ZULXhrc2FIZGZFVDBxUC1pbHFKUFZWUk1oRmNSWTNORTBtZ0pWZW9rV0hXWExpWWxqNWU5QThfT1N1VTczaWE1T2pYQktKLUJv?oc=5",
         "date": "Thu, 30 Oct 2025 00:57:59 GMT",
+        "confidence": "Medium"
+      },
+      {
+        "company": "Magic Spoon",
+        "signal_type": "OTHER",
+        "title": "How Magic Spoon found the perfect recipe for growth - RSM US LLP",
+        "evidence": "How Magic Spoon found the perfect recipe for growth  RSM US LLP",
+        "source": "News / Press Releases",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNUlZKWjdPUjhEQ0NHVkVVaGtQUTBKcEMzeHlXMko5NmxkaFJrRGgyRFJ1eVI1M3FKU1JocEs4ZHBVU2o5S0FlbzRvVzduQ05PdXhCUG5KV0h4SnFzZDc3aXEwZmladUlZLW50cmhvLTFNOXB2aU8yeU55V0RHT3JsdXBwMWF2UzhWWDRmU2R5UThHYmxsT0FyTWdIVTdqT0NwV09EaUg0WnUzdXh0?oc=5",
+        "date": "Sun, 30 Jul 2023 07:00:00 GMT",
         "confidence": "Medium"
       },
       {
@@ -495,7 +505,7 @@
   },
   {
     "company": "Liquid Death",
-    "collected_at": "2026-07-31T11:21:39.814439+00:00",
+    "collected_at": "2026-07-31T11:38:46.468037+00:00",
     "signals_count": 5,
     "signals": [
       {
@@ -552,7 +562,7 @@
   },
   {
     "company": "Poppi",
-    "collected_at": "2026-07-31T11:21:46.740917+00:00",
+    "collected_at": "2026-07-31T11:38:52.578461+00:00",
     "signals_count": 4,
     "signals": [
       {
@@ -568,8 +578,8 @@
       {
         "company": "Poppi",
         "signal_type": "OTHER",
-        "title": "Allison Ellsworth’s Poppi Exit Made Her a Megamillionaire. She’s Ready to Talk Money. - WSJ",
-        "evidence": "Allison Ellsworth’s Poppi Exit Made Her a Megamillionaire. She’s Ready to Talk Money.  WSJ",
+        "title": "Allison Ellsworth’s Poppi Exit Made Her a Megamillionaire. She’s Ready to Talk Money. - wsj.com",
+        "evidence": "Allison Ellsworth’s Poppi Exit Made Her a Megamillionaire. She’s Ready to Talk Money.  wsj.com",
         "source": "News / Press Releases",
         "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPZ0d2UEtQXzh1VWR3SmJadXEybjNmVnZqM21yMDBiRC1ZRGY0TFE5aTJJdlk3N0pIb0ZwbTVycFJRd1FCOUdTbG1kbUNrd0hoemJFYktoc0RWRHIyZWVud19kSDBWZ1lMY0loQmdGRFRTeGRabVVlR2E0cjNDTW9KekcyRHNsVzZOQWRkODBqQm5rY28?oc=5",
         "date": "Sun, 10 May 2026 07:00:00 GMT",
@@ -588,8 +598,8 @@
       {
         "company": "Poppi",
         "signal_type": "OTHER",
-        "title": "Small Investor Group Scores 88-Fold Return in Poppi Sale - WSJ",
-        "evidence": "Small Investor Group Scores 88-Fold Return in Poppi Sale  WSJ",
+        "title": "Small Investor Group Scores 88-Fold Return in Poppi Sale - wsj.com",
+        "evidence": "Small Investor Group Scores 88-Fold Return in Poppi Sale  wsj.com",
         "source": "News / Press Releases",
         "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNckRiWkhKTVRVZDFGTmJaNHN1bDZDRjdvZkk0ekJXMVB6TWdxbkJUbGdBZ1NHbGwxeDRDSTRjbzJJR3RoZExNM0FmTWxYYmthNWdqZ1JDMXRIQ3IwdnZUXzg4OUlfQzROQzdRSWpZNE42QmN6V1NfU2FxamptbjlwTk5VNkNUZzZzVTJjbldHM3l6dFJrb0l3dG9R?oc=5",
         "date": "Mon, 17 Mar 2025 07:00:00 GMT",
@@ -599,13 +609,13 @@
   },
   {
     "company": "Graza",
-    "collected_at": "2026-07-31T11:21:52.357324+00:00",
+    "collected_at": "2026-07-31T11:39:00.109070+00:00",
     "signals_count": 0,
     "signals": []
   },
   {
     "company": "Ridge Wallet",
-    "collected_at": "2026-07-31T11:22:09.751615+00:00",
+    "collected_at": "2026-07-31T11:39:09.102571+00:00",
     "signals_count": 1,
     "signals": [
       {
@@ -622,9 +632,19 @@
   },
   {
     "company": "Manscaped",
-    "collected_at": "2026-07-31T11:22:31.712665+00:00",
-    "signals_count": 2,
+    "collected_at": "2026-07-31T11:39:14.702803+00:00",
+    "signals_count": 3,
     "signals": [
+      {
+        "company": "Manscaped",
+        "signal_type": "EXPANSION",
+        "title": "The Mancave | MANSCAPED® Blog",
+        "evidence": "The Mancave | MANSCAPED® BlogSkip to Main ContentSPECIAL OFFERFree Shipping on orders over $49. Shop nowUnlock Rewards & SubscriptionOur CauseLast Chance Sale0Deals & KitsGroinBeard & FaceHead & BodySkincareApparel & AccessoriesShop AllTheManCaveHome",
+        "source": "Company Blog",
+        "url": "https://www.manscaped.com/blog",
+        "date": "2026-07-31",
+        "confidence": "High"
+      },
       {
         "company": "Manscaped",
         "signal_type": "FUNDING",
@@ -649,19 +669,19 @@
   },
   {
     "company": "Native Deodorant",
-    "collected_at": "2026-07-31T11:22:44.946390+00:00",
+    "collected_at": "2026-07-31T11:39:26.274638+00:00",
     "signals_count": 0,
     "signals": []
   },
   {
     "company": "Beardbrand",
-    "collected_at": "2026-07-31T11:23:02.556198+00:00",
+    "collected_at": "2026-07-31T11:39:30.811099+00:00",
     "signals_count": 0,
     "signals": []
   },
   {
     "company": "Caraway",
-    "collected_at": "2026-07-31T11:23:16.327481+00:00",
+    "collected_at": "2026-07-31T11:39:38.794884+00:00",
     "signals_count": 2,
     "signals": [
       {
@@ -688,9 +708,19 @@
   },
   {
     "company": "Our Place",
-    "collected_at": "2026-07-31T11:23:33.384732+00:00",
-    "signals_count": 1,
+    "collected_at": "2026-07-31T11:39:47.454141+00:00",
+    "signals_count": 2,
     "signals": [
+      {
+        "company": "Our Place",
+        "signal_type": "EXPANSION",
+        "title": "#WATCH | On data centres, Telangana IT Minister Sridhar Babu says the state has the resources and infrastructure to support rapid expansion. * \"We have enough water and power.\" * \"We are putting the right infrastructure in place so that these data centres ar - LinkedIn",
+        "evidence": "#WATCH | On data centres, Telangana IT Minister Sridhar Babu says the state has the resources and infrastructure to support rapid expansion. * \"We have enough water and power.\" * \"We are putting the right infrastructure in place so that these data ce",
+        "source": "News / Press Releases",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNd3YxQ01iODNDQkd5NVNyaS1nbzlpbzF3OXk5LUswdkxxeHExOGhsbzBuRHVsOGh2UGVYeWoxOHo4eUpIZGxrOU1WUUZrNm1VM0dEdFBjN0pvR2tESy1pRnhTeDY3cjU1ZHhwc3pISUtVUmlMMm96YnFZazNpU3owUUg5aDBxaUh3NldaQ21rU3JzZmJNTlNGa1ZZaFl4QTNkQmdTVllCT1RXaG45STZGTlp3Znpsb3JM?oc=5",
+        "date": "Fri, 24 Jul 2026 09:02:13 GMT",
+        "confidence": "Medium"
+      },
       {
         "company": "Our Place",
         "signal_type": "OTHER",
@@ -705,19 +735,19 @@
   },
   {
     "company": "Jones Road Beauty",
-    "collected_at": "2026-07-31T11:23:43.253591+00:00",
+    "collected_at": "2026-07-31T11:39:51.993796+00:00",
     "signals_count": 0,
     "signals": []
   },
   {
     "company": "Tushy",
-    "collected_at": "2026-07-31T11:24:07.728984+00:00",
+    "collected_at": "2026-07-31T11:39:58.267403+00:00",
     "signals_count": 0,
     "signals": []
   },
   {
     "company": "Momofuku Goods",
-    "collected_at": "2026-07-31T11:24:18.969188+00:00",
+    "collected_at": "2026-07-31T11:40:02.133757+00:00",
     "signals_count": 5,
     "signals": [
       {
@@ -774,7 +804,7 @@
   },
   {
     "company": "Parade Underwear",
-    "collected_at": "2026-07-31T11:24:27.428804+00:00",
+    "collected_at": "2026-07-31T11:40:06.068654+00:00",
     "signals_count": 0,
     "signals": []
   }

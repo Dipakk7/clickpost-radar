@@ -347,7 +347,7 @@ class OutreachGenerator:
                 ),
                 "email_body": (
                     f"ClickPost is an AI-powered post-purchase logistics platform designed to resolve delivery exceptions, "
-                    f"reduce 'Where Is My Order?' (WISMO) support tickets by 40%, and protect customer retention."
+                    f"reduce 'Where Is My Order?' (WISMO) support ticket volume, and protect customer retention."
                 ),
             }
         elif primary_signal == "EXPANSION":
@@ -358,7 +358,7 @@ class OutreachGenerator:
                 ),
                 "email_body": (
                     f"ClickPost is an AI-powered post-purchase logistics platform designed to streamline multi-carrier tracking, "
-                    f"reduce 'Where Is My Order?' (WISMO) support tickets by 40%, and automate exception handling across expanding networks."
+                    f"reduce 'Where Is My Order?' (WISMO) support volume, and automate exception handling across expanding networks."
                 ),
             }
         elif primary_signal == "FUNDING":
@@ -369,7 +369,7 @@ class OutreachGenerator:
                 ),
                 "email_body": (
                     f"ClickPost is an AI-powered post-purchase logistics platform designed to support rapid order volume scaling, "
-                    f"reduce 'Where Is My Order?' (WISMO) support tickets by 40%, and keep customer service operations lean."
+                    f"reduce 'Where Is My Order?' (WISMO) support ticket volume, and keep customer service operations lean."
                 ),
             }
         elif primary_signal == "LEADERSHIP_CHANGE":
@@ -380,7 +380,7 @@ class OutreachGenerator:
                 ),
                 "email_body": (
                     f"ClickPost is an AI-powered post-purchase logistics platform designed to modernize delivery tracking, "
-                    f"reduce 'Where Is My Order?' (WISMO) support tickets by 40%, and establish scalable post-purchase operations."
+                    f"reduce 'Where Is My Order?' (WISMO) support ticket volume, and establish scalable post-purchase operations."
                 ),
             }
         elif primary_signal == "HIRING":
@@ -391,7 +391,7 @@ class OutreachGenerator:
                 ),
                 "email_body": (
                     f"ClickPost is an AI-powered post-purchase logistics platform designed to automate order tracking, "
-                    f"reduce 'Where Is My Order?' (WISMO) support tickets by 40%, and empower scaling logistics operations teams."
+                    f"reduce 'Where Is My Order?' (WISMO) support ticket volume, and empower scaling logistics operations teams."
                 ),
             }
         else:
@@ -402,7 +402,7 @@ class OutreachGenerator:
                 ),
                 "email_body": (
                     f"ClickPost is an AI-powered post-purchase logistics platform designed to automate order tracking, "
-                    f"reduce 'Where Is My Order?' (WISMO) support tickets by 40%, and streamline delivery exception management."
+                    f"reduce 'Where Is My Order?' (WISMO) support ticket volume, and streamline delivery exception management."
                 ),
             }
 
