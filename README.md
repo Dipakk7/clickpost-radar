@@ -103,7 +103,7 @@ python main.py
 ClickPost Radar — AI-Powered Account Intelligence & Outbound Activation
 ==================================================
 
-[ClickPost Radar] Target Companies Loaded: ['Vuori']
+[ClickPost Radar] Target Companies Loaded: ['Chubbies', "Rothy's", 'Brooklinen', 'Solo Stove', 'Vuori', 'Outdoor Voices', 'Blueland', 'True Classic', 'Feastables', 'Kosas', 'Olipop', 'Magic Spoon', 'Liquid Death', 'Poppi', 'Graza', 'Ridge Wallet', 'Manscaped', 'Native Deodorant', 'Beardbrand', 'Caraway', 'Our Place', 'Jones Road Beauty', 'Tushy', 'Momofuku Goods', 'Parade Underwear']
 
 [ClickPost Radar] All components successfully initialized:
   - Collector: SignalCollector
@@ -113,11 +113,11 @@ ClickPost Radar — AI-Powered Account Intelligence & Outbound Activation
 
 Starting ClickPost Radar Automated Pipeline...
 Collecting signals...
-[ClickPost Radar] Signal Collection Completed: 1 company signal sets collected.
+[ClickPost Radar] Signal Collection Completed: 25 company signal sets collected.
 Scoring accounts...
-[ClickPost Radar] Account Scoring Completed: 1 accounts scored & ranked.
+[ClickPost Radar] Account Scoring Completed: 25 accounts scored & ranked.
 Generating outreach...
-[ClickPost Radar] SDR Outreach Generation Completed: 1 research briefs & 1 outreach payloads generated.
+[ClickPost Radar] SDR Outreach Generation Completed: 5 research briefs & 5 outreach payloads generated.
 Export complete.
 
 [ClickPost Radar] Pipeline execution finished successfully.
@@ -129,22 +129,21 @@ Export complete.
 
 ---
 
-## 📊 Sample Outputs Preview
+## 📊 Sample Outputs Preview (Illustrative Single Account)
 
 ### 1. Intent Score & Account Priority (`outputs/scored_accounts.json`)
 ```json
 [
   {
     "company": "Vuori",
-    "intent_score": 55,
-    "priority": "Medium",
+    "intent_score": 45,
+    "priority": "Low",
     "confidence": "High",
-    "evidence_count": 10,
+    "evidence_count": 9,
     "detected_signals": [
       "EXPANSION",
       "FUNDING",
-      "HIRING",
-      "LEADERSHIP_CHANGE"
+      "HIRING"
     ],
     "why_now": "Recent funding combined with active hiring suggests operational expansion and increasing logistics complexity."
   }
@@ -160,8 +159,7 @@ Export complete.
     "key_signals": [
       "EXPANSION",
       "FUNDING",
-      "HIRING",
-      "LEADERSHIP_CHANGE"
+      "HIRING"
     ],
     "evidence": [
       "Vuori Careers – Retail & Corporate Job Openings in Athletic Apparel.",
