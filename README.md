@@ -191,3 +191,19 @@ Export complete.
 - **Competitor Usage Detection**: The pipeline implements competitor keyword mapping (`AfterShip`, `Narvar`, `ShipStation`, `ParcelLab`, `Wonderment`, `LateShipment`, `Shippo`, `Malomo`). Competitor usage did not trigger in this specific 25-account sample dataset because monitored competitor names were not present in collected public content.
 - **Anti-Bot Defenses**: Public endpoints like Reddit and Trustpilot return HTTP 403 Forbidden under standard automated HTTP requests. Customer complaints are captured via public news RSS search queries (`"shipping delays customer complaint issue"`), while direct community endpoints are handled gracefully without crashing.
 - **Future Integration**: Connect Clearbit/ZoomInfo for contact enrichment, and integrate Playwright with residential proxy pools for headless web scraping.
+
+---
+
+## 🎯 Design Decisions & Engineering Philosophy
+
+This prototype intentionally prioritizes engineering clarity, explainability, and practical business value over unnecessary complexity.
+
+Key design decisions include:
+
+- **Explainable scoring over opaque AI ranking** — The intent score is deterministic, weighted, and supported by human-readable "Why Now" reasoning instead of a black-box model.
+- **Public data sources over paid enrichment platforms** — The solution relies only on publicly accessible information to remain reproducible and aligned with the assignment constraints.
+- **Evidence-backed outreach over generated assumptions** — Every outreach message references verified buying signals instead of fabricated personalization or unsupported business claims.
+- **Graceful degradation over brittle automation** — External websites may return 403 responses, timeouts, or unavailable pages. The pipeline continues processing remaining accounts while documenting incomplete coverage.
+- **Honest documentation over overstated capabilities** — Known limitations, unsupported data sources, and partial coverage are explicitly documented rather than hidden.
+
+These decisions were made to produce a transparent, maintainable, and defensible prototype that reflects real-world engineering trade-offs.
