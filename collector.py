@@ -1,11 +1,7 @@
-"""IntentIQ Signal Collector Engine.
+"""ClickPost Radar Signal Collector Engine.
 
-This module implements the SignalCollector class for gathering, extracting,
-and normalizing structured public buying-intent signals across multiple public sources
-including Company Careers, Company Blog, News / Press Releases, Trustpilot, and Reddit.
-
-Refactored in Phase 2.1 to utilize qualitative confidence levels (Low, Medium, High)
-and centralized signal taxonomy.
+This module defines the SignalCollector class responsible for gathering public signals
+from company careers pages, blogs, news RSS feeds, Trustpilot, and Reddit.
 """
 
 from dataclasses import asdict, dataclass, field

@@ -1,8 +1,13 @@
-# IntentIQ
+# ClickPost Radar
 
-> **AI-Powered Buying Intent Detection & Personalized SDR Outreach Prototype**
+> **AI-Powered Account Intelligence & Outbound Activation**
 
-IntentIQ is an automated sales intelligence pipeline that monitors public evidence for target accounts, scores buying intent using a transparent, explainable algorithm, and generates personalized, evidence-grounded SDR outreach copy (LinkedIn InMails & follow-up emails) for ClickPost.
+*Built as my solution for the ClickPost AI Engineer Intern Take-Home Assignment.*
+
+> [!NOTE]
+> *This repository is an independent prototype created for evaluation purposes and is not an official ClickPost product.*
+
+ClickPost Radar is an automated sales intelligence pipeline that monitors public evidence for target accounts, scores buying intent using a transparent, explainable algorithm, and generates personalized, evidence-grounded SDR outreach copy (LinkedIn InMails & follow-up emails) for ClickPost.
 
 ---
 
@@ -10,7 +15,7 @@ IntentIQ is an automated sales intelligence pipeline that monitors public eviden
 
 Modern B2B Sales Development Representatives (SDRs) spend up to **65% of their day manually searching for account news**, guessing buying readiness, and sending generic cold outreach. This leads to missed sales opportunities, low response rates, and inefficient SDR workflows.
 
-**IntentIQ** automates the entire prospecting workflow:
+**ClickPost Radar** automates the entire prospecting workflow:
 1. **Detects buying intent signals** across company careers pages, press releases, news RSS feeds, and customer channels.
 2. **Scores & ranks target accounts** deterministically based on weighted signal categories.
 3. **Synthesizes SDR research briefs** and personalized outreach copy grounded in verified facts.
@@ -19,7 +24,7 @@ Modern B2B Sales Development Representatives (SDRs) spend up to **65% of their d
 
 ## 🏗️ Architecture & Pipeline Overview
 
-IntentIQ utilizes a **Simple Flat Architecture** for maximum clarity, maintainability, and rapid evaluation.
+ClickPost Radar utilizes a **Simple Flat Architecture** for maximum clarity, maintainability, and rapid evaluation.
 
 ```text
                      +-----------------------+
@@ -57,7 +62,7 @@ IntentIQ utilizes a **Simple Flat Architecture** for maximum clarity, maintainab
 ## 📁 Repository Structure
 
 ```text
-intentiq/
+clickpost-radar/
 ├── companies.csv           # Input target company list (e.g. Vuori)
 ├── config.py              # Centralized configuration, signal taxonomy & weights
 ├── collector.py           # Multi-source signal collection engine (Retries & Error Handling)
@@ -92,8 +97,8 @@ intentiq/
 ### 1. Clone & Set Up Environment
 
 ```bash
-git clone https://github.com/Dipakk7/IntentIQ.git
-cd IntentIQ
+git clone https://github.com/Dipakk7/clickpost-radar.git
+cd clickpost-radar
 
 # Create & activate virtual environment
 python -m venv venv
@@ -113,7 +118,7 @@ cp .env.example .env
 
 ## 🚀 Running the Project
 
-To execute the complete end-to-end IntentIQ pipeline:
+To execute the complete end-to-end ClickPost Radar pipeline:
 
 ```bash
 python main.py
@@ -122,27 +127,27 @@ python main.py
 ### Expected Log Output
 ```text
 ==================================================
-IntentIQ — AI-Powered Buying Intent Detection & SDR Outreach
+ClickPost Radar — AI-Powered Account Intelligence & Outbound Activation
 ==================================================
 
-[IntentIQ] Target Companies Loaded: ['Vuori']
+[ClickPost Radar] Target Companies Loaded: ['Vuori']
 
-[IntentIQ] All components successfully initialized:
+[ClickPost Radar] All components successfully initialized:
   - Collector: SignalCollector
   - Scorer: IntentScorer
   - Generator: OutreachGenerator
   - Exporter: Exporter
 
-Starting IntentIQ Automated Pipeline...
+Starting ClickPost Radar Automated Pipeline...
 Collecting signals...
-[IntentIQ] Signal Collection Completed: 1 company signal sets collected.
+[ClickPost Radar] Signal Collection Completed: 1 company signal sets collected.
 Scoring accounts...
-[IntentIQ] Account Scoring Completed: 1 accounts scored & ranked.
+[ClickPost Radar] Account Scoring Completed: 1 accounts scored & ranked.
 Generating outreach...
-[IntentIQ] SDR Outreach Generation Completed: 1 research briefs & 1 outreach payloads generated.
+[ClickPost Radar] SDR Outreach Generation Completed: 1 research briefs & 1 outreach payloads generated.
 Export complete.
 
-[IntentIQ] Pipeline execution finished successfully.
+[ClickPost Radar] Pipeline execution finished successfully.
   - Signals Output: outputs\signals.json
   - Scores Output: outputs\scored_accounts.csv & outputs\scored_accounts.json
   - Research Briefs: outputs\research_briefs.json

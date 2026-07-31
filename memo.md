@@ -1,16 +1,16 @@
-# IntentIQ Technical & Architectural Design Memo
+# ClickPost Radar Technical & Architectural Design Memo
 
 ## Problem Statement
 
 Modern B2B Sales Development Representatives (SDRs) spend over 65% of their working hours on manual account research, searching disparate public sources, and guessing buying readiness. This inefficiency leads to delayed outreach, generic messaging, and low meeting conversion rates.
 
-**IntentIQ** solves this problem by establishing an automated, evidence-grounded buying intent detection and SDR outreach pipeline. It continuously monitors public evidence (hiring announcements, funding rounds, leadership changes, retail store expansion), normalizes findings into a standardized signal taxonomy, calculates an explainable intent score, and generates highly targeted SDR research briefs and personalized outreach copy for ClickPost.
+**ClickPost Radar** solves this problem by establishing an automated, evidence-grounded buying intent detection and SDR outreach pipeline. It continuously monitors public evidence (hiring announcements, funding rounds, leadership changes, retail store expansion), normalizes findings into a standardized signal taxonomy, calculates an explainable intent score, and generates highly targeted SDR research briefs and personalized outreach copy for ClickPost.
 
 ---
 
 ## Buying Intent Taxonomy
 
-To prevent inconsistent, free-form signal classifications, IntentIQ establishes a centralized signal taxonomy (`config.SIGNAL_TYPES`). The pipeline supports six signal categories:
+To prevent inconsistent, free-form signal classifications, ClickPost Radar establishes a centralized signal taxonomy (`config.SIGNAL_TYPES`). The pipeline supports six signal categories:
 
 - `HIRING`: Openings in engineering, retail, logistics, and customer support indicating operational scaling.
 - `FUNDING`: Capital infusions, venture investment rounds, and private equity backing indicating budget availability.
@@ -24,7 +24,7 @@ To prevent inconsistent, free-form signal classifications, IntentIQ establishes 
 
 ## Methodology
 
-IntentIQ follows a modular 4-stage pipeline execution architecture:
+ClickPost Radar follows a modular 4-stage pipeline execution architecture:
 
 ```
 [Target Accounts CSV]
@@ -56,7 +56,7 @@ IntentIQ follows a modular 4-stage pipeline execution architecture:
 
 ## Scoring Strategy
 
-IntentIQ implements a **deterministic, transparent, and explainable scoring algorithm**.
+ClickPost Radar implements a **deterministic, transparent, and explainable scoring algorithm**.
 
 1. **Category Weighting**: Each unique detected signal category contributes a fixed weight defined in `config.SIGNAL_WEIGHTS`:
    - `CUSTOMER_COMPLAINT`: 30 points

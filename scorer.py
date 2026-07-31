@@ -1,4 +1,4 @@
-"""IntentIQ Intent Scoring Engine.
+"""ClickPost Radar Intent Scoring Engine.
 
 This module implements the IntentScorer class responsible for converting collected
 buying-intent signals into a transparent, deterministic, and explainable account ranking.

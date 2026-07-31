@@ -80,19 +80,6 @@
     "why_now": "Recent capital infusion paired with market expansion points to rapid business growth."
   },
   {
-    "company": "Manscaped",
-    "intent_score": 20,
-    "priority": "Low",
-    "confidence": "High",
-    "evidence_count": 3,
-    "detected_signals": [
-      "EXPANSION",
-      "FUNDING",
-      "OTHER"
-    ],
-    "why_now": "Recent capital infusion paired with market expansion points to rapid business growth."
-  },
-  {
     "company": "Magic Spoon",
     "intent_score": 10,
     "priority": "Low",
@@ -141,19 +128,19 @@
     "why_now": "Recent funding allocation indicates financial backing for strategic growth initiatives."
   },
   {
-    "company": "Chubbies",
+    "company": "Olipop",
     "intent_score": 10,
     "priority": "Low",
-    "confidence": "High",
+    "confidence": "Medium",
     "evidence_count": 2,
     "detected_signals": [
-      "EXPANSION",
+      "FUNDING",
       "OTHER"
     ],
-    "why_now": "Active operational and market expansion indicates growing scalability demands."
+    "why_now": "Recent funding allocation indicates financial backing for strategic growth initiatives."
   },
   {
-    "company": "Olipop",
+    "company": "Manscaped",
     "intent_score": 10,
     "priority": "Low",
     "confidence": "Medium",
@@ -182,6 +169,17 @@
     "priority": "Low",
     "confidence": "Medium",
     "evidence_count": 3,
+    "detected_signals": [
+      "OTHER"
+    ],
+    "why_now": "Public signals indicate ongoing market activity and account evaluation potential."
+  },
+  {
+    "company": "Chubbies",
+    "intent_score": 0,
+    "priority": "Low",
+    "confidence": "Medium",
+    "evidence_count": 1,
     "detected_signals": [
       "OTHER"
     ],

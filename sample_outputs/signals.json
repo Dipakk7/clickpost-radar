@@ -1,19 +1,9 @@
 [
   {
     "company": "Chubbies",
-    "collected_at": "2026-07-31T09:35:32.492904+00:00",
-    "signals_count": 2,
+    "collected_at": "2026-07-31T11:19:46.091694+00:00",
+    "signals_count": 1,
     "signals": [
-      {
-        "company": "Chubbies",
-        "signal_type": "EXPANSION",
-        "title": "Chubbies Shorts",
-        "evidence": "Chubbies ShortsEnable AccessibilityAccessibility Statementðºð¸Rewards ðBlogHelpFeatured ShortsSwimPantsTopsKidsClearance For HerAfterpartyExtrasNFL ElementElementAbout UsFoundation 43 by ChubbiesStore LocationsChubjobsNeed Help?Search: ShortsS",
-        "source": "Company Blog",
-        "url": "https://www.chubbies.com/blog",
-        "date": "2026-07-31",
-        "confidence": "High"
-      },
       {
         "company": "Chubbies",
         "signal_type": "OTHER",
@@ -28,7 +18,7 @@
   },
   {
     "company": "Rothy's",
-    "collected_at": "2026-07-31T09:35:39.146735+00:00",
+    "collected_at": "2026-07-31T11:20:02.953786+00:00",
     "signals_count": 4,
     "signals": [
       {
@@ -75,7 +65,7 @@
   },
   {
     "company": "Brooklinen",
-    "collected_at": "2026-07-31T09:35:44.106838+00:00",
+    "collected_at": "2026-07-31T11:20:10.799386+00:00",
     "signals_count": 3,
     "signals": [
       {
@@ -112,14 +102,14 @@
   },
   {
     "company": "Solo Stove",
-    "collected_at": "2026-07-31T09:35:54.340403+00:00",
+    "collected_at": "2026-07-31T11:20:20.478804+00:00",
     "signals_count": 1,
     "signals": [
       {
         "company": "Solo Stove",
         "signal_type": "OTHER",
-        "title": "CMOs from Lowe’s, Solo Stove, Kickstarter and more on what’s changed most about the job - adage.com",
-        "evidence": "CMOs from Lowe’s, Solo Stove, Kickstarter and more on what’s changed most about the job  adage.com",
+        "title": "CMOs from Lowe’s, Solo Stove, Kickstarter and more on what’s changed most about the job - Ad Age",
+        "evidence": "CMOs from Lowe’s, Solo Stove, Kickstarter and more on what’s changed most about the job  Ad Age",
         "source": "News / Press Releases",
         "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNS1NJbUFBb1JXcllrbkJVd1JwMlRPd3NzcGRzV2ZyX3dhcUtWRlVPN1AxeXgycU5PZlZRWEgtNXBnZjFOR1c1YUJmZGlBTmRlOExoY2dZbjFSVDhmVkFxbjkyZnVGQlhycEpndXUwdFRydFRHOVlZTHkzaEoza1RjclZYNm0ycUU3N0lVcDdIcF9zcGNZ?oc=5",
         "date": "Tue, 09 Jun 2026 07:00:00 GMT",
@@ -129,7 +119,7 @@
   },
   {
     "company": "Vuori",
-    "collected_at": "2026-07-31T09:35:59.436435+00:00",
+    "collected_at": "2026-07-31T11:20:25.761069+00:00",
     "signals_count": 9,
     "signals": [
       {
@@ -226,7 +216,7 @@
   },
   {
     "company": "Outdoor Voices",
-    "collected_at": "2026-07-31T09:36:06.921500+00:00",
+    "collected_at": "2026-07-31T11:20:30.950698+00:00",
     "signals_count": 4,
     "signals": [
       {
@@ -273,7 +263,7 @@
   },
   {
     "company": "Blueland",
-    "collected_at": "2026-07-31T09:36:18.584031+00:00",
+    "collected_at": "2026-07-31T11:20:40.719307+00:00",
     "signals_count": 3,
     "signals": [
       {
@@ -299,8 +289,8 @@
       {
         "company": "Blueland",
         "signal_type": "FUNDING",
-        "title": "DTC brand Blueland raises US$20 million for new category and retail expansion - globalcosmeticsnews.com",
-        "evidence": "DTC brand Blueland raises US$20 million for new category and retail expansion  globalcosmeticsnews.com",
+        "title": "DTC brand Blueland raises US$20 million for new category and retail expansion - Global Cosmetics News",
+        "evidence": "DTC brand Blueland raises US$20 million for new category and retail expansion  Global Cosmetics News",
         "source": "News / Press Releases",
         "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQTjZ3TExMSDdHSmZNY3RWbFd3S3ZEd1U3eWxKa1dITWRLNXNQUWNWNndVQVVKMjN4UHBERVY5ZW9SbXZsVlJ4S2tGQm9FUTFGN3pULU12clIxTDBQNUR6OVAteXJrcnVaM0ozMXNHNGFLajllYXhjRTRfMlp4TjI5RlE3NGYxanpzbC1XUkpySW5yWVBWd3hfdlZkR2U2UjdyaXJYYWQ2aEZwOU9pS2xfeDZ6Zw?oc=5",
         "date": "Tue, 22 Feb 2022 08:00:00 GMT",
@@ -310,7 +300,7 @@
   },
   {
     "company": "True Classic",
-    "collected_at": "2026-07-31T09:36:25.563025+00:00",
+    "collected_at": "2026-07-31T11:20:47.114295+00:00",
     "signals_count": 4,
     "signals": [
       {
@@ -357,14 +347,14 @@
   },
   {
     "company": "Feastables",
-    "collected_at": "2026-07-31T09:36:33.845343+00:00",
+    "collected_at": "2026-07-31T11:21:01.553404+00:00",
     "signals_count": 1,
     "signals": [
       {
         "company": "Feastables",
         "signal_type": "OTHER",
-        "title": "Internal MrBeast docs reveal a growth slowdown at his Feastables chocolate brand - businessinsider.com",
-        "evidence": "Internal MrBeast docs reveal a growth slowdown at his Feastables chocolate brand  businessinsider.com",
+        "title": "Internal MrBeast docs reveal a growth slowdown at his Feastables chocolate brand - Business Insider",
+        "evidence": "Internal MrBeast docs reveal a growth slowdown at his Feastables chocolate brand  Business Insider",
         "source": "News / Press Releases",
         "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQSi16UlFnQnAzaE5QdXB5Sm9zeUcxWnNETVJ3VXhhTnZWRmN1XzBLWTA2RlIxVTNMTmxBckZBeDBmNEpNS083clh6NVQwLVRidHNNQ3VFMU9tNVBlZ19oSmJiV2NlbjJNMGZTREg2LWpiUzE4c0NFLUFTRXhiUXJTaXBtXzR3SGxBX3hEbXpybGgwb2l2bnNLR0NaaHRSdFZhUHh4MzkxWUJBc3l0NE9ocGFmX0xDdw?oc=5",
         "date": "Fri, 10 Jul 2026 07:00:00 GMT",
@@ -374,7 +364,7 @@
   },
   {
     "company": "Kosas",
-    "collected_at": "2026-07-31T09:36:48.890333+00:00",
+    "collected_at": "2026-07-31T11:21:16.148286+00:00",
     "signals_count": 3,
     "signals": [
       {
@@ -411,7 +401,7 @@
   },
   {
     "company": "Olipop",
-    "collected_at": "2026-07-31T09:36:59.425615+00:00",
+    "collected_at": "2026-07-31T11:21:27.370468+00:00",
     "signals_count": 2,
     "signals": [
       {
@@ -438,9 +428,19 @@
   },
   {
     "company": "Magic Spoon",
-    "collected_at": "2026-07-31T09:37:11.459125+00:00",
+    "collected_at": "2026-07-31T11:21:33.613354+00:00",
     "signals_count": 6,
     "signals": [
+      {
+        "company": "Magic Spoon",
+        "signal_type": "OTHER",
+        "title": "Magic Spoon Debuts Protein Pastries and Marshmallow Protein Cereal, Expanding Its Better-For-You Breakfast Lineup - Yahoo Finance",
+        "evidence": "Magic Spoon Debuts Protein Pastries and Marshmallow Protein Cereal, Expanding Its Better-For-You Breakfast Lineup  Yahoo Finance",
+        "source": "News / Press Releases",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQSWx1UDcxVG5IcFk3SnlnQnhtbjZnSzlpT2RHTmFqRGJxSGp4VjB1endZeW1paV9PTDFrRndtQjhRSEU0cTZkN0ZaQVVTbEFQeTAtWDF3RFVDcGZvRE54aExSLTlLRVYzeHF4NjBNdnBLSmxldFhpcWdmQ3dSNzdUTWQyN200Z2Jo?oc=5",
+        "date": "Wed, 21 Jan 2026 08:00:00 GMT",
+        "confidence": "Medium"
+      },
       {
         "company": "Magic Spoon",
         "signal_type": "OTHER",
@@ -454,18 +454,8 @@
       {
         "company": "Magic Spoon",
         "signal_type": "OTHER",
-        "title": "How Magic Spoon found the perfect recipe for growth - RSM US LLP",
-        "evidence": "How Magic Spoon found the perfect recipe for growth  RSM US LLP",
-        "source": "News / Press Releases",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNUlZKWjdPUjhEQ0NHVkVVaGtQUTBKcEMzeHlXMko5NmxkaFJrRGgyRFJ1eVI1M3FKU1JocEs4ZHBVU2o5S0FlbzRvVzduQ05PdXhCUG5KV0h4SnFzZDc3aXEwZmladUlZLW50cmhvLTFNOXB2aU8yeU55V0RHT3JsdXBwMWF2UzhWWDRmU2R5UThHYmxsT0FyTWdIVTdqT0NwV09EaUg0WnUzdXh0?oc=5",
-        "date": "Sun, 30 Jul 2023 07:00:00 GMT",
-        "confidence": "Medium"
-      },
-      {
-        "company": "Magic Spoon",
-        "signal_type": "OTHER",
-        "title": "Cereal maker Magic Spoon scoops up $85M as it lands spot on Target shelves - techcrunch.com",
-        "evidence": "Cereal maker Magic Spoon scoops up $85M as it lands spot on Target shelves  techcrunch.com",
+        "title": "Cereal maker Magic Spoon scoops up $85M as it lands spot on Target shelves - TechCrunch",
+        "evidence": "Cereal maker Magic Spoon scoops up $85M as it lands spot on Target shelves  TechCrunch",
         "source": "News / Press Releases",
         "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9DVUwwMGFSQUtmSlpnMmxjdDJyVWJNd3ZadV9CbWJOUFpFME1kSWlLYVh5SVRLZkk0TGRDNEZXbXNYTmVMN20yV2xnMFNyajlreDM0SHdVZWNSQWxWTGVHWmN3MjlrTlk4d1pHaUxHVEpmVU1nXzZIbA?oc=5",
         "date": "Mon, 13 Jun 2022 07:00:00 GMT",
@@ -494,8 +484,8 @@
       {
         "company": "Magic Spoon",
         "signal_type": "OTHER",
-        "title": "Magic Spoon DTC Cereal Company Thrives on Instagram in Pandemic - businessinsider.com",
-        "evidence": "Magic Spoon DTC Cereal Company Thrives on Instagram in Pandemic  businessinsider.com",
+        "title": "Magic Spoon DTC Cereal Company Thrives on Instagram in Pandemic - Business Insider",
+        "evidence": "Magic Spoon DTC Cereal Company Thrives on Instagram in Pandemic  Business Insider",
         "source": "News / Press Releases",
         "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNdUpKTHMxckF2bzZFOGRpM1BQZVdpSzNLNy1wQi1aNWgxQUE4amxZNkJNM3lid1h4RkNyN1pmQV9LN0VnbzN2ZzBjemROM1JXV0FDOFlsWGNYeWFSQ3hYOUc2TVF1TElyWFRtYnhFajA1NUttRUpjSjItZkFOLVp6ZU1XbUxMYk9Rb3RjczlWYXFDMy1HcjY3ekNQQUs5andfcnZYYg?oc=5",
         "date": "Wed, 06 May 2020 07:00:00 GMT",
@@ -505,7 +495,7 @@
   },
   {
     "company": "Liquid Death",
-    "collected_at": "2026-07-31T09:37:21.806121+00:00",
+    "collected_at": "2026-07-31T11:21:39.814439+00:00",
     "signals_count": 5,
     "signals": [
       {
@@ -531,8 +521,8 @@
       {
         "company": "Liquid Death",
         "signal_type": "LEADERSHIP_CHANGE",
-        "title": "‘Entertain or die:’ Liquid Death CEO talks effective brand building at UND - blogs.und.edu",
-        "evidence": "‘Entertain or die:’ Liquid Death CEO talks effective brand building at UND  blogs.und.edu",
+        "title": "‘Entertain or die:’ Liquid Death CEO talks effective brand building at UND - University of North Dakota (UND)",
+        "evidence": "‘Entertain or die:’ Liquid Death CEO talks effective brand building at UND  University of North Dakota (UND)",
         "source": "News / Press Releases",
         "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPN2FfLTMxbXAzS2F4OUFTcDFvaXZJQkIwbm9FU1ZFQkhHOWJTYjc2MnZZQWN3ek1lOFhVcnFxN0xyalZwbEhXbWh0TENLdWF1d3M3MFFyeTNEMTdmUktwcV9IeWNIa1BObnBaVzRaYkdRa2g3YmF0R2ljZjRoSklXbkN6ekpVMmtNREQzNVZTWDY2bktXcUtKM3h4ZVhXdFNIS21VWFdoYkdhcmVndTNmQ1FYQV8xbVNz?oc=5",
         "date": "Fri, 01 May 2026 07:00:00 GMT",
@@ -562,7 +552,7 @@
   },
   {
     "company": "Poppi",
-    "collected_at": "2026-07-31T09:37:34.146928+00:00",
+    "collected_at": "2026-07-31T11:21:46.740917+00:00",
     "signals_count": 4,
     "signals": [
       {
@@ -609,13 +599,13 @@
   },
   {
     "company": "Graza",
-    "collected_at": "2026-07-31T09:37:50.187382+00:00",
+    "collected_at": "2026-07-31T11:21:52.357324+00:00",
     "signals_count": 0,
     "signals": []
   },
   {
     "company": "Ridge Wallet",
-    "collected_at": "2026-07-31T09:38:10.877505+00:00",
+    "collected_at": "2026-07-31T11:22:09.751615+00:00",
     "signals_count": 1,
     "signals": [
       {
@@ -632,19 +622,9 @@
   },
   {
     "company": "Manscaped",
-    "collected_at": "2026-07-31T09:38:21.122578+00:00",
-    "signals_count": 3,
+    "collected_at": "2026-07-31T11:22:31.712665+00:00",
+    "signals_count": 2,
     "signals": [
-      {
-        "company": "Manscaped",
-        "signal_type": "EXPANSION",
-        "title": "The Mancave | MANSCAPED® Blog",
-        "evidence": "The Mancave | MANSCAPED® BlogSkip to Main ContentSPECIAL OFFERFree Shipping on orders over $49. Shop nowUnlock Rewards & SubscriptionOur CauseLast Chance Sale0Deals & KitsGroinBeard & FaceHead & BodySkincareApparel & AccessoriesShop AllTheManCaveHome",
-        "source": "Company Blog",
-        "url": "https://www.manscaped.com/blog",
-        "date": "2026-07-31",
-        "confidence": "High"
-      },
       {
         "company": "Manscaped",
         "signal_type": "FUNDING",
@@ -669,19 +649,19 @@
   },
   {
     "company": "Native Deodorant",
-    "collected_at": "2026-07-31T09:38:29.665906+00:00",
+    "collected_at": "2026-07-31T11:22:44.946390+00:00",
     "signals_count": 0,
     "signals": []
   },
   {
     "company": "Beardbrand",
-    "collected_at": "2026-07-31T09:38:34.393401+00:00",
+    "collected_at": "2026-07-31T11:23:02.556198+00:00",
     "signals_count": 0,
     "signals": []
   },
   {
     "company": "Caraway",
-    "collected_at": "2026-07-31T09:38:40.380530+00:00",
+    "collected_at": "2026-07-31T11:23:16.327481+00:00",
     "signals_count": 2,
     "signals": [
       {
@@ -708,7 +688,7 @@
   },
   {
     "company": "Our Place",
-    "collected_at": "2026-07-31T09:38:49.930343+00:00",
+    "collected_at": "2026-07-31T11:23:33.384732+00:00",
     "signals_count": 1,
     "signals": [
       {
@@ -725,19 +705,19 @@
   },
   {
     "company": "Jones Road Beauty",
-    "collected_at": "2026-07-31T09:38:57.000065+00:00",
+    "collected_at": "2026-07-31T11:23:43.253591+00:00",
     "signals_count": 0,
     "signals": []
   },
   {
     "company": "Tushy",
-    "collected_at": "2026-07-31T09:39:09.298240+00:00",
+    "collected_at": "2026-07-31T11:24:07.728984+00:00",
     "signals_count": 0,
     "signals": []
   },
   {
     "company": "Momofuku Goods",
-    "collected_at": "2026-07-31T09:39:13.607831+00:00",
+    "collected_at": "2026-07-31T11:24:18.969188+00:00",
     "signals_count": 5,
     "signals": [
       {
@@ -794,7 +774,7 @@
   },
   {
     "company": "Parade Underwear",
-    "collected_at": "2026-07-31T09:39:18.858790+00:00",
+    "collected_at": "2026-07-31T11:24:27.428804+00:00",
     "signals_count": 0,
     "signals": []
   }

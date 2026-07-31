@@ -1,4 +1,4 @@
-"""IntentIQ Outreach Generator Engine.
+"""ClickPost Radar Outreach Generator Engine.
 
 This module implements the OutreachGenerator class responsible for generating
 SDR-ready research briefs, personalized LinkedIn outreach messages, and follow-up emails

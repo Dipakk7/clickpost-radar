@@ -1,6 +1,6 @@
-"""IntentIQ Main Application Entry Point.
+"""ClickPost Radar Main Application Entry Point.
 
-This module serves as the primary entry point for the IntentIQ pipeline.
+This module serves as the primary entry point for the ClickPost Radar pipeline.
 It sets up logging, reads target companies, initializes core pipeline classes,
 and executes the end-to-end signal collection, intent scoring, and SDR outreach generation workflow.
 """
@@ -21,7 +21,7 @@ def setup_logging() -> None:
     LOG_DIRECTORY.mkdir(parents=True, exist_ok=True)
     OUTPUT_DIRECTORY.mkdir(parents=True, exist_ok=True)
 
-    log_file = LOG_DIRECTORY / "intentiq.log"
+    log_file = LOG_DIRECTORY / "clickpost_radar.log"
 
     logging.basicConfig(
         level=logging.INFO,
@@ -62,39 +62,39 @@ def main() -> None:
     logger = logging.getLogger("main")
 
     logger.info("==================================================")
-    logger.info("IntentIQ — AI-Powered Buying Intent Detection & SDR Outreach")
+    logger.info("ClickPost Radar — AI-Powered Account Intelligence & Outbound Activation")
     logger.info("==================================================")
 
     # 1. Load target companies
     companies_file = Path("companies.csv")
     companies = load_companies(companies_file)
-    print(f"\n[IntentIQ] Target Companies Loaded: {companies}")
+    print(f"\n[ClickPost Radar] Target Companies Loaded: {companies}")
 
     # 2. Initialize pipeline components
-    logger.info("Initializing IntentIQ core modules...")
+    logger.info("Initializing ClickPost Radar core modules...")
     collector = SignalCollector()
     scorer = IntentScorer()
     generator = OutreachGenerator()
     exporter = Exporter(output_dir=OUTPUT_DIRECTORY)
 
-    print("\n[IntentIQ] All components successfully initialized:")
+    print("\n[ClickPost Radar] All components successfully initialized:")
     print(f"  - Collector: {collector.__class__.__name__}")
     print(f"  - Scorer: {scorer.__class__.__name__}")
     print(f"  - Generator: {generator.__class__.__name__}")
     print(f"  - Exporter: {exporter.__class__.__name__}")
 
     # 3. Pipeline Execution
-    logger.info("Starting IntentIQ Automated Pipeline...")
+    logger.info("Starting ClickPost Radar Automated Pipeline...")
 
     # Phase 2: Signal Collection Engine
     logger.info("Collecting signals...")
     raw_signals = collector.collect_all(companies)
-    print(f"\n[IntentIQ] Signal Collection Completed: {len(raw_signals)} company signal sets collected.")
+    print(f"\n[ClickPost Radar] Signal Collection Completed: {len(raw_signals)} company signal sets collected.")
 
     # Phase 3: Explainable Intent Scoring Engine
     logger.info("Scoring accounts...")
     scored_accounts = scorer.process_and_score_file(OUTPUT_DIRECTORY / "signals.json")
-    print(f"[IntentIQ] Account Scoring Completed: {len(scored_accounts)} accounts scored & ranked.")
+    print(f"[ClickPost Radar] Account Scoring Completed: {len(scored_accounts)} accounts scored & ranked.")
 
     # Phase 4: AI Research Brief & Personalized Outreach Engine
     logger.info("Generating outreach...")
@@ -102,11 +102,11 @@ def main() -> None:
         scored_file=OUTPUT_DIRECTORY / "scored_accounts.json",
         signals_file=OUTPUT_DIRECTORY / "signals.json",
     )
-    print(f"[IntentIQ] SDR Outreach Generation Completed: {len(briefs)} research briefs & {len(outreach)} outreach payloads generated.")
+    print(f"[ClickPost Radar] SDR Outreach Generation Completed: {len(briefs)} research briefs & {len(outreach)} outreach payloads generated.")
 
     # Phase 5: Pipeline Audit & Final Export Summary
     logger.info("Export complete.")
-    print("\n[IntentIQ] Pipeline execution finished successfully.")
+    print("\n[ClickPost Radar] Pipeline execution finished successfully.")
     print(f"  - Signals Output: {OUTPUT_DIRECTORY / 'signals.json'}")
     print(f"  - Scores Output: {OUTPUT_DIRECTORY / 'scored_accounts.csv'} & {OUTPUT_DIRECTORY / 'scored_accounts.json'}")
     print(f"  - Research Briefs: {OUTPUT_DIRECTORY / 'research_briefs.json'}")

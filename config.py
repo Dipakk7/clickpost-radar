@@ -1,7 +1,8 @@
-"""IntentIQ Configuration Constants Module.
+"""ClickPost Radar Configuration Constants Module.
 
-This module defines central configuration constants used throughout the IntentIQ
-buying intent detection and SDR outreach workflow.
+This module defines central configuration constants used throughout the ClickPost Radar
+pipeline, including directory paths, signal taxonomy lists, category weighting logic,
+and outreach threshold parameters.
 """
 
 from pathlib import Path

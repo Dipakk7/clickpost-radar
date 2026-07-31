@@ -1,7 +1,8 @@
-"""IntentIQ Exporter Module.
+"""ClickPost Radar Exporter Module.
 
-This module provides the Exporter class responsible for outputting generated signals,
-intent scores, research briefs, and outreach copy to structured files (CSV, JSON).
+This module implements the Exporter class responsible for formatting and exporting
+collected signals, account intent scores, research briefs, and outreach messages
+into clean CSV and JSON deliverables.
 """
 
 import json
