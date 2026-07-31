@@ -26,36 +26,9 @@ Modern B2B Sales Development Representatives (SDRs) often spend significant time
 
 ClickPost Radar utilizes a **Simple Flat Architecture** for maximum clarity, maintainability, and rapid evaluation.
 
-```text
-                     +-----------------------+
-                     |     companies.csv     |
-                     +-----------+-----------+
-                                 |
-                                 v
-                     +-----------------------+
-                     |      collector.py     |
-                     | (Signal Collection)   |
-                     +-----------+-----------+
-                                 |
-                                 v  outputs/signals.json
-                     +-----------------------+
-                     |       scorer.py       |
-                     |   (Intent Scoring)    |
-                     +-----------+-----------+
-                                 |
-                                 v  outputs/scored_accounts.json
-                     +-----------------------+
-                     |      generator.py     |
-                     | (SDR Outreach Engine) |
-                     +-----------+-----------+
-                                 |
-                                 v
-   +-----------------------------------------------------------+
-   |                       OUTPUTS                             |
-   |  • outputs/scored_accounts.csv    • research_briefs.json  |
-   |  • outputs/scored_accounts.json   • outreach_messages.csv |
-   +-----------------------------------------------------------+
-```
+<p align="center">
+  <img src="docs/architecture.svg" alt="ClickPost Radar Architecture" width="900">
+</p>
 
 ---
 
