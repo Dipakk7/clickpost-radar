@@ -13,7 +13,7 @@ ClickPost Radar is an automated sales intelligence pipeline that monitors public
 
 ## 🎯 Business Problem
 
-Modern B2B Sales Development Representatives (SDRs) spend up to **65% of their day manually searching for account news**, guessing buying readiness, and sending generic cold outreach. This leads to missed sales opportunities, low response rates, and inefficient SDR workflows.
+Modern B2B Sales Development Representatives (SDRs) often spend significant time manually researching target accounts, monitoring company news across disparate sources, and determining buying readiness. This inefficiency leads to delayed outreach, generic messaging, and inefficient SDR workflows.
 
 **ClickPost Radar** automates the entire prospecting workflow:
 1. **Detects buying intent signals** across company careers pages, press releases, news RSS feeds, and customer channels.

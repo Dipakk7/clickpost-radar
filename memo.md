@@ -2,7 +2,7 @@
 
 ## Problem Statement
 
-Modern B2B Sales Development Representatives (SDRs) spend over 65% of their working hours on manual account research, searching disparate public sources, and guessing buying readiness. This inefficiency leads to delayed outreach, generic messaging, and low meeting conversion rates.
+Modern B2B Sales Development Representatives (SDRs) often spend significant time on manual account research, searching disparate public sources, and determining buying readiness. This inefficiency leads to delayed outreach, generic messaging, and low meeting conversion rates.
 
 **ClickPost Radar** solves this problem by establishing an automated, evidence-grounded buying intent detection and SDR outreach pipeline. It continuously monitors public evidence (hiring announcements, funding rounds, leadership changes, retail store expansion), normalizes findings into a standardized signal taxonomy, calculates an explainable intent score, and generates highly targeted SDR research briefs and personalized outreach copy for ClickPost.
 
