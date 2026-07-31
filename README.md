@@ -193,9 +193,3 @@ Export complete.
 - **Competitor Usage Detection**: The pipeline implements competitor keyword mapping (`AfterShip`, `Narvar`, `ShipStation`, `ParcelLab`, `Wonderment`, `LateShipment`, `Shippo`, `Malomo`). Competitor usage did not trigger in this specific 25-account sample dataset because monitored competitor names were not present in collected public content.
 - **Anti-Bot Defenses**: Public endpoints like Reddit and Trustpilot return HTTP 403 Forbidden under standard automated HTTP requests. Customer complaints are captured via public news RSS search queries (`"shipping delays customer complaint issue"`), while direct community endpoints are handled gracefully without crashing.
 - **Future Integration**: Connect Clearbit/ZoomInfo for contact enrichment, and integrate Playwright with residential proxy pools for headless web scraping.
-
----
-
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
