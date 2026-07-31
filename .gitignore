@@ -1,0 +1,30 @@
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environments
+.env
+venv/
+ENV/
+env/
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IntentIQ Logs
+logs/*.log
+!logs/.gitkeep
+
+# IntentIQ Output data (optional local generated output)
+# outputs/*.json
+# outputs/*.csv
+# !outputs/.gitkeep

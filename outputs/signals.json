@@ -1,0 +1,107 @@
+{
+  "company": "Vuori",
+  "collected_at": "2026-07-31T04:59:09.044940+00:00",
+  "signals_count": 10,
+  "signals": [
+    {
+      "company": "Vuori",
+      "signal_type": "HIRING",
+      "title": "Vuori Careers – Retail & Corporate Job Openings in Athletic Apparel",
+      "evidence": "Vuori Careers – Retail & Corporate Job Openings in Athletic ApparelOur StoryDreamKnit™ CollectionVuori BlissBlend™ CollectionLivvy Dunne's FavoritesMatching SetsSunday CollectionKore CollectionDreamKnit™ CollectionArch Manning’s PicksOur StoresEvents",
+      "source": "Company Careers",
+      "url": "https://vuoriclothing.com/pages/careers",
+      "date": "2026-07-31",
+      "confidence": "High"
+    },
+    {
+      "company": "Vuori",
+      "signal_type": "EXPANSION",
+      "title": "Vuori",
+      "evidence": "Our StoryDreamKnit™ CollectionVuori BlissBlend™ CollectionLivvy Dunne's FavoritesMatching SetsSunday CollectionKore CollectionDreamKnit™ CollectionArch Manning’s PicksOur StoresEventsACTV ClubJournalSkip NavigationFree Standard Shipping With Orders O",
+      "source": "Company Blog",
+      "url": "https://vuoriclothing.com/blogs/journal",
+      "date": "2026-07-31",
+      "confidence": "High"
+    },
+    {
+      "company": "Vuori",
+      "signal_type": "EXPANSION",
+      "title": "Why Upstart Athleisure Brand Vuori Is Opening So Many Stores - Forbes",
+      "evidence": "Why Upstart Athleisure Brand Vuori Is Opening So Many Stores  Forbes",
+      "source": "News / Press Releases",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQc1MxSXNzLTAtTXB2SVVrV21VTmxjcFlZWkEtU0tJdTJYQmRycUlSUGhEYjdFalJpX1BtTUxGZmREX1V4WjJ2THhZUklNdkVlb0o0Sm9DV0F3Tl9TbEtKTU9ILW1kSWVRMEFONUhpYV9XWUdPNDZteGpfMUZnSmJEb3B1T1NvWDRpM3FudWVjRlZoOFFRNVllbEpCUGk5LXJBcGQzamVPaUZVUDhYekdBMF81NnZHRU9aVzhGQV8xVQ?oc=5",
+      "date": "Tue, 18 Mar 2025 07:00:00 GMT",
+      "confidence": "High"
+    },
+    {
+      "company": "Vuori",
+      "signal_type": "LEADERSHIP_CHANGE",
+      "title": "Vuori Announces Four C-Suite Hires - PR Newswire",
+      "evidence": "Vuori Announces Four C-Suite Hires  PR Newswire",
+      "source": "News / Press Releases",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPOEhSYnJlRVU5aS1yRU45SDBBTzM3eWNHaDNrMUsySFc3N0k5YnVkbTBZU2ZaNnE4MENJaVpSUE1FUFUza3lJZk5ETnZ0dnhlRDAtN2o1alFfRmt4aGtJMjR2bk81UFBzQkV3NVkwQ2ZaYzdaUml5LVlNWnVXamVDejR4NGdSTF9CU24wamNzN1JFOUdZ?oc=5",
+      "date": "Tue, 18 Apr 2023 07:00:00 GMT",
+      "confidence": "High"
+    },
+    {
+      "company": "Vuori",
+      "signal_type": "OTHER",
+      "title": "Exclusive Q&A: Nagraj Kashyap, General Partner at Touring Capital - Business San Diego",
+      "evidence": "Exclusive Q&A: Nagraj Kashyap, General Partner at Touring Capital  Business San Diego",
+      "source": "News / Press Releases",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE03TmxnWTk2Q3FIZ3RtSERXWnFSSUJHUVJKQXNrVGhpZnBZOWd3bTN2X0d2QnZ1WTJwZEZQNWxyNGdPaHRXZlFIT3VmRkpIeWdndW4yckxTektoMS0tTloxOE5ndVZzSkxXeUpBSFY1U2lIZ195aDZtdGlqNzBUVG8?oc=5",
+      "date": "Thu, 01 May 2025 07:00:00 GMT",
+      "confidence": "High"
+    },
+    {
+      "company": "Vuori",
+      "signal_type": "FUNDING",
+      "title": "Vuori Announces $825 Million Investment Led by General Atlantic and Stripes - General Atlantic",
+      "evidence": "Vuori Announces $825 Million Investment Led by General Atlantic and Stripes  General Atlantic",
+      "source": "News / Press Releases",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZTdSdmhEZ0lkeW5uZWFkMEM0MW1tVkgzN09GZ3NKS3hHdXBGbXVsZDZfY2pZR2dBLUpvd3FqbW05aW5NMTVGQ2F1SjNyeVUxLTB3c3NyaHdNYnplQUFWX1ZXNUhiNEtsTUZTVFVKb2FTVVpkNy1oZWhYWGJUVTAwWVpETG94VXBKLUxYVFg0enVKRVJ3YjhHOGJKcXI1d1AySGh5OE9qbEprMk5pWEMyWU5Xa3RKMngyRnVNY0dR?oc=5",
+      "date": "Fri, 08 Nov 2024 08:00:00 GMT",
+      "confidence": "High"
+    },
+    {
+      "company": "Vuori",
+      "signal_type": "OTHER",
+      "title": "Vuori makes Tom Holland a financial partner - Sporting Goods Intelligence Europe",
+      "evidence": "Vuori makes Tom Holland a financial partner  Sporting Goods Intelligence Europe",
+      "source": "News / Press Releases",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQYVYtdXJpNjNBZFN5Qmh3Z1M5SDlvUGtwbk5JNEVKSGg3M3k3WUxmNnZQV1RaN0hfc3NROGs3LWt1ZklMSVVyWDJvdTg2N1FNMXBFdDVGZmgxRTZCZ29NaWE5RUdSQWN1YloyM1VaWk1kOFpnT3NVM3docWQ4ek5UOTVWazdaajZrc0lyQjVreUJLNzRueFE?oc=5",
+      "date": "Tue, 14 Apr 2026 07:00:00 GMT",
+      "confidence": "High"
+    },
+    {
+      "company": "Vuori",
+      "signal_type": "FUNDING",
+      "title": "Vuori Receives $400 Million Investment and $4B Valuation from SoftBank Vision Fund 2 - Business Wire",
+      "evidence": "Vuori Receives $400 Million Investment and $4B Valuation from SoftBank Vision Fund 2  Business Wire",
+      "source": "News / Press Releases",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNWUpaYnFiSUE4QVFRaHI1LWMwekVHTEREU1VteFVnSm1OMUkzRG1hdEc4YTVjVDdZaHhBZ0pNbzcyZUtacFV4N1FjYnB4YWRzNlVhdzRGcER0TE9LZWk5eFNfSW1nanBJQWRQTTA0bm1vQ1dpdXBSRHkzMzNPeDNGU2thY0dhSFJoMnNjUXZ2eTBQVWk5b2xHQWFhY2stOVowa3c2a3U5RmVrVVY2enZhNmhhdmFLZE1wczZoamxINjl3YWNkV1Nwem5pVXZLeURuS0toRnUySkdmQmNSTkE?oc=5",
+      "date": "Wed, 13 Oct 2021 07:00:00 GMT",
+      "confidence": "High"
+    },
+    {
+      "company": "Vuori",
+      "signal_type": "FUNDING",
+      "title": "Vuori Raises Investment at a $5.5 Billion Valuation - The Business of Fashion",
+      "evidence": "Vuori Raises Investment at a $5.5 Billion Valuation  The Business of Fashion",
+      "source": "News / Press Releases",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNaGZyaFBwU3F1dl9kc1BIODlzdDhIX0JPbFRpT0tzQW1FX2dhYWhETjVjQkdXYzN1Qk1BSTd5UXZOMTJWMzFuVVo4cTRiMUpGVHR5X0oyQXEzNmZVS1JuVkpZMERsQmdnWUtGc2duUmpFeGk1T0pwSmd5bDd6RkNNU3JfakNNVnNkUk9tbC1fOWpxcjZqcW42eTZJMkk?oc=5",
+      "date": "Fri, 08 Nov 2024 08:00:00 GMT",
+      "confidence": "High"
+    },
+    {
+      "company": "Vuori",
+      "signal_type": "FUNDING",
+      "title": "With latest investment, Vuori’s valuation hits $5.5B - Retail Dive",
+      "evidence": "With latest investment, Vuori’s valuation hits $5.5B  Retail Dive",
+      "source": "News / Press Releases",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQVDZ0ZDR4YTRkQWJDVl9PZW1zQzRSYzhtN2ZXR29UMllTMVpVeUhfRnEwNGRFMEZLM0tmUUdGbU8tbVg0T2xJSTl0SmtZQXM5OUNiUm1Ib2hsaDExVktUT1I0cFJudUVIUVJTaldFMEJ6SkZFWGxkSmhGWE9rUmE0ZG9QbHBUVUZpRlRhTnFsVHI3Tms1bUE?oc=5",
+      "date": "Mon, 11 Nov 2024 08:00:00 GMT",
+      "confidence": "High"
+    }
+  ]
+}
