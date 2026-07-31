@@ -2,7 +2,7 @@
 
 This module serves as the primary entry point for the IntentIQ pipeline.
 It sets up logging, reads target companies, initializes core pipeline classes,
-and provides a clean structure for executing Phase 2-5 workflows.
+and executes the end-to-end signal collection, intent scoring, and SDR outreach generation workflow.
 """
 
 import logging
@@ -63,7 +63,6 @@ def main() -> None:
 
     logger.info("==================================================")
     logger.info("IntentIQ — AI-Powered Buying Intent Detection & SDR Outreach")
-    logger.info("Phase 1: Project Foundation & Infrastructure Ready")
     logger.info("==================================================")
 
     # 1. Load target companies
@@ -84,20 +83,34 @@ def main() -> None:
     print(f"  - Generator: {generator.__class__.__name__}")
     print(f"  - Exporter: {exporter.__class__.__name__}")
 
-    # ==============================================================================
-    # Pipeline Execution
-    # ==============================================================================
+    # 3. Pipeline Execution
+    logger.info("Starting IntentIQ Automated Pipeline...")
+
     # Phase 2: Signal Collection Engine
-    logger.info("Executing Phase 2 Signal Collection Engine...")
+    logger.info("Collecting signals...")
     raw_signals = collector.collect_all(companies)
-    print(f"\n[IntentIQ] Phase 2 Collection Completed: {len(raw_signals)} company signal sets collected.")
+    print(f"\n[IntentIQ] Signal Collection Completed: {len(raw_signals)} company signal sets collected.")
 
-    # TODO Phase 3: scored_accounts = scorer.rank_accounts(scorer.score_company(s) for s in raw_signals)
-    # TODO Phase 4: outreach_briefs = [generator.generate_research_brief(a) for a in scored_accounts]
-    # TODO Phase 5: exporter.export_scores(scored_accounts, OUTPUT_DIRECTORY / "scores.csv")
-    # ==============================================================================
+    # Phase 3: Explainable Intent Scoring Engine
+    logger.info("Scoring accounts...")
+    scored_accounts = scorer.process_and_score_file(OUTPUT_DIRECTORY / "signals.json")
+    print(f"[IntentIQ] Account Scoring Completed: {len(scored_accounts)} accounts scored & ranked.")
 
-    print("\n[IntentIQ] Startup completed successfully. Ready for business logic implementation.\n")
+    # Phase 4: AI Research Brief & Personalized Outreach Engine
+    logger.info("Generating outreach...")
+    briefs, outreach = generator.process_all(
+        scored_file=OUTPUT_DIRECTORY / "scored_accounts.json",
+        signals_file=OUTPUT_DIRECTORY / "signals.json",
+    )
+    print(f"[IntentIQ] SDR Outreach Generation Completed: {len(briefs)} research briefs & {len(outreach)} outreach payloads generated.")
+
+    # Phase 5: Pipeline Audit & Final Export Summary
+    logger.info("Export complete.")
+    print("\n[IntentIQ] Pipeline execution finished successfully.")
+    print(f"  - Signals Output: {OUTPUT_DIRECTORY / 'signals.json'}")
+    print(f"  - Scores Output: {OUTPUT_DIRECTORY / 'scored_accounts.csv'} & {OUTPUT_DIRECTORY / 'scored_accounts.json'}")
+    print(f"  - Research Briefs: {OUTPUT_DIRECTORY / 'research_briefs.json'}")
+    print(f"  - Outreach Messages: {OUTPUT_DIRECTORY / 'outreach_messages.csv'}\n")
 
 
 if __name__ == "__main__":

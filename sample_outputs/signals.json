@@ -1,0 +1,57 @@
+{
+  "company": "Vuori",
+  "collected_at": "2026-07-31T05:06:03.420000+00:00",
+  "signals_count": 5,
+  "signals": [
+    {
+      "company": "Vuori",
+      "signal_type": "HIRING",
+      "title": "Vuori Careers – Retail & Corporate Job Openings in Athletic Apparel",
+      "evidence": "Vuori Careers – Retail & Corporate Job Openings in Athletic Apparel Our Story DreamKnit Collection...",
+      "source": "Company Careers",
+      "url": "https://vuoriclothing.com/pages/careers",
+      "date": "2026-07-31",
+      "confidence": "High"
+    },
+    {
+      "company": "Vuori",
+      "signal_type": "EXPANSION",
+      "title": "Why Upstart Athleisure Brand Vuori Is Opening So Many Stores",
+      "evidence": "Why Upstart Athleisure Brand Vuori Is Opening So Many Stores Forbes",
+      "source": "News / Press Releases",
+      "url": "https://news.google.com/rss/articles/...",
+      "date": "Tue, 18 Mar 2025 07:00:00 GMT",
+      "confidence": "High"
+    },
+    {
+      "company": "Vuori",
+      "signal_type": "LEADERSHIP_CHANGE",
+      "title": "Vuori Announces Four C-Suite Hires",
+      "evidence": "Vuori Announces Four C-Suite Hires PR Newswire",
+      "source": "News / Press Releases",
+      "url": "https://news.google.com/rss/articles/...",
+      "date": "Tue, 18 Apr 2023 07:00:00 GMT",
+      "confidence": "High"
+    },
+    {
+      "company": "Vuori",
+      "signal_type": "FUNDING",
+      "title": "Vuori Announces $825 Million Investment Led by General Atlantic and Stripes",
+      "evidence": "Vuori Announces $825 Million Investment Led by General Atlantic and Stripes General Atlantic",
+      "source": "News / Press Releases",
+      "url": "https://news.google.com/rss/articles/...",
+      "date": "Fri, 08 Nov 2024 08:00:00 GMT",
+      "confidence": "High"
+    },
+    {
+      "company": "Vuori",
+      "signal_type": "FUNDING",
+      "title": "Vuori Receives $400 Million Investment and $4B Valuation from SoftBank Vision Fund 2",
+      "evidence": "Vuori Receives $400 Million Investment and $4B Valuation from SoftBank Vision Fund 2 Business Wire",
+      "source": "News / Press Releases",
+      "url": "https://news.google.com/rss/articles/...",
+      "date": "Wed, 13 Oct 2021 07:00:00 GMT",
+      "confidence": "High"
+    }
+  ]
+}

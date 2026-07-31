@@ -1,91 +1,128 @@
 # IntentIQ
 
-> **AI-Powered Buying Intent Detection & Personalized SDR Outreach**
+> **AI-Powered Buying Intent Detection & Personalized SDR Outreach Prototype**
 
-IntentIQ is an automated pipeline designed to detect high-intent target accounts, score buying signals, and generate personalized sales research briefs and outreach copy (LinkedIn messages & follow-up emails) for Sales Development Representatives (SDRs).
-
----
-
-## Project Overview
-
-Modern B2B sales teams spend excessive hours manually researching target accounts and guessing buying readiness. **IntentIQ** automates buying intent detection by collecting signals across multiple channels (hiring patterns, news announcements, technological changes, competitor evaluation), scoring intent with configurable weights, and generating tailored SDR outreach copy.
+IntentIQ is an automated sales intelligence pipeline that monitors public evidence for target accounts, scores buying intent using a transparent, explainable algorithm, and generates personalized, evidence-grounded SDR outreach copy (LinkedIn InMails & follow-up emails) for ClickPost.
 
 ---
 
-## Architecture
+## 🎯 Business Problem
 
-IntentIQ uses a **Simple Flat Architecture** for maximum clarity, rapid prototyping, and zero overhead.
+Modern B2B Sales Development Representatives (SDRs) spend up to **65% of their day manually searching for account news**, guessing buying readiness, and sending generic cold outreach. This leads to missed sales opportunities, low response rates, and inefficient SDR workflows.
 
+**IntentIQ** automates the entire prospecting workflow:
+1. **Detects buying intent signals** across company careers pages, press releases, news RSS feeds, and customer channels.
+2. **Scores & ranks target accounts** deterministically based on weighted signal categories.
+3. **Synthesizes SDR research briefs** and personalized outreach copy grounded in verified facts.
+
+---
+
+## 🏗️ Architecture & Pipeline Overview
+
+IntentIQ utilizes a **Simple Flat Architecture** for maximum clarity, maintainability, and rapid evaluation.
+
+```text
+                     +-----------------------+
+                     |     companies.csv     |
+                     +-----------+-----------+
+                                 |
+                                 v
+                     +-----------------------+
+                     |      collector.py     |
+                     | (Signal Collection)   |
+                     +-----------+-----------+
+                                 |
+                                 v  outputs/signals.json
+                     +-----------------------+
+                     |       scorer.py       |
+                     |   (Intent Scoring)    |
+                     +-----------+-----------+
+                                 |
+                                 v  outputs/scored_accounts.json
+                     +-----------------------+
+                     |      generator.py     |
+                     | (SDR Outreach Engine) |
+                     +-----------+-----------+
+                                 |
+                                 v
+   +-----------------------------------------------------------+
+   |                       OUTPUTS                             |
+   |  • outputs/scored_accounts.csv    • research_briefs.json  |
+   |  • outputs/scored_accounts.json   • outreach_messages.csv |
+   +-----------------------------------------------------------+
 ```
+
+---
+
+## 📁 Repository Structure
+
+```text
 intentiq/
-├── companies.csv       # Input list of target companies
-├── config.py          # Centralized configuration, constants & signal taxonomy
-├── collector.py       # Resilient multi-source signal collection engine
-├── scorer.py          # Intent scoring & account ranking module placeholder
-├── generator.py       # LLM outreach & research brief generator module placeholder
-├── exporter.py        # Pipeline results exporter module placeholder
-├── main.py            # Application entry point & pipeline orchestrator
-├── requirements.txt   # Python project dependencies
-├── README.md          # Project documentation
-├── memo.md            # Architecture & strategy memo template
-├── .env.example       # Environment variables template
-├── outputs/           # Output directory for exported data (e.g. signals.json)
+├── companies.csv           # Input target company list (e.g. Vuori)
+├── config.py              # Centralized configuration, signal taxonomy & weights
+├── collector.py           # Multi-source signal collection engine (Retries & Error Handling)
+├── scorer.py              # Deterministic intent scoring & account ranking engine
+├── generator.py           # Evidence-grounded research brief & outreach copy generator
+├── exporter.py            # Results exporter module (CSV & JSON)
+├── main.py                # Pipeline entry point & orchestrator
+├── requirements.txt       # Project dependencies
+├── README.md              # Documentation (5-minute reviewer guide)
+├── memo.md                # Architecture & technical design memo
+├── .env.example           # Environment variables configuration template
+├── outputs/               # Pipeline execution output directory
 │   └── .gitkeep
-└── logs/              # Log directory for application runtime logs
+├── sample_outputs/        # Pre-generated sample outputs for instant review
+│   ├── signals.json
+│   ├── scored_accounts.csv
+│   ├── scored_accounts.json
+│   ├── research_briefs.json
+│   └── outreach_messages.csv
+└── logs/                  # Application runtime logs
     └── .gitkeep
 ```
 
 ---
 
-## Installation
+## ⚡ Quick Start & Installation
 
 ### Prerequisites
-
 - **Python 3.11+**
-- Virtual environment tool (`venv` or `conda`)
+- Virtual environment (`venv` or `conda`)
 
-### Setup Instructions
+### 1. Clone & Set Up Environment
 
-1. **Clone the repository / navigate to project directory**:
-   ```bash
-   git clone https://github.com/Dipakk7/IntentIQ.git
-   cd IntentIQ
-   ```
+```bash
+git clone https://github.com/Dipakk7/IntentIQ.git
+cd IntentIQ
 
-2. **Create and activate a virtual environment**:
-   ```bash
-   python -m venv venv
-   # On Windows (PowerShell):
-   .\venv\Scripts\Activate.ps1
-   # On macOS/Linux:
-   source venv/bin/activate
-   ```
+# Create & activate virtual environment
+python -m venv venv
+# On Windows (PowerShell):
+.\venv\Scripts\Activate.ps1
+# On macOS/Linux:
+source venv/bin/activate
 
-3. **Install dependencies**:
-   ```bash
-   pip install -r requirements.txt
-   ```
+# Install dependencies
+pip install -r requirements.txt
 
-4. **Set up environment variables**:
-   ```bash
-   cp .env.example .env
-   ```
+# Configure environment variables
+cp .env.example .env
+```
 
 ---
 
-## Running
+## 🚀 Running the Project
 
-To run the pipeline and collect buying intent signals for target companies (`companies.csv`), execute:
+To execute the complete end-to-end IntentIQ pipeline:
 
 ```bash
 python main.py
 ```
 
-### Expected Execution Log
+### Expected Log Output
 ```text
 ==================================================
 IntentIQ — AI-Powered Buying Intent Detection & SDR Outreach
-Phase 1: Project Foundation & Infrastructure Ready
 ==================================================
 
 [IntentIQ] Target Companies Loaded: ['Vuori']
@@ -96,34 +133,88 @@ Phase 1: Project Foundation & Infrastructure Ready
   - Generator: OutreachGenerator
   - Exporter: Exporter
 
-[IntentIQ] Phase 2 Collection Completed: 1 company signal sets collected.
-[IntentIQ] Startup completed successfully. Ready for business logic implementation.
+Starting IntentIQ Automated Pipeline...
+Collecting signals...
+[IntentIQ] Signal Collection Completed: 1 company signal sets collected.
+Scoring accounts...
+[IntentIQ] Account Scoring Completed: 1 accounts scored & ranked.
+Generating outreach...
+[IntentIQ] SDR Outreach Generation Completed: 1 research briefs & 1 outreach payloads generated.
+Export complete.
+
+[IntentIQ] Pipeline execution finished successfully.
+  - Signals Output: outputs\signals.json
+  - Scores Output: outputs\scored_accounts.csv & outputs\scored_accounts.json
+  - Research Briefs: outputs\research_briefs.json
+  - Outreach Messages: outputs\outreach_messages.csv
 ```
 
 ---
 
-## Current Status
+## 📊 Sample Outputs Preview
 
-- **Phase 1: Foundation & Infrastructure** — ✅ **Completed**
-  - Clean flat architecture established
-  - Type-hinted module interfaces & docstrings defined
-  - Centralized configuration and logging setup implemented
+### 1. Intent Score & Account Priority (`outputs/scored_accounts.json`)
+```json
+[
+  {
+    "company": "Vuori",
+    "intent_score": 55,
+    "priority": "Medium",
+    "confidence": "High",
+    "evidence_count": 10,
+    "detected_signals": [
+      "EXPANSION",
+      "FUNDING",
+      "HIRING",
+      "LEADERSHIP_CHANGE"
+    ],
+    "why_now": "Recent funding combined with active hiring suggests operational expansion and increasing logistics complexity."
+  }
+]
+```
 
-- **Phase 2: Signal Collection Engine** — ✅ **Completed**
-  - Resilient multi-source evidence extraction (Careers, Blog, News RSS, Trustpilot, Reddit)
-  - HTTP retries, timeouts, and graceful error handling
-
-- **Phase 2.1: Taxonomy & Confidence Normalization** — ✅ **Completed**
-  - Centralized signal taxonomy (`HIRING`, `FUNDING`, `EXPANSION`, `LEADERSHIP_CHANGE`, `CUSTOMER_COMPLAINT`, `COMPETITOR_USAGE`, `OTHER`)
-  - Qualitative confidence levels (`High`, `Medium`, `Low`) based on source reliability and confirmation rules
+### 2. SDR Research Brief (`outputs/research_briefs.json`)
+```json
+[
+  {
+    "company": "Vuori",
+    "buying_intent_summary": "Vuori shows strong buying intent with active expansion, funding signals and notable growth across operations.",
+    "key_signals": [
+      "EXPANSION",
+      "FUNDING",
+      "HIRING",
+      "LEADERSHIP_CHANGE"
+    ],
+    "evidence": [
+      "Vuori Careers – Retail & Corporate Job Openings in Athletic Apparel.",
+      "Why Upstart Athleisure Brand Vuori Is Opening So Many Stores.",
+      "Vuori Announces Four C-Suite Hires."
+    ],
+    "why_now": "Recent funding combined with active hiring suggests operational expansion and increasing logistics complexity.",
+    "suggested_persona": "VP of Supply Chain / Head of E-commerce Logistics",
+    "recommended_outreach_angle": "AI-powered post-purchase tracking, carrier exception handling, and delivery experience scaling"
+  }
+]
+```
 
 ---
 
-## Project Roadmap
+## 💡 Key Design Decisions
 
-- [x] **Phase 1: Foundation & Infrastructure** — Project scaffold, interfaces, and entry point.
-- [x] **Phase 2: Signal Collection Engine** — Multi-source signal collection with retries & error handling.
-- [x] **Phase 2.1: Taxonomy & Confidence Normalization** — Centralized signal taxonomy & qualitative confidence scoring.
-- [ ] **Phase 3: Intent Scoring** — TODO: Implement weighted scoring algorithms & account ranking.
-- [ ] **Phase 4: Outreach Generation** — TODO: Integrate LLM to synthesize research briefs and SDR copy.
-- [ ] **Phase 5: Export & Reporting** — TODO: Implement CSV/Markdown exporting & final pipeline automation.
+1. **Centralized Taxonomy & Internal Filtering**: All raw signals map to `HIRING`, `FUNDING`, `EXPANSION`, `LEADERSHIP_CHANGE`, `CUSTOMER_COMPLAINT`, `COMPETITOR_USAGE`, or `OTHER`. Internal `OTHER` categories are filtered out of all SDR-facing outputs.
+2. **Deterministic Intent Scoring**: Implements a transparent weighted scoring system (capped at 100) with rule-based "Why Now" explanations. No opaque AI scoring black-boxes.
+3. **Dual Generator Engine**: Integrates OpenAI GPT-4o when `OPENAI_API_KEY` is present, while providing a seamless, zero-hallucination evidence-grounded fallback synthesis engine when offline.
+4. **Conversational SDR CTAs**: Follow-up emails use soft, permission-based value CTAs instead of rigid time-slot demands.
+
+---
+
+## ⚠️ Limitations & Future Improvements
+
+- **Anti-Bot Defenses**: Public endpoints like Reddit and Trustpilot intermittently return HTTP 403 Forbidden. The collector handles these gracefully without crashing.
+- **Future Integration**: Connect Clearbit/ZoomInfo for contact enrichment, and integrate Playwright with residential proxy pools for headless web scraping.
+
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).

@@ -1,0 +1,16 @@
+[
+  {
+    "company": "Vuori",
+    "intent_score": 55,
+    "priority": "Medium",
+    "confidence": "High",
+    "evidence_count": 10,
+    "detected_signals": [
+      "EXPANSION",
+      "FUNDING",
+      "HIRING",
+      "LEADERSHIP_CHANGE"
+    ],
+    "why_now": "Recent funding combined with active hiring suggests operational expansion and increasing logistics complexity."
+  }
+]

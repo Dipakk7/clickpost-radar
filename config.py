@@ -29,15 +29,14 @@ SIGNAL_TYPES: dict[str, str] = {
 # ==============================================================================
 # Intent Signal Scoring Weights
 # ==============================================================================
-# TODO: Fine-tune signal weight values in Phase 3
-SIGNAL_WEIGHTS: dict[str, float] = {
-    "HIRING": 0.30,
-    "FUNDING": 0.25,
-    "EXPANSION": 0.25,
-    "LEADERSHIP_CHANGE": 0.20,
-    "CUSTOMER_COMPLAINT": 0.15,
-    "COMPETITOR_USAGE": 0.20,
-    "OTHER": 0.10,
+SIGNAL_WEIGHTS: dict[str, int] = {
+    "CUSTOMER_COMPLAINT": 30,
+    "HIRING": 25,
+    "COMPETITOR_USAGE": 25,
+    "FUNDING": 10,
+    "EXPANSION": 10,
+    "LEADERSHIP_CHANGE": 10,
+    "OTHER": 0,
 }
 
 # ==============================================================================
