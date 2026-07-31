@@ -204,7 +204,7 @@ Export complete.
 1. **Centralized Taxonomy & Internal Filtering**: Supports six signal categories (`HIRING`, `FUNDING`, `EXPANSION`, `LEADERSHIP_CHANGE`, `CUSTOMER_COMPLAINT`, `COMPETITOR_USAGE`). Five categories triggered in the current sample dataset execution run. Internal `OTHER` categories are filtered out of all SDR-facing outputs.
 2. **News Evidence Relevance Validation**: Exact quoted Google News queries (`"{company_name}"`) and post-fetch normalization check verify that target company names explicitly appear in article titles or descriptions before accepting evidence.
 3. **Deterministic Intent Scoring**: Implements a transparent weighted scoring system (capped at 100) with rule-based "Why Now" explanations. No opaque AI scoring black-boxes.
-4. **Dual Generator Engine**: Integrates OpenAI GPT-4o when `OPENAI_API_KEY` is present, while providing a seamless, zero-hallucination evidence-grounded fallback synthesis engine when offline.
+4. **Dual Generator Engine & Signal-Aware Outreach**: Integrates OpenAI GPT-4o when `OPENAI_API_KEY` is present, while providing a seamless, zero-hallucination evidence-grounded synthesis engine when offline. The outreach generator adapts its messaging based on the primary verified buying signal (`HIRING`, `FUNDING`, `EXPANSION`, `LEADERSHIP_CHANGE`, `CUSTOMER_COMPLAINT`), producing context-aware SDR outreach while remaining grounded in collected evidence.
 5. **Conversational SDR CTAs**: Follow-up emails use soft, permission-based value CTAs instead of rigid time-slot demands.
 
 ---

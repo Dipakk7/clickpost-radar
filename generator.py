@@ -300,6 +300,112 @@ class OutreachGenerator:
             recommended_outreach_angle=outreach_angle,
         )
 
+    def _determine_primary_signal(
+        self, company_score: dict[str, Any], meaningful_mention: str
+    ) -> str:
+        """Determine primary buying signal based on evidence mention and detected taxonomy priority."""
+        text_lower = meaningful_mention.lower()
+
+        # 1. Match against evidence headline text
+        if any(w in text_lower for w in ["complaint", "delay", "issue", "problem"]):
+            return "CUSTOMER_COMPLAINT"
+        if any(w in text_lower for w in ["cfo", "ceo", "chief", "names", "appoint", "president", "vp"]):
+            return "LEADERSHIP_CHANGE"
+        if any(w in text_lower for w in ["raise", "funding", "million", "$", "capital", "series", "investment"]):
+            return "FUNDING"
+        if any(w in text_lower for w in ["hiring", "job", "career", "opening", "team"]):
+            return "HIRING"
+        if any(w in text_lower for w in ["expand", "expansion", "international", "pop-up", "retail", "store", "launch"]):
+            return "EXPANSION"
+
+        # 2. Fall back to taxonomy priority hierarchy
+        detected = company_score.get("detected_signals", [])
+        priority_order = [
+            "CUSTOMER_COMPLAINT",
+            "EXPANSION",
+            "FUNDING",
+            "LEADERSHIP_CHANGE",
+            "HIRING",
+        ]
+        for sig in priority_order:
+            if sig in detected:
+                return sig
+
+        return "GENERAL_GROWTH"
+
+    def _get_signal_value_proposition(
+        self, company: str, primary_signal: str
+    ) -> dict[str, str]:
+        """Generate signal-specific value propositions tailored to the primary buying signal."""
+        possessive = self._format_possessive(company)
+
+        if primary_signal == "CUSTOMER_COMPLAINT":
+            return {
+                "linkedin": (
+                    f"Improving post-purchase shipping visibility and proactive exception handling can significantly "
+                    f"reduce WISMO support tickets while protecting customer satisfaction."
+                ),
+                "email_body": (
+                    f"ClickPost is an AI-powered post-purchase logistics platform designed to resolve delivery exceptions, "
+                    f"reduce 'Where Is My Order?' (WISMO) support tickets by 40%, and protect customer retention."
+                ),
+            }
+        elif primary_signal == "EXPANSION":
+            return {
+                "linkedin": (
+                    f"Expanding into new markets and retail channels introduces logistics complexity across carriers. "
+                    f"ClickPost helps high-growth retail brands automate multi-carrier shipment tracking and NDR resolution."
+                ),
+                "email_body": (
+                    f"ClickPost is an AI-powered post-purchase logistics platform designed to streamline multi-carrier tracking, "
+                    f"reduce 'Where Is My Order?' (WISMO) support tickets by 40%, and automate exception handling across expanding networks."
+                ),
+            }
+        elif primary_signal == "FUNDING":
+            return {
+                "linkedin": (
+                    f"Growth capital often drives rapid customer acquisition and higher shipment volumes. ClickPost helps scaling "
+                    f"retail brands automate post-purchase delivery tracking without swelling support costs."
+                ),
+                "email_body": (
+                    f"ClickPost is an AI-powered post-purchase logistics platform designed to support rapid order volume scaling, "
+                    f"reduce 'Where Is My Order?' (WISMO) support tickets by 40%, and keep customer service operations lean."
+                ),
+            }
+        elif primary_signal == "LEADERSHIP_CHANGE":
+            return {
+                "linkedin": (
+                    f"Leadership transitions create ideal opportunities to modernize customer operations. ClickPost helps "
+                    f"retail brands streamline post-purchase delivery experience and automate exception handling."
+                ),
+                "email_body": (
+                    f"ClickPost is an AI-powered post-purchase logistics platform designed to modernize delivery tracking, "
+                    f"reduce 'Where Is My Order?' (WISMO) support tickets by 40%, and establish scalable post-purchase operations."
+                ),
+            }
+        elif primary_signal == "HIRING":
+            return {
+                "linkedin": (
+                    f"As your team expands to support growing order volume, maintaining a seamless post-purchase experience "
+                    f"is essential. ClickPost automates shipment tracking and delivery exception resolution."
+                ),
+                "email_body": (
+                    f"ClickPost is an AI-powered post-purchase logistics platform designed to automate order tracking, "
+                    f"reduce 'Where Is My Order?' (WISMO) support tickets by 40%, and empower scaling logistics operations teams."
+                ),
+            }
+        else:
+            return {
+                "linkedin": (
+                    f"As {possessive} customer volume scales, maintaining a seamless post-purchase delivery experience "
+                    f"becomes critical for retention. ClickPost helps high-growth retail brands automate shipment tracking."
+                ),
+                "email_body": (
+                    f"ClickPost is an AI-powered post-purchase logistics platform designed to automate order tracking, "
+                    f"reduce 'Where Is My Order?' (WISMO) support tickets by 40%, and streamline delivery exception management."
+                ),
+            }
+
     def generate_linkedin_message(
         self, company_score: dict[str, Any], signals: list[dict[str, Any]]
     ) -> str:
@@ -320,8 +426,7 @@ class OutreachGenerator:
         clean_key_signals = self._clean_signals(raw_key_signals)
 
         evidence_bullets = self._extract_evidence_bullets(signals, max_bullets=2)
-        
-        # Select meaningful non-boilerplate evidence
+
         meaningful_mention = ""
         for bullet in evidence_bullets:
             clean = bullet.rstrip(".")
@@ -333,6 +438,9 @@ class OutreachGenerator:
             intro_clause = f"noticed your recent momentum regarding {meaningful_mention}."
         else:
             intro_clause = f"noticed {possessive_company} recent operational growth and expansion milestones."
+
+        primary_signal = self._determine_primary_signal(company_score, meaningful_mention)
+        val_prop = self._get_signal_value_proposition(company, primary_signal)
 
         system_prompt = (
             "You are an expert B2B SDR writing short, human LinkedIn connection messages. "
@@ -352,9 +460,8 @@ class OutreachGenerator:
         # Evidence-grounded fallback snippet (max 80 words)
         return (
             f"Hi team at {company}, {intro_clause} "
-            f"As {company} scales customer volume, maintaining a seamless post-purchase delivery experience "
-            f"becomes critical for retention. ClickPost helps high-growth retail brands automate shipment tracking "
-            f"and NDR resolution. Would love to connect and share a quick note on how we support scaling brands."
+            f"{val_prop['linkedin']} "
+            f"Would love to connect and share a quick note on how we support scaling brands."
         )
 
     def generate_followup_email(
@@ -387,6 +494,9 @@ class OutreachGenerator:
         else:
             momentum_clause = "specifically your recent operational growth and expansion milestones"
 
+        primary_signal = self._determine_primary_signal(company_score, meaningful_mention)
+        val_prop = self._get_signal_value_proposition(company, primary_signal)
+
         system_prompt = (
             "You are an expert B2B SDR writing personalized cold outreach emails. "
             "Never use the word OTHER."
@@ -417,9 +527,8 @@ class OutreachGenerator:
         email_body = (
             f"Hi {company} Team,\n\n"
             f"Following up on {possessive_company} recent momentum—{momentum_clause}. "
-            f"With increasing order volumes and retail expansion, maintaining a flawless post-purchase customer journey is essential.\n\n"
-            f"ClickPost is an AI-powered post-purchase logistics platform designed to automate order tracking, "
-            f"reduce 'Where Is My Order?' (WISMO) support tickets by 40%, and streamline delivery exception management.\n\n"
+            f"Maintaining a flawless post-purchase customer journey is essential as customer expectations increase.\n\n"
+            f"{val_prop['email_body']}\n\n"
             f"If improving post-purchase visibility and reducing delivery support tickets is a priority this quarter, "
             f"I'd be happy to share how brands with similar growth profiles use ClickPost.\n\n"
             f"Would you be open to a short conversation?\n\n"
