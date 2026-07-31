@@ -55,8 +55,8 @@ SEARCH_QUERIES: list[str] = [
 # ==============================================================================
 # HTTP & Scraping Settings
 # ==============================================================================
-REQUEST_TIMEOUT: int = 15  # seconds
-MAX_RETRIES: int = 3
+REQUEST_TIMEOUT: int = 5  # seconds
+MAX_RETRIES: int = 1
 
 # ==============================================================================
 # Ranking & Export Settings

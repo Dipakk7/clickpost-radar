@@ -13,6 +13,7 @@ from datetime import datetime, timezone
 import json
 import logging
 from pathlib import Path
+import re
 from typing import Any, Optional
 import requests
 from bs4 import BeautifulSoup
@@ -208,6 +209,8 @@ class SignalCollector:
                     attempt,
                     max_retries,
                 )
+                if response.status_code in (404, 403, 429):
+                    break
             except requests.RequestException as err:
                 logger.warning(
                     "Request error fetching %s: %s (Attempt %d/%d)",
@@ -216,6 +219,7 @@ class SignalCollector:
                     attempt,
                     max_retries,
                 )
+                break
         return None
 
     def _collect_careers(self, company_name: str) -> list[Signal]:
@@ -230,7 +234,7 @@ class SignalCollector:
         logger.info("Searching source: Company Careers...")
         signals: list[Signal] = []
 
-        clean_name = company_name.lower().replace(" ", "")
+        clean_name = re.sub(r"[^a-zA-Z0-9]", "", company_name.lower())
         careers_urls = [
             f"https://{clean_name}clothing.com/pages/careers",
             f"https://www.{clean_name}.com/careers",
@@ -240,7 +244,7 @@ class SignalCollector:
         today_str = datetime.now(timezone.utc).strftime("%Y-%m-%d")
 
         for url in careers_urls:
-            html = self._http_get(url)
+            html = self._http_get(url, timeout=2)
             if html:
                 soup = BeautifulSoup(html, "html.parser")
                 page_title = (
@@ -297,7 +301,7 @@ class SignalCollector:
         today_str = datetime.now(timezone.utc).strftime("%Y-%m-%d")
 
         for url in blog_urls:
-            html = self._http_get(url)
+            html = self._http_get(url, timeout=2)
             if html:
                 soup = BeautifulSoup(html, "html.parser")
                 page_title = (
@@ -336,19 +340,16 @@ class SignalCollector:
         logger.info("Searching source: News / Press Releases...")
         signals: list[Signal] = []
 
-        queries = [q.format(company_name=company_name) for q in SEARCH_QUERIES]
-        queries.extend(
-            [
-                f"{company_name} funding expansion",
-                f"{company_name} growth investment",
-            ]
-        )
+        queries = [
+            f"{company_name} hiring growth expansion",
+            f"{company_name} funding investment logistics",
+        ]
 
         seen_titles: set[str] = set()
 
         for query in queries:
             rss_url = f"https://news.google.com/rss/search?q={query.replace(' ', '+')}"
-            xml_text = self._http_get(rss_url, is_xml=True)
+            xml_text = self._http_get(rss_url, timeout=3, is_xml=True)
             if not xml_text:
                 continue
 
@@ -413,7 +414,7 @@ class SignalCollector:
         clean_name = company_name.lower().replace(" ", "")
         url = f"https://www.trustpilot.com/review/{clean_name}clothing.com"
 
-        html = self._http_get(url, timeout=5, max_retries=1)
+        html = self._http_get(url, timeout=2, max_retries=1)
         if not html:
             logger.warning(
                 "Could not access Trustpilot for %s. Continuing gracefully...",
@@ -457,7 +458,7 @@ class SignalCollector:
         signals: list[Signal] = []
 
         url = f"https://www.reddit.com/r/all/search.json?q={company_name}&limit=5"
-        json_str = self._http_get(url, timeout=5, max_retries=1)
+        json_str = self._http_get(url, timeout=2, max_retries=1)
 
         if not json_str:
             logger.warning(

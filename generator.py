@@ -17,7 +17,7 @@ from typing import Any, Optional
 import pandas as pd
 from dotenv import load_dotenv
 
-from config import OUTPUT_DIRECTORY
+from config import OUTPUT_DIRECTORY, TOP_ACCOUNTS
 
 # Load environment variables
 load_dotenv()
@@ -421,8 +421,9 @@ class OutreachGenerator:
         outreach_list: list[dict[str, Any]] = []
 
         scored_list = [scored_data] if isinstance(scored_data, dict) else scored_data
+        top_ranked_accounts = scored_list[:TOP_ACCOUNTS]
 
-        for account in scored_list:
+        for account in top_ranked_accounts:
             company = account.get("company", "Unknown")
             comp_signals = signals_by_company.get(company, [])
 

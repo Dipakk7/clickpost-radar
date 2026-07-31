@@ -1,7 +1,7 @@
 [
   {
-    "company": "Vuori",
-    "buying_intent_summary": "Vuori shows strong buying intent with active expansion, funding signals and notable growth across operations.",
+    "company": "Liquid Death",
+    "buying_intent_summary": "Liquid Death shows strong buying intent with active expansion, funding signals and notable growth across operations.",
     "key_signals": [
       "EXPANSION",
       "FUNDING",
@@ -9,13 +9,87 @@
       "LEADERSHIP_CHANGE"
     ],
     "evidence": [
-      "Vuori Careers – Retail & Corporate Job Openings in Athletic Apparel.",
-      "Vuori.",
-      "Why Upstart Athleisure Brand Vuori Is Opening So Many Stores.",
-      "Vuori Announces Four C-Suite Hires.",
-      "Exclusive Q&A: Nagraj Kashyap, General Partner at Touring Capital."
+      "Exclusive: $1.4 billion beverage company Liquid Death names new CFO as it gears up for expansion.",
+      "Food Plant Openings and Expansions April 2026.",
+      "Liquid Death swipes PepsiCo alum for CFO in growth push.",
+      "‘Entertain or die:’ Liquid Death CEO talks effective brand building at UND.",
+      "Liquid Death closes funding round valuing business at $1.4B."
     ],
     "why_now": "Recent funding combined with active hiring suggests operational expansion and increasing logistics complexity.",
+    "suggested_persona": "VP of Supply Chain / Head of E-commerce Logistics",
+    "recommended_outreach_angle": "AI-powered post-purchase tracking, carrier exception handling, and delivery experience scaling"
+  },
+  {
+    "company": "Vuori",
+    "buying_intent_summary": "Vuori shows strong buying intent with active expansion, funding signals and notable growth across operations.",
+    "key_signals": [
+      "EXPANSION",
+      "FUNDING",
+      "HIRING"
+    ],
+    "evidence": [
+      "Vuori Careers – Retail & Corporate Job Openings in Athletic Apparel.",
+      "Vuori.",
+      "Vuori names first Chief Product Officer.",
+      "Vuori Names Heather Archibald Chief Product Officer as Activewear Brand Scales Global Expansion.",
+      "Vuori expands global footprint with new stores in Seoul and Beijing."
+    ],
+    "why_now": "Recent funding combined with active hiring suggests operational expansion and increasing logistics complexity.",
+    "suggested_persona": "VP of Supply Chain / Head of E-commerce Logistics",
+    "recommended_outreach_angle": "AI-powered post-purchase tracking, carrier exception handling, and delivery experience scaling"
+  },
+  {
+    "company": "True Classic",
+    "buying_intent_summary": "True Classic shows strong buying intent with active expansion, funding signals and notable growth across operations.",
+    "key_signals": [
+      "EXPANSION",
+      "FUNDING",
+      "HIRING"
+    ],
+    "evidence": [
+      "True Classic Journal.",
+      "True Classic Secures Strategic Investment from 1686 Partners, Accelerating Global Expansion and Category Growth.",
+      "The Vogue Business Funding Tracker.",
+      "Stord Inc. announces $40+ million expansion in Hebron, creating over 500 well-paying jobs.",
+      "Logistics startup Stord raises $250 million at $3 billion valuation."
+    ],
+    "why_now": "Recent funding combined with active hiring suggests operational expansion and increasing logistics complexity.",
+    "suggested_persona": "VP of Supply Chain / Head of E-commerce Logistics",
+    "recommended_outreach_angle": "AI-powered post-purchase tracking, carrier exception handling, and delivery experience scaling"
+  },
+  {
+    "company": "Blueland",
+    "buying_intent_summary": "Blueland shows strong buying intent with active funding, hiring signals and notable growth across operations.",
+    "key_signals": [
+      "FUNDING",
+      "HIRING"
+    ],
+    "evidence": [
+      "Blueland.",
+      "This Founder's Unusual Strategy Led Her Business to Profitability — and $300M in Lifetime Sales.",
+      "Blueland Raises $20 Million for New Category and Retail Expansion to Eliminate More Single-Use Plastic.",
+      "DTC brand Blueland raises US$20 million for new category and retail expansion."
+    ],
+    "why_now": "Recent funding combined with active hiring suggests operational expansion and increasing logistics complexity.",
+    "suggested_persona": "VP of Supply Chain / Head of E-commerce Logistics",
+    "recommended_outreach_angle": "AI-powered post-purchase tracking, carrier exception handling, and delivery experience scaling"
+  },
+  {
+    "company": "Brooklinen",
+    "buying_intent_summary": "Brooklinen shows strong buying intent with active expansion, funding signals and notable growth across operations.",
+    "key_signals": [
+      "EXPANSION",
+      "FUNDING",
+      "LEADERSHIP_CHANGE"
+    ],
+    "evidence": [
+      "The most important new role at DTCs: Retention specialists.",
+      "Brooklinen To Triple Retail Store Presence, Launch Hospitality Collection And Expand Internationally In 2022.",
+      "Psychedelics Expansion: Field Trip Health Hires Former Peloton CMO Vicki Reed As Chief Growth Officer.",
+      "Brooklinen Announces New Investment from Freeman Spogli & Co.",
+      "The 10 Largest NYC Tech Startup Funding Rounds of March 2020."
+    ],
+    "why_now": "Recent capital infusion paired with market expansion points to rapid business growth.",
     "suggested_persona": "VP of Supply Chain / Head of E-commerce Logistics",
     "recommended_outreach_angle": "AI-powered post-purchase tracking, carrier exception handling, and delivery experience scaling"
   }
