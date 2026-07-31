@@ -48,10 +48,28 @@
     ],
     "evidence": [
       "True Classic Journal.",
-      "True Classic Secures Strategic Investment from 1686 Partners, Accelerating Global Expansion and Category Growth.",
       "The Vogue Business Funding Tracker.",
       "Stord Inc. announces $40+ million expansion in Hebron, creating over 500 well-paying jobs.",
+      "True Classic Secures Strategic Investment from 1686 Partners, Accelerating Global Expansion and Category Growth.",
       "Logistics startup Stord raises $250 million at $3 billion valuation."
+    ],
+    "why_now": "Recent funding combined with active hiring suggests operational expansion and increasing logistics complexity.",
+    "suggested_persona": "VP of Supply Chain / Head of E-commerce Logistics",
+    "recommended_outreach_angle": "AI-powered post-purchase tracking, carrier exception handling, and delivery experience scaling"
+  },
+  {
+    "company": "Our Place",
+    "buying_intent_summary": "Our Place shows strong buying intent with active funding, hiring signals and notable growth across operations.",
+    "key_signals": [
+      "FUNDING",
+      "HIRING"
+    ],
+    "evidence": [
+      "AI Will Reshape More Jobs Than It Replaces.",
+      "Create Energy Acquires 338,000-Square-Foot Facility, Expansion to Create 1,000 New Jobs.",
+      "Creating Jobs in Allegheny County: Governor Shapiro Secures $80 Million Investment from Curtiss-Wright to Expand Operations, Creating 150 New Jobs.",
+      "6 Best Business Majors for Your Goals.",
+      "Central government holding back growth by blocking regional transport development, finds IPPR."
     ],
     "why_now": "Recent funding combined with active hiring suggests operational expansion and increasing logistics complexity.",
     "suggested_persona": "VP of Supply Chain / Head of E-commerce Logistics",
@@ -71,25 +89,6 @@
       "DTC brand Blueland raises US$20 million for new category and retail expansion."
     ],
     "why_now": "Recent funding combined with active hiring suggests operational expansion and increasing logistics complexity.",
-    "suggested_persona": "VP of Supply Chain / Head of E-commerce Logistics",
-    "recommended_outreach_angle": "AI-powered post-purchase tracking, carrier exception handling, and delivery experience scaling"
-  },
-  {
-    "company": "Brooklinen",
-    "buying_intent_summary": "Brooklinen shows strong buying intent with active expansion, funding signals and notable growth across operations.",
-    "key_signals": [
-      "EXPANSION",
-      "FUNDING",
-      "LEADERSHIP_CHANGE"
-    ],
-    "evidence": [
-      "The most important new role at DTCs: Retention specialists.",
-      "Brooklinen To Triple Retail Store Presence, Launch Hospitality Collection And Expand Internationally In 2022.",
-      "Psychedelics Expansion: Field Trip Health Hires Former Peloton CMO Vicki Reed As Chief Growth Officer.",
-      "Brooklinen Announces New Investment from Freeman Spogli & Co.",
-      "The 10 Largest NYC Tech Startup Funding Rounds of March 2020."
-    ],
-    "why_now": "Recent capital infusion paired with market expansion points to rapid business growth.",
     "suggested_persona": "VP of Supply Chain / Head of E-commerce Logistics",
     "recommended_outreach_angle": "AI-powered post-purchase tracking, carrier exception handling, and delivery experience scaling"
   }

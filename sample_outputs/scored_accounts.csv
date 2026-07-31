@@ -2,11 +2,12 @@ company,intent_score,priority,confidence,evidence_count,detected_signals,why_now
 Liquid Death,55,Medium,High,6,EXPANSION; FUNDING; HIRING; LEADERSHIP_CHANGE; OTHER,Recent funding combined with active hiring suggests operational expansion and increasing logistics complexity.
 Vuori,45,Low,High,8,EXPANSION; FUNDING; HIRING; OTHER,Recent funding combined with active hiring suggests operational expansion and increasing logistics complexity.
 True Classic,45,Low,High,6,EXPANSION; FUNDING; HIRING; OTHER,Recent funding combined with active hiring suggests operational expansion and increasing logistics complexity.
+Our Place,35,Low,High,6,FUNDING; HIRING; OTHER,Recent funding combined with active hiring suggests operational expansion and increasing logistics complexity.
 Blueland,35,Low,High,4,FUNDING; HIRING; OTHER,Recent funding combined with active hiring suggests operational expansion and increasing logistics complexity.
 Brooklinen,30,Low,High,5,EXPANSION; FUNDING; LEADERSHIP_CHANGE; OTHER,Recent capital infusion paired with market expansion points to rapid business growth.
 Momofuku Goods,30,Low,High,4,EXPANSION; FUNDING; LEADERSHIP_CHANGE; OTHER,Recent capital infusion paired with market expansion points to rapid business growth.
-Our Place,25,Low,High,5,HIRING; OTHER,Active hiring expansion across key departments indicates organizational growth.
 Ridge Wallet,25,Low,High,3,HIRING; OTHER,Active hiring expansion across key departments indicates organizational growth.
+Outdoor Voices,20,Low,High,6,EXPANSION; FUNDING; OTHER,Recent capital infusion paired with market expansion points to rapid business growth.
 Jones Road Beauty,20,Low,High,6,EXPANSION; FUNDING; OTHER,Recent capital infusion paired with market expansion points to rapid business growth.
 Rothy's,20,Low,High,4,EXPANSION; LEADERSHIP_CHANGE; OTHER,Active operational and market expansion indicates growing scalability demands.
 Manscaped,20,Low,High,3,EXPANSION; FUNDING; OTHER,Recent capital infusion paired with market expansion points to rapid business growth.
@@ -15,12 +16,11 @@ Olipop,10,Low,High,6,FUNDING; OTHER,Recent funding allocation indicates financia
 Poppi,10,Low,High,6,FUNDING; OTHER,Recent funding allocation indicates financial backing for strategic growth initiatives.
 Magic Spoon,10,Low,High,5,FUNDING; OTHER,Recent funding allocation indicates financial backing for strategic growth initiatives.
 Caraway,10,Low,High,5,FUNDING; OTHER,Recent funding allocation indicates financial backing for strategic growth initiatives.
-Outdoor Voices,10,Low,High,3,EXPANSION; OTHER,Active operational and market expansion indicates growing scalability demands.
-Chubbies,10,Low,High,2,EXPANSION; OTHER,Active operational and market expansion indicates growing scalability demands.
+Chubbies,10,Low,High,1,EXPANSION,Active operational and market expansion indicates growing scalability demands.
+Beardbrand,10,Low,High,1,EXPANSION,Active operational and market expansion indicates growing scalability demands.
 Kosas,0,Low,High,2,OTHER,Public signals indicate ongoing market activity and account evaluation potential.
 Native Deodorant,0,Low,High,2,OTHER,Public signals indicate ongoing market activity and account evaluation potential.
 Parade Underwear,0,Low,High,2,OTHER,Public signals indicate ongoing market activity and account evaluation potential.
-Solo Stove,0,Low,High,1,OTHER,Public signals indicate ongoing market activity and account evaluation potential.
 Graza,0,Low,High,1,OTHER,Public signals indicate ongoing market activity and account evaluation potential.
-Beardbrand,0,Low,Low,0,,No meaningful buying intent signals were detected from the available public sources.
+Solo Stove,0,Low,Low,0,,No meaningful buying intent signals were detected from the available public sources.
 Tushy,0,Low,Low,0,,No meaningful buying intent signals were detected from the available public sources.

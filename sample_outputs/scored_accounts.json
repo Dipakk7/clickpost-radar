@@ -43,6 +43,19 @@
     "why_now": "Recent funding combined with active hiring suggests operational expansion and increasing logistics complexity."
   },
   {
+    "company": "Our Place",
+    "intent_score": 35,
+    "priority": "Low",
+    "confidence": "High",
+    "evidence_count": 6,
+    "detected_signals": [
+      "FUNDING",
+      "HIRING",
+      "OTHER"
+    ],
+    "why_now": "Recent funding combined with active hiring suggests operational expansion and increasing logistics complexity."
+  },
+  {
     "company": "Blueland",
     "intent_score": 35,
     "priority": "Low",
@@ -84,18 +97,6 @@
     "why_now": "Recent capital infusion paired with market expansion points to rapid business growth."
   },
   {
-    "company": "Our Place",
-    "intent_score": 25,
-    "priority": "Low",
-    "confidence": "High",
-    "evidence_count": 5,
-    "detected_signals": [
-      "HIRING",
-      "OTHER"
-    ],
-    "why_now": "Active hiring expansion across key departments indicates organizational growth."
-  },
-  {
     "company": "Ridge Wallet",
     "intent_score": 25,
     "priority": "Low",
@@ -106,6 +107,19 @@
       "OTHER"
     ],
     "why_now": "Active hiring expansion across key departments indicates organizational growth."
+  },
+  {
+    "company": "Outdoor Voices",
+    "intent_score": 20,
+    "priority": "Low",
+    "confidence": "High",
+    "evidence_count": 6,
+    "detected_signals": [
+      "EXPANSION",
+      "FUNDING",
+      "OTHER"
+    ],
+    "why_now": "Recent capital infusion paired with market expansion points to rapid business growth."
   },
   {
     "company": "Jones Road Beauty",
@@ -207,26 +221,24 @@
     "why_now": "Recent funding allocation indicates financial backing for strategic growth initiatives."
   },
   {
-    "company": "Outdoor Voices",
-    "intent_score": 10,
-    "priority": "Low",
-    "confidence": "High",
-    "evidence_count": 3,
-    "detected_signals": [
-      "EXPANSION",
-      "OTHER"
-    ],
-    "why_now": "Active operational and market expansion indicates growing scalability demands."
-  },
-  {
     "company": "Chubbies",
     "intent_score": 10,
     "priority": "Low",
     "confidence": "High",
-    "evidence_count": 2,
+    "evidence_count": 1,
     "detected_signals": [
-      "EXPANSION",
-      "OTHER"
+      "EXPANSION"
+    ],
+    "why_now": "Active operational and market expansion indicates growing scalability demands."
+  },
+  {
+    "company": "Beardbrand",
+    "intent_score": 10,
+    "priority": "Low",
+    "confidence": "High",
+    "evidence_count": 1,
+    "detected_signals": [
+      "EXPANSION"
     ],
     "why_now": "Active operational and market expansion indicates growing scalability demands."
   },
@@ -264,17 +276,6 @@
     "why_now": "Public signals indicate ongoing market activity and account evaluation potential."
   },
   {
-    "company": "Solo Stove",
-    "intent_score": 0,
-    "priority": "Low",
-    "confidence": "High",
-    "evidence_count": 1,
-    "detected_signals": [
-      "OTHER"
-    ],
-    "why_now": "Public signals indicate ongoing market activity and account evaluation potential."
-  },
-  {
     "company": "Graza",
     "intent_score": 0,
     "priority": "Low",
@@ -286,7 +287,7 @@
     "why_now": "Public signals indicate ongoing market activity and account evaluation potential."
   },
   {
-    "company": "Beardbrand",
+    "company": "Solo Stove",
     "intent_score": 0,
     "priority": "Low",
     "confidence": "Low",
