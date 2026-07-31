@@ -11,7 +11,7 @@ from pathlib import Path
 from typing import Any, Optional
 import pandas as pd
 
-from config import OUTPUT_DIRECTORY, SIGNAL_WEIGHTS
+from config import OUTPUT_DIRECTORY, SCORE_THRESHOLDS, SIGNAL_WEIGHTS
 
 # Configure module logger
 logger = logging.getLogger(__name__)
@@ -26,8 +26,8 @@ class CompanyScore:
     priority: str
     confidence: str
     evidence_count: int
-    detected_signals: list[str]
-    why_now: str
+    detected_signals: list[str] = field(default_factory=list)
+    why_now: str = ""
 
     def to_dict(self) -> dict[str, Any]:
         """Convert CompanyScore instance to dictionary format."""
@@ -56,7 +56,7 @@ class IntentScorer:
         logger.info("IntentScorer initialized successfully.")
 
     def _calculate_priority(self, score: int) -> str:
-        """Assign qualitative priority label based on intent score.
+        """Assign qualitative priority label based on calibrated intent score thresholds.
 
         Args:
             score: Capped intent score integer (0-100).
@@ -64,9 +64,9 @@ class IntentScorer:
         Returns:
             str: Priority label ('High', 'Medium', 'Low').
         """
-        if score >= 80:
+        if score >= SCORE_THRESHOLDS.get("HIGH", 30):
             return "High"
-        elif score >= 50:
+        elif score >= SCORE_THRESHOLDS.get("MEDIUM", 15):
             return "Medium"
         return "Low"
 

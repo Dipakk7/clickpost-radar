@@ -1,7 +1,7 @@
 [
   {
     "company": "Chubbies",
-    "collected_at": "2026-07-31T11:37:29.831191+00:00",
+    "collected_at": "2026-07-31T12:17:11.835951+00:00",
     "signals_count": 2,
     "signals": [
       {
@@ -28,7 +28,7 @@
   },
   {
     "company": "Rothy's",
-    "collected_at": "2026-07-31T11:37:35.105430+00:00",
+    "collected_at": "2026-07-31T12:17:16.859199+00:00",
     "signals_count": 4,
     "signals": [
       {
@@ -75,7 +75,7 @@
   },
   {
     "company": "Brooklinen",
-    "collected_at": "2026-07-31T11:37:40.408754+00:00",
+    "collected_at": "2026-07-31T12:17:21.325644+00:00",
     "signals_count": 3,
     "signals": [
       {
@@ -112,7 +112,7 @@
   },
   {
     "company": "Solo Stove",
-    "collected_at": "2026-07-31T11:37:49.267513+00:00",
+    "collected_at": "2026-07-31T12:17:30.802187+00:00",
     "signals_count": 1,
     "signals": [
       {
@@ -129,7 +129,7 @@
   },
   {
     "company": "Vuori",
-    "collected_at": "2026-07-31T11:37:53.621774+00:00",
+    "collected_at": "2026-07-31T12:17:34.708011+00:00",
     "signals_count": 9,
     "signals": [
       {
@@ -226,7 +226,7 @@
   },
   {
     "company": "Outdoor Voices",
-    "collected_at": "2026-07-31T11:37:58.609667+00:00",
+    "collected_at": "2026-07-31T12:17:39.494231+00:00",
     "signals_count": 4,
     "signals": [
       {
@@ -273,8 +273,8 @@
   },
   {
     "company": "Blueland",
-    "collected_at": "2026-07-31T11:38:05.790466+00:00",
-    "signals_count": 3,
+    "collected_at": "2026-07-31T12:17:45.964774+00:00",
+    "signals_count": 4,
     "signals": [
       {
         "company": "Blueland",
@@ -283,6 +283,16 @@
         "evidence": "BluelandLocation typeAllOn-siteHybridRemoteLocationAllBoca Raton, FLNew York, NYRemoteTeamAllFinanceInnovationRetailWork typeAllFull-timeFull-time (Remote OK)FinanceApplySr. Manager, FP&ARemote — Full-time (Remote OK)New York, NYInnovationApplyDirect",
         "source": "Company Careers",
         "url": "https://www.blueland.com/careers",
+        "date": "2026-07-31",
+        "confidence": "High"
+      },
+      {
+        "company": "Blueland",
+        "signal_type": "EXPANSION",
+        "title": "The Cleanist | Blueland",
+        "evidence": "The Cleanist | BluelandA Cleaner Kind of CleanShop Blueland âA Cleaner Kind of Clean|Shop Blueland âNow shipping to CAN, UK, AUS, & NZ!All prices are in local currency.Now shipping to CAN, UK, AUS, & NZ!|All prices are in local currency.Slider Na",
+        "source": "Company Blog",
+        "url": "https://www.blueland.com/blog",
         "date": "2026-07-31",
         "confidence": "High"
       },
@@ -310,7 +320,7 @@
   },
   {
     "company": "True Classic",
-    "collected_at": "2026-07-31T11:38:12.110171+00:00",
+    "collected_at": "2026-07-31T12:17:51.050752+00:00",
     "signals_count": 4,
     "signals": [
       {
@@ -357,7 +367,7 @@
   },
   {
     "company": "Feastables",
-    "collected_at": "2026-07-31T11:38:17.412583+00:00",
+    "collected_at": "2026-07-31T12:17:56.747778+00:00",
     "signals_count": 1,
     "signals": [
       {
@@ -374,14 +384,14 @@
   },
   {
     "company": "Kosas",
-    "collected_at": "2026-07-31T11:38:23.515943+00:00",
+    "collected_at": "2026-07-31T12:18:01.871897+00:00",
     "signals_count": 3,
     "signals": [
       {
         "company": "Kosas",
         "signal_type": "OTHER",
-        "title": "Kosas said to be exploring sale options - cosmeticsbusiness.com",
-        "evidence": "Kosas said to be exploring sale options  cosmeticsbusiness.com",
+        "title": "Kosas said to be exploring sale options - Cosmetics Business",
+        "evidence": "Kosas said to be exploring sale options  Cosmetics Business",
         "source": "News / Press Releases",
         "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5tY0Z1OGxINjZHZm5yZVNacFZJRE04eDg4eGpNczZ6OGR0WXYta2hlLWxHYW9kd1BvOU81akxzb1JraGNwczVSa1JJM2VyRmdSSHZ5TlBCM21ONENrcWtCSVZ1MlMwTFBFR3k0ZjZhUjNZRGxRYlJNWQ?oc=5",
         "date": "Thu, 11 Jan 2024 08:00:00 GMT",
@@ -400,8 +410,8 @@
       {
         "company": "Kosas",
         "signal_type": "OTHER",
-        "title": "Kosas Cosmetics selects PFS for fulfilment operations - cosmeticsbusiness.com",
-        "evidence": "Kosas Cosmetics selects PFS for fulfilment operations  cosmeticsbusiness.com",
+        "title": "Kosas Cosmetics selects PFS for fulfilment operations - Cosmetics Business",
+        "evidence": "Kosas Cosmetics selects PFS for fulfilment operations  Cosmetics Business",
         "source": "News / Press Releases",
         "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPX3NrUHpUT3Z2TkZQdklLbTR2U0c2eHg1dmpDZ3oybWM2QmlSOTQyWUltdFR3cGNCVDgtSnRvcmpraFI2aXI3dkN1b1FNMDdGTlhPeXdHTDVId0h4MlptaVVmcVJ2Q3AzVjE3S2dWTUowTVVndjd1amNLNFRldEQwN05XU3NxV1Z2RjJBVmJBVmFYenpE?oc=5",
         "date": "Wed, 21 Jun 2023 07:00:00 GMT",
@@ -411,19 +421,9 @@
   },
   {
     "company": "Olipop",
-    "collected_at": "2026-07-31T11:38:33.753540+00:00",
+    "collected_at": "2026-07-31T12:18:11.440701+00:00",
     "signals_count": 2,
     "signals": [
-      {
-        "company": "Olipop",
-        "signal_type": "OTHER",
-        "title": "An Inside Look At Olipop’s Dream Job Contest & The Creators Who Won - Forbes",
-        "evidence": "An Inside Look At Olipop’s Dream Job Contest & The Creators Who Won  Forbes",
-        "source": "News / Press Releases",
-        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQS1hxMWdFWl9Ob1pMXzV6bURQMlJWVTJzdnZiVkgyU1VNa2pUTklkU2tkSVA1cHRWdGlnYXhmVHhXbnBXR0FFaTFXSEI5WS05bGlvX0xoSDJlRC15RXRBc3NDZzhaUGZNaGtwbEpwNE54ZWlvemczYjVKcS1JcnQyc0M4ZG1RWDVWU2xFQU03ZTU5QTRwenNUSnZUQ1A2ajhkN1FWY2dYNDFteUNVaUJXQmEyLUt1SlFMbDJN?oc=5",
-        "date": "Tue, 16 Apr 2024 07:00:00 GMT",
-        "confidence": "Medium"
-      },
       {
         "company": "Olipop",
         "signal_type": "FUNDING",
@@ -433,14 +433,34 @@
         "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNY0FFekRVRVY4YTJtak5KeXN4OVMxYVVKdjVnVHVMT0x1QlhKZDlIbXFwQzhuVy1jbXFqOFk4ZHlGcGxfTEs2QktPdUlKeXgyb3pVMjNnRFdTX3QzdjZSOXhsVTlSWF9ycEVTbjdtcldtc2QzUWpuelRQZk9heVVwUmxqX0FmXzJjN1VHa0FvMS1JeThzVVVSRmJ4elJ6ZXFhdlM0Rk9DaVlSQdIBrwFBVV95cUxNOXVhc2RfaFMzWjU3ak4wSndUNl91aUJzcFl4Y0dsR0stVHNaakhwTFhLQk9SaVYyTnE1MUVtczVVNWw1WnlmazlSV09qbWpSMEVkZWVpVnk1cnZWaVRxdGxYVmRwNGl2V1FxbHlCQnVKZDBPSjE3YTUybEphTE1oWWxGMkUwdFFqT0R1SnE1TTVMQWJGYTZMbnZXcHY5N080Yk5CYmNlRWFXc2IzMHA4?oc=5",
         "date": "Sat, 16 Sep 2023 07:00:00 GMT",
         "confidence": "Medium"
+      },
+      {
+        "company": "Olipop",
+        "signal_type": "OTHER",
+        "title": "An Inside Look At Olipop’s Dream Job Contest & The Creators Who Won - Forbes",
+        "evidence": "An Inside Look At Olipop’s Dream Job Contest & The Creators Who Won  Forbes",
+        "source": "News / Press Releases",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQS1hxMWdFWl9Ob1pMXzV6bURQMlJWVTJzdnZiVkgyU1VNa2pUTklkU2tkSVA1cHRWdGlnYXhmVHhXbnBXR0FFaTFXSEI5WS05bGlvX0xoSDJlRC15RXRBc3NDZzhaUGZNaGtwbEpwNE54ZWlvemczYjVKcS1JcnQyc0M4ZG1RWDVWU2xFQU03ZTU5QTRwenNUSnZUQ1A2ajhkN1FWY2dYNDFteUNVaUJXQmEyLUt1SlFMbDJN?oc=5",
+        "date": "Tue, 16 Apr 2024 07:00:00 GMT",
+        "confidence": "Medium"
       }
     ]
   },
   {
     "company": "Magic Spoon",
-    "collected_at": "2026-07-31T11:38:40.057574+00:00",
+    "collected_at": "2026-07-31T12:18:16.720232+00:00",
     "signals_count": 6,
     "signals": [
+      {
+        "company": "Magic Spoon",
+        "signal_type": "OTHER",
+        "title": "Magic Spoon Debuts Protein Pastries and Marshmallow Protein Cereal, Expanding Its Better-For-You Breakfast Lineup - Yahoo Finance",
+        "evidence": "Magic Spoon Debuts Protein Pastries and Marshmallow Protein Cereal, Expanding Its Better-For-You Breakfast Lineup  Yahoo Finance",
+        "source": "News / Press Releases",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQSWx1UDcxVG5IcFk3SnlnQnhtbjZnSzlpT2RHTmFqRGJxSGp4VjB1endZeW1paV9PTDFrRndtQjhRSEU0cTZkN0ZaQVVTbEFQeTAtWDF3RFVDcGZvRE54aExSLTlLRVYzeHF4NjBNdnBLSmxldFhpcWdmQ3dSNzdUTWQyN200Z2Jo?oc=5",
+        "date": "Wed, 21 Jan 2026 08:00:00 GMT",
+        "confidence": "Medium"
+      },
       {
         "company": "Magic Spoon",
         "signal_type": "OTHER",
@@ -449,16 +469,6 @@
         "source": "News / Press Releases",
         "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE56ZDRpbk0ybHJzc3ZULXhrc2FIZGZFVDBxUC1pbHFKUFZWUk1oRmNSWTNORTBtZ0pWZW9rV0hXWExpWWxqNWU5QThfT1N1VTczaWE1T2pYQktKLUJv?oc=5",
         "date": "Thu, 30 Oct 2025 00:57:59 GMT",
-        "confidence": "Medium"
-      },
-      {
-        "company": "Magic Spoon",
-        "signal_type": "OTHER",
-        "title": "How Magic Spoon found the perfect recipe for growth - RSM US LLP",
-        "evidence": "How Magic Spoon found the perfect recipe for growth  RSM US LLP",
-        "source": "News / Press Releases",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNUlZKWjdPUjhEQ0NHVkVVaGtQUTBKcEMzeHlXMko5NmxkaFJrRGgyRFJ1eVI1M3FKU1JocEs4ZHBVU2o5S0FlbzRvVzduQ05PdXhCUG5KV0h4SnFzZDc3aXEwZmladUlZLW50cmhvLTFNOXB2aU8yeU55V0RHT3JsdXBwMWF2UzhWWDRmU2R5UThHYmxsT0FyTWdIVTdqT0NwV09EaUg0WnUzdXh0?oc=5",
-        "date": "Sun, 30 Jul 2023 07:00:00 GMT",
         "confidence": "Medium"
       },
       {
@@ -505,7 +515,7 @@
   },
   {
     "company": "Liquid Death",
-    "collected_at": "2026-07-31T11:38:46.468037+00:00",
+    "collected_at": "2026-07-31T12:18:23.028506+00:00",
     "signals_count": 5,
     "signals": [
       {
@@ -562,7 +572,7 @@
   },
   {
     "company": "Poppi",
-    "collected_at": "2026-07-31T11:38:52.578461+00:00",
+    "collected_at": "2026-07-31T12:18:28.933411+00:00",
     "signals_count": 4,
     "signals": [
       {
@@ -609,13 +619,13 @@
   },
   {
     "company": "Graza",
-    "collected_at": "2026-07-31T11:39:00.109070+00:00",
+    "collected_at": "2026-07-31T12:18:33.721403+00:00",
     "signals_count": 0,
     "signals": []
   },
   {
     "company": "Ridge Wallet",
-    "collected_at": "2026-07-31T11:39:09.102571+00:00",
+    "collected_at": "2026-07-31T12:18:40.067642+00:00",
     "signals_count": 1,
     "signals": [
       {
@@ -632,7 +642,7 @@
   },
   {
     "company": "Manscaped",
-    "collected_at": "2026-07-31T11:39:14.702803+00:00",
+    "collected_at": "2026-07-31T12:18:46.449631+00:00",
     "signals_count": 3,
     "signals": [
       {
@@ -669,19 +679,19 @@
   },
   {
     "company": "Native Deodorant",
-    "collected_at": "2026-07-31T11:39:26.274638+00:00",
+    "collected_at": "2026-07-31T12:18:52.564398+00:00",
     "signals_count": 0,
     "signals": []
   },
   {
     "company": "Beardbrand",
-    "collected_at": "2026-07-31T11:39:30.811099+00:00",
+    "collected_at": "2026-07-31T12:18:56.910603+00:00",
     "signals_count": 0,
     "signals": []
   },
   {
     "company": "Caraway",
-    "collected_at": "2026-07-31T11:39:38.794884+00:00",
+    "collected_at": "2026-07-31T12:19:02.231450+00:00",
     "signals_count": 2,
     "signals": [
       {
@@ -697,8 +707,8 @@
       {
         "company": "Caraway",
         "signal_type": "OTHER",
-        "title": "Olam-Caraway’s bet on tomato backward integration bears fruits in Jigawa - Business News Nigeria",
-        "evidence": "Olam-Caraway’s bet on tomato backward integration bears fruits in Jigawa  Business News Nigeria",
+        "title": "Olam-Caraway’s bet on tomato backward integration bears fruits in Jigawa - businessday.ng",
+        "evidence": "Olam-Caraway’s bet on tomato backward integration bears fruits in Jigawa  businessday.ng",
         "source": "News / Press Releases",
         "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPN3VleHc3blNiejh2Q3hkSWZWS3JSSnN5ZmhqdktzUFl1dHU3ZGhscnVTTmtpY1NBTVNyYWl1aVNDUXRLZjFwMFVndkZTd3oyTFgtZ3pxUmZLUW9FRXJ4UEFZZkpUeHRlbVByRlRMWjdSN3NLWmUyWkU5ODdQSVZDMENNeno2ZEk5VGxJR18tQkV0WnROOTVQSmxSU3pVRzljemRmdFdLbFNfZkI4MVF5MjdiOGNldw?oc=5",
         "date": "Fri, 01 Apr 2022 07:00:00 GMT",
@@ -708,7 +718,7 @@
   },
   {
     "company": "Our Place",
-    "collected_at": "2026-07-31T11:39:47.454141+00:00",
+    "collected_at": "2026-07-31T12:19:08.606583+00:00",
     "signals_count": 2,
     "signals": [
       {
@@ -735,19 +745,19 @@
   },
   {
     "company": "Jones Road Beauty",
-    "collected_at": "2026-07-31T11:39:51.993796+00:00",
+    "collected_at": "2026-07-31T12:19:17.532648+00:00",
     "signals_count": 0,
     "signals": []
   },
   {
     "company": "Tushy",
-    "collected_at": "2026-07-31T11:39:58.267403+00:00",
+    "collected_at": "2026-07-31T12:19:23.271603+00:00",
     "signals_count": 0,
     "signals": []
   },
   {
     "company": "Momofuku Goods",
-    "collected_at": "2026-07-31T11:40:02.133757+00:00",
+    "collected_at": "2026-07-31T12:19:27.182291+00:00",
     "signals_count": 5,
     "signals": [
       {
@@ -804,7 +814,7 @@
   },
   {
     "company": "Parade Underwear",
-    "collected_at": "2026-07-31T11:40:06.068654+00:00",
+    "collected_at": "2026-07-31T12:19:30.734633+00:00",
     "signals_count": 0,
     "signals": []
   }

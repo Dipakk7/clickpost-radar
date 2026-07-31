@@ -66,10 +66,10 @@ ClickPost Radar implements a **deterministic, transparent, and explainable scori
    - `EXPANSION`: 10 points
    - `LEADERSHIP_CHANGE`: 10 points
 2. **Score Cap**: The final intent score is capped at `100` (`min(100, score)`).
-3. **Priority Tiers**:
-   - `80 – 100`: **High Priority**
-   - `50 – 79`: **Medium Priority**
-   - `0 – 49`: **Low Priority**
+3. **Calibrated Priority Tiers**:
+   - `30 – 100`: **High Priority** (Accounts with multiple strong buying intent triggers)
+   - `15 – 29`: **Medium Priority** (Accounts with 2 active buying intent signals)
+   - `0 – 14`: **Low Priority** (Single signal triggers or accounts with no detected buying signals)
 4. **Confidence Aggregation**: If any underlying signal is verified by official sources or multiple channels, company confidence escalates to **High**.
 
 ---
@@ -94,6 +94,7 @@ ClickPost Radar implements a **deterministic, transparent, and explainable scori
 
 - **Rate Limits & Anti-Bot Protections**: Public third-party endpoints (e.g., Reddit, Trustpilot) frequently block automated scrapers with HTTP 403 Forbidden responses.
 - **Domain Resolution**: Automated domain guessing (`companyname.com`) works reliably for primary consumer brands but requires a dedicated enrichment API (e.g., Clearbit, People Data Labs) for obscure enterprise names.
+- **Data Coverage & Zero-Evidence Accounts**: Six of the twenty-five sample accounts (24%) produced no usable public buying signals from freely accessible sources. Rather than fabricate evidence or fail the pipeline, these accounts were assigned a score of zero while the pipeline continued processing the remaining accounts.
 
 ---
 

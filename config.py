@@ -69,3 +69,7 @@ MAX_RETRIES: int = 1
 # Ranking & Export Settings
 # ==============================================================================
 TOP_ACCOUNTS: int = 5
+SCORE_THRESHOLDS: dict[str, int] = {
+    "HIGH": 30,
+    "MEDIUM": 15,
+}

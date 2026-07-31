@@ -20,8 +20,9 @@
   },
   {
     "company": "Blueland",
-    "buying_intent_summary": "Blueland shows strong buying intent with active funding, hiring signals and notable growth across operations.",
+    "buying_intent_summary": "Blueland shows strong buying intent with active expansion, funding signals and notable growth across operations.",
     "key_signals": [
+      "EXPANSION",
       "FUNDING",
       "HIRING"
     ],

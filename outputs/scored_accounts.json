@@ -2,7 +2,7 @@
   {
     "company": "Vuori",
     "intent_score": 45,
-    "priority": "Low",
+    "priority": "High",
     "confidence": "High",
     "evidence_count": 9,
     "detected_signals": [
@@ -15,11 +15,12 @@
   },
   {
     "company": "Blueland",
-    "intent_score": 35,
-    "priority": "Low",
+    "intent_score": 45,
+    "priority": "High",
     "confidence": "High",
-    "evidence_count": 3,
+    "evidence_count": 4,
     "detected_signals": [
+      "EXPANSION",
       "FUNDING",
       "HIRING"
     ],
@@ -28,7 +29,7 @@
   {
     "company": "Liquid Death",
     "intent_score": 30,
-    "priority": "Low",
+    "priority": "High",
     "confidence": "Medium",
     "evidence_count": 5,
     "detected_signals": [
@@ -42,7 +43,7 @@
   {
     "company": "Momofuku Goods",
     "intent_score": 30,
-    "priority": "Low",
+    "priority": "High",
     "confidence": "High",
     "evidence_count": 5,
     "detected_signals": [
@@ -56,7 +57,7 @@
   {
     "company": "Rothy's",
     "intent_score": 20,
-    "priority": "Low",
+    "priority": "Medium",
     "confidence": "Medium",
     "evidence_count": 4,
     "detected_signals": [
@@ -69,7 +70,7 @@
   {
     "company": "Brooklinen",
     "intent_score": 20,
-    "priority": "Low",
+    "priority": "Medium",
     "confidence": "Medium",
     "evidence_count": 3,
     "detected_signals": [
@@ -82,7 +83,7 @@
   {
     "company": "Manscaped",
     "intent_score": 20,
-    "priority": "Low",
+    "priority": "Medium",
     "confidence": "High",
     "evidence_count": 3,
     "detected_signals": [
