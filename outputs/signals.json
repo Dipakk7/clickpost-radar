@@ -1,7 +1,7 @@
 [
   {
     "company": "Chubbies",
-    "collected_at": "2026-07-31T09:13:16.185592+00:00",
+    "collected_at": "2026-07-31T09:35:32.492904+00:00",
     "signals_count": 2,
     "signals": [
       {
@@ -28,7 +28,7 @@
   },
   {
     "company": "Rothy's",
-    "collected_at": "2026-07-31T09:13:23.623288+00:00",
+    "collected_at": "2026-07-31T09:35:39.146735+00:00",
     "signals_count": 4,
     "signals": [
       {
@@ -75,7 +75,7 @@
   },
   {
     "company": "Brooklinen",
-    "collected_at": "2026-07-31T09:13:33.680716+00:00",
+    "collected_at": "2026-07-31T09:35:44.106838+00:00",
     "signals_count": 3,
     "signals": [
       {
@@ -112,14 +112,14 @@
   },
   {
     "company": "Solo Stove",
-    "collected_at": "2026-07-31T09:13:45.208310+00:00",
+    "collected_at": "2026-07-31T09:35:54.340403+00:00",
     "signals_count": 1,
     "signals": [
       {
         "company": "Solo Stove",
         "signal_type": "OTHER",
-        "title": "CMOs from Lowe’s, Solo Stove, Kickstarter and more on what’s changed most about the job - Ad Age",
-        "evidence": "CMOs from Lowe’s, Solo Stove, Kickstarter and more on what’s changed most about the job  Ad Age",
+        "title": "CMOs from Lowe’s, Solo Stove, Kickstarter and more on what’s changed most about the job - adage.com",
+        "evidence": "CMOs from Lowe’s, Solo Stove, Kickstarter and more on what’s changed most about the job  adage.com",
         "source": "News / Press Releases",
         "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNS1NJbUFBb1JXcllrbkJVd1JwMlRPd3NzcGRzV2ZyX3dhcUtWRlVPN1AxeXgycU5PZlZRWEgtNXBnZjFOR1c1YUJmZGlBTmRlOExoY2dZbjFSVDhmVkFxbjkyZnVGQlhycEpndXUwdFRydFRHOVlZTHkzaEoza1RjclZYNm0ycUU3N0lVcDdIcF9zcGNZ?oc=5",
         "date": "Tue, 09 Jun 2026 07:00:00 GMT",
@@ -129,7 +129,7 @@
   },
   {
     "company": "Vuori",
-    "collected_at": "2026-07-31T09:13:56.350393+00:00",
+    "collected_at": "2026-07-31T09:35:59.436435+00:00",
     "signals_count": 9,
     "signals": [
       {
@@ -226,7 +226,7 @@
   },
   {
     "company": "Outdoor Voices",
-    "collected_at": "2026-07-31T09:14:09.011834+00:00",
+    "collected_at": "2026-07-31T09:36:06.921500+00:00",
     "signals_count": 4,
     "signals": [
       {
@@ -273,7 +273,7 @@
   },
   {
     "company": "Blueland",
-    "collected_at": "2026-07-31T09:14:17.787125+00:00",
+    "collected_at": "2026-07-31T09:36:18.584031+00:00",
     "signals_count": 3,
     "signals": [
       {
@@ -299,8 +299,8 @@
       {
         "company": "Blueland",
         "signal_type": "FUNDING",
-        "title": "DTC brand Blueland raises US$20 million for new category and retail expansion - Global Cosmetics News",
-        "evidence": "DTC brand Blueland raises US$20 million for new category and retail expansion  Global Cosmetics News",
+        "title": "DTC brand Blueland raises US$20 million for new category and retail expansion - globalcosmeticsnews.com",
+        "evidence": "DTC brand Blueland raises US$20 million for new category and retail expansion  globalcosmeticsnews.com",
         "source": "News / Press Releases",
         "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQTjZ3TExMSDdHSmZNY3RWbFd3S3ZEd1U3eWxKa1dITWRLNXNQUWNWNndVQVVKMjN4UHBERVY5ZW9SbXZsVlJ4S2tGQm9FUTFGN3pULU12clIxTDBQNUR6OVAteXJrcnVaM0ozMXNHNGFLajllYXhjRTRfMlp4TjI5RlE3NGYxanpzbC1XUkpySW5yWVBWd3hfdlZkR2U2UjdyaXJYYWQ2aEZwOU9pS2xfeDZ6Zw?oc=5",
         "date": "Tue, 22 Feb 2022 08:00:00 GMT",
@@ -310,7 +310,7 @@
   },
   {
     "company": "True Classic",
-    "collected_at": "2026-07-31T09:14:29.057729+00:00",
+    "collected_at": "2026-07-31T09:36:25.563025+00:00",
     "signals_count": 4,
     "signals": [
       {
@@ -357,7 +357,7 @@
   },
   {
     "company": "Feastables",
-    "collected_at": "2026-07-31T09:14:38.419140+00:00",
+    "collected_at": "2026-07-31T09:36:33.845343+00:00",
     "signals_count": 1,
     "signals": [
       {
@@ -374,7 +374,7 @@
   },
   {
     "company": "Kosas",
-    "collected_at": "2026-07-31T09:14:50.139335+00:00",
+    "collected_at": "2026-07-31T09:36:48.890333+00:00",
     "signals_count": 3,
     "signals": [
       {
@@ -411,7 +411,7 @@
   },
   {
     "company": "Olipop",
-    "collected_at": "2026-07-31T09:15:02.780713+00:00",
+    "collected_at": "2026-07-31T09:36:59.425615+00:00",
     "signals_count": 2,
     "signals": [
       {
@@ -438,19 +438,9 @@
   },
   {
     "company": "Magic Spoon",
-    "collected_at": "2026-07-31T09:15:11.233023+00:00",
+    "collected_at": "2026-07-31T09:37:11.459125+00:00",
     "signals_count": 6,
     "signals": [
-      {
-        "company": "Magic Spoon",
-        "signal_type": "OTHER",
-        "title": "Magic Spoon Debuts Protein Pastries and Marshmallow Protein Cereal, Expanding Its Better-For-You Breakfast Lineup - Yahoo Finance",
-        "evidence": "Magic Spoon Debuts Protein Pastries and Marshmallow Protein Cereal, Expanding Its Better-For-You Breakfast Lineup  Yahoo Finance",
-        "source": "News / Press Releases",
-        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQSWx1UDcxVG5IcFk3SnlnQnhtbjZnSzlpT2RHTmFqRGJxSGp4VjB1endZeW1paV9PTDFrRndtQjhRSEU0cTZkN0ZaQVVTbEFQeTAtWDF3RFVDcGZvRE54aExSLTlLRVYzeHF4NjBNdnBLSmxldFhpcWdmQ3dSNzdUTWQyN200Z2Jo?oc=5",
-        "date": "Wed, 21 Jan 2026 08:00:00 GMT",
-        "confidence": "Medium"
-      },
       {
         "company": "Magic Spoon",
         "signal_type": "OTHER",
@@ -459,6 +449,16 @@
         "source": "News / Press Releases",
         "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE56ZDRpbk0ybHJzc3ZULXhrc2FIZGZFVDBxUC1pbHFKUFZWUk1oRmNSWTNORTBtZ0pWZW9rV0hXWExpWWxqNWU5QThfT1N1VTczaWE1T2pYQktKLUJv?oc=5",
         "date": "Thu, 30 Oct 2025 00:57:59 GMT",
+        "confidence": "Medium"
+      },
+      {
+        "company": "Magic Spoon",
+        "signal_type": "OTHER",
+        "title": "How Magic Spoon found the perfect recipe for growth - RSM US LLP",
+        "evidence": "How Magic Spoon found the perfect recipe for growth  RSM US LLP",
+        "source": "News / Press Releases",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNUlZKWjdPUjhEQ0NHVkVVaGtQUTBKcEMzeHlXMko5NmxkaFJrRGgyRFJ1eVI1M3FKU1JocEs4ZHBVU2o5S0FlbzRvVzduQ05PdXhCUG5KV0h4SnFzZDc3aXEwZmladUlZLW50cmhvLTFNOXB2aU8yeU55V0RHT3JsdXBwMWF2UzhWWDRmU2R5UThHYmxsT0FyTWdIVTdqT0NwV09EaUg0WnUzdXh0?oc=5",
+        "date": "Sun, 30 Jul 2023 07:00:00 GMT",
         "confidence": "Medium"
       },
       {
@@ -505,7 +505,7 @@
   },
   {
     "company": "Liquid Death",
-    "collected_at": "2026-07-31T09:15:17.689032+00:00",
+    "collected_at": "2026-07-31T09:37:21.806121+00:00",
     "signals_count": 5,
     "signals": [
       {
@@ -531,8 +531,8 @@
       {
         "company": "Liquid Death",
         "signal_type": "LEADERSHIP_CHANGE",
-        "title": "‘Entertain or die:’ Liquid Death CEO talks effective brand building at UND - University of North Dakota (UND)",
-        "evidence": "‘Entertain or die:’ Liquid Death CEO talks effective brand building at UND  University of North Dakota (UND)",
+        "title": "‘Entertain or die:’ Liquid Death CEO talks effective brand building at UND - blogs.und.edu",
+        "evidence": "‘Entertain or die:’ Liquid Death CEO talks effective brand building at UND  blogs.und.edu",
         "source": "News / Press Releases",
         "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPN2FfLTMxbXAzS2F4OUFTcDFvaXZJQkIwbm9FU1ZFQkhHOWJTYjc2MnZZQWN3ek1lOFhVcnFxN0xyalZwbEhXbWh0TENLdWF1d3M3MFFyeTNEMTdmUktwcV9IeWNIa1BObnBaVzRaYkdRa2g3YmF0R2ljZjRoSklXbkN6ekpVMmtNREQzNVZTWDY2bktXcUtKM3h4ZVhXdFNIS21VWFdoYkdhcmVndTNmQ1FYQV8xbVNz?oc=5",
         "date": "Fri, 01 May 2026 07:00:00 GMT",
@@ -562,7 +562,7 @@
   },
   {
     "company": "Poppi",
-    "collected_at": "2026-07-31T09:15:23.403667+00:00",
+    "collected_at": "2026-07-31T09:37:34.146928+00:00",
     "signals_count": 4,
     "signals": [
       {
@@ -609,13 +609,13 @@
   },
   {
     "company": "Graza",
-    "collected_at": "2026-07-31T09:15:30.409677+00:00",
+    "collected_at": "2026-07-31T09:37:50.187382+00:00",
     "signals_count": 0,
     "signals": []
   },
   {
     "company": "Ridge Wallet",
-    "collected_at": "2026-07-31T09:15:36.611684+00:00",
+    "collected_at": "2026-07-31T09:38:10.877505+00:00",
     "signals_count": 1,
     "signals": [
       {
@@ -632,7 +632,7 @@
   },
   {
     "company": "Manscaped",
-    "collected_at": "2026-07-31T09:15:42.326740+00:00",
+    "collected_at": "2026-07-31T09:38:21.122578+00:00",
     "signals_count": 3,
     "signals": [
       {
@@ -669,19 +669,19 @@
   },
   {
     "company": "Native Deodorant",
-    "collected_at": "2026-07-31T09:15:50.310869+00:00",
+    "collected_at": "2026-07-31T09:38:29.665906+00:00",
     "signals_count": 0,
     "signals": []
   },
   {
     "company": "Beardbrand",
-    "collected_at": "2026-07-31T09:15:54.608180+00:00",
+    "collected_at": "2026-07-31T09:38:34.393401+00:00",
     "signals_count": 0,
     "signals": []
   },
   {
     "company": "Caraway",
-    "collected_at": "2026-07-31T09:16:00.777960+00:00",
+    "collected_at": "2026-07-31T09:38:40.380530+00:00",
     "signals_count": 2,
     "signals": [
       {
@@ -708,7 +708,7 @@
   },
   {
     "company": "Our Place",
-    "collected_at": "2026-07-31T09:16:30.518904+00:00",
+    "collected_at": "2026-07-31T09:38:49.930343+00:00",
     "signals_count": 1,
     "signals": [
       {
@@ -725,19 +725,19 @@
   },
   {
     "company": "Jones Road Beauty",
-    "collected_at": "2026-07-31T09:16:35.757928+00:00",
+    "collected_at": "2026-07-31T09:38:57.000065+00:00",
     "signals_count": 0,
     "signals": []
   },
   {
     "company": "Tushy",
-    "collected_at": "2026-07-31T09:16:42.611256+00:00",
+    "collected_at": "2026-07-31T09:39:09.298240+00:00",
     "signals_count": 0,
     "signals": []
   },
   {
     "company": "Momofuku Goods",
-    "collected_at": "2026-07-31T09:16:50.730445+00:00",
+    "collected_at": "2026-07-31T09:39:13.607831+00:00",
     "signals_count": 5,
     "signals": [
       {
@@ -794,7 +794,7 @@
   },
   {
     "company": "Parade Underwear",
-    "collected_at": "2026-07-31T09:16:56.960615+00:00",
+    "collected_at": "2026-07-31T09:39:18.858790+00:00",
     "signals_count": 0,
     "signals": []
   }

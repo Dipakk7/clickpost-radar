@@ -106,10 +106,37 @@ class OutreachGenerator:
             return ["No high-confidence buying intent signals detected."]
         return cleaned
 
+    def _format_possessive(self, company_name: str) -> str:
+        """Format possessive company name cleanly (e.g., Rothy's -> Rothy's, James -> James', Nike -> Nike's)."""
+        company = company_name.strip()
+        if company.endswith("'s") or company.endswith("’s"):
+            return company
+        if company.endswith("s") or company.endswith("S"):
+            return f"{company}'"
+        return f"{company}'s"
+
+    def _truncate_at_word_boundary(self, text: str, max_chars: int = 80) -> str:
+        """Safely truncate text at word boundaries without cutting words or ending on dangling prepositions/conjunctions."""
+        text = text.strip()
+        if len(text) <= max_chars:
+            res = text
+        else:
+            truncated = text[:max_chars]
+            last_space = truncated.rfind(" ")
+            if last_space > 20:
+                truncated = truncated[:last_space]
+            res = truncated.rstrip(".,;:-—'\" ")
+
+        stop_words = {"to", "as", "it", "in", "at", "of", "and", "or", "the", "a", "an", "is", "for", "with", "by", "on"}
+        words = res.split()
+        while words and words[-1].lower().strip(".,;:-—'\"") in stop_words:
+            words.pop()
+        return " ".join(words).rstrip(".,;:-—'\" ")
+
     def _extract_evidence_bullets(
         self, signals: list[dict[str, Any]], max_bullets: int = 5
     ) -> list[str]:
-        """Extract up to 5 concise evidence bullets directly from collected signals.
+        """Extract up to max_bullets concise, non-boilerplate evidence bullets directly from collected signals.
 
         Args:
             signals: List of collected signal dictionaries.
@@ -131,17 +158,28 @@ class OutreachGenerator:
 
             # Strip website source suffixes cleanly
             clean_fact = candidate.split(" - ")[0].split(" | ")[0].strip()
+            clean_lower = clean_fact.lower()
+
+            # Filter out generic website boilerplate, navigation headers, or company name titles
+            if (
+                len(clean_fact) < 15
+                or "accessibility statement" in clean_lower
+                or "cookie policy" in clean_lower
+                or "journal" in clean_lower and len(clean_fact) < 30
+            ):
+                continue
+
             if not clean_fact.endswith("."):
                 clean_fact += "."
 
-            if clean_fact.lower() not in seen:
-                seen.add(clean_fact.lower())
+            if clean_lower not in seen:
+                seen.add(clean_lower)
                 bullets.append(clean_fact)
                 if len(bullets) >= max_bullets:
                     break
 
         if not bullets:
-            bullets = ["No public evidence available from monitored channels."]
+            bullets = ["Monitored public evidence indicates ongoing market expansion."]
 
         return bullets
 
@@ -277,15 +315,24 @@ class OutreachGenerator:
         company = company_score.get("company", "Target Company")
         logger.info("Generating LinkedIn message for %s...", company)
 
+        possessive_company = self._format_possessive(company)
         raw_key_signals = company_score.get("detected_signals", [])
         clean_key_signals = self._clean_signals(raw_key_signals)
 
         evidence_bullets = self._extract_evidence_bullets(signals, max_bullets=2)
-        signal_mention = (
-            evidence_bullets[0]
-            if evidence_bullets
-            else f"recent {', '.join(clean_key_signals[:2]).lower()} milestones"
-        )
+        
+        # Select meaningful non-boilerplate evidence
+        meaningful_mention = ""
+        for bullet in evidence_bullets:
+            clean = bullet.rstrip(".")
+            if len(clean) > 20 and clean.lower() != company.lower():
+                meaningful_mention = self._truncate_at_word_boundary(clean, max_chars=75)
+                break
+
+        if meaningful_mention:
+            intro_clause = f"noticed your recent momentum regarding {meaningful_mention}."
+        else:
+            intro_clause = f"noticed {possessive_company} recent operational growth and expansion milestones."
 
         system_prompt = (
             "You are an expert B2B SDR writing short, human LinkedIn connection messages. "
@@ -293,7 +340,7 @@ class OutreachGenerator:
         )
         user_prompt = (
             f"Write a natural LinkedIn message for a decision maker at {company}.\n"
-            f"Reference this real signal: {signal_mention}.\n"
+            f"Reference this real signal: {meaningful_mention or 'recent growth milestones'}.\n"
             f"Tie it to post-purchase delivery & shipping tracking optimization (ClickPost).\n"
             f"Constraint: Maximum 80 words. End with a soft call to connect."
         )
@@ -303,9 +350,8 @@ class OutreachGenerator:
             return llm_resp
 
         # Evidence-grounded fallback snippet (max 80 words)
-        clean_mention = signal_mention.rstrip(".")
         return (
-            f"Hi team at {company}, noticed your recent growth momentum and {clean_mention[:60]}. "
+            f"Hi team at {company}, {intro_clause} "
             f"As {company} scales customer volume, maintaining a seamless post-purchase delivery experience "
             f"becomes critical for retention. ClickPost helps high-growth retail brands automate shipment tracking "
             f"and NDR resolution. Would love to connect and share a quick note on how we support scaling brands."
@@ -326,19 +372,27 @@ class OutreachGenerator:
         company = company_score.get("company", "Target Company")
         logger.info("Generating follow-up email for %s...", company)
 
+        possessive_company = self._format_possessive(company)
         evidence_bullets = self._extract_evidence_bullets(signals, max_bullets=2)
-        headline_ref = (
-            evidence_bullets[0].rstrip(".")
-            if evidence_bullets
-            else "recent operational expansion"
-        )
+
+        meaningful_mention = ""
+        for bullet in evidence_bullets:
+            clean = bullet.rstrip(".")
+            if len(clean) > 20 and clean.lower() != company.lower():
+                meaningful_mention = self._truncate_at_word_boundary(clean, max_chars=75)
+                break
+
+        if meaningful_mention:
+            momentum_clause = f"specifically {meaningful_mention}"
+        else:
+            momentum_clause = "specifically your recent operational growth and expansion milestones"
 
         system_prompt = (
             "You are an expert B2B SDR writing personalized cold outreach emails. "
             "Never use the word OTHER."
         )
         user_prompt = (
-            f"Write a cold email to {company} based on this signal: {headline_ref}.\n"
+            f"Write a cold email to {company} based on this signal: {meaningful_mention or 'recent growth milestones'}.\n"
             f"Explain how ClickPost (AI post-purchase & logistics tracking platform) helps.\n"
             f"Use a conversational, non-pushy CTA: 'If improving post-purchase visibility and reducing delivery support tickets is a priority this quarter, I'd be happy to share how brands with similar growth profiles use ClickPost. Would you be open to a short conversation?'\n"
             f"Constraint: Maximum 150 words.\n"
@@ -351,7 +405,7 @@ class OutreachGenerator:
                 data = json.loads(llm_resp)
                 return {
                     "subject": data.get(
-                        "subject", f"Scaling {company}'s post-purchase experience"
+                        "subject", f"Scaling {possessive_company} post-purchase experience"
                     ),
                     "followup_email": data.get("followup_email", ""),
                 }
@@ -359,10 +413,10 @@ class OutreachGenerator:
                 pass
 
         # Evidence-grounded fallback with conversational, non-pushy CTA
-        subject = f"Scaling {company}'s post-purchase customer experience"
+        subject = f"Scaling {possessive_company} post-purchase customer experience"
         email_body = (
             f"Hi {company} Team,\n\n"
-            f"Following up on {company}'s recent momentum—specifically {headline_ref[:70]}. "
+            f"Following up on {possessive_company} recent momentum—{momentum_clause}. "
             f"With increasing order volumes and retail expansion, maintaining a flawless post-purchase customer journey is essential.\n\n"
             f"ClickPost is an AI-powered post-purchase logistics platform designed to automate order tracking, "
             f"reduce 'Where Is My Order?' (WISMO) support tickets by 40%, and streamline delivery exception management.\n\n"
