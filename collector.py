@@ -19,6 +19,7 @@ import requests
 from bs4 import BeautifulSoup
 
 from config import (
+    COMPETITORS,
     MAX_RETRIES,
     OUTPUT_DIRECTORY,
     REQUEST_TIMEOUT,
@@ -99,16 +100,14 @@ class SignalCollector:
     def _determine_confidence(self, source: str, occurrences: int = 1) -> str:
         """Determine qualitative confidence level ('Low', 'Medium', 'High').
 
-        Args:
-            source: Signal source name.
-            occurrences: Number of independent source confirmations.
-
-        Returns:
-            str: Qualitative confidence level ('Low', 'Medium', 'High').
+        Confidence is proportional to source authority and evidence depth:
+        - High: Primary official company sources (Careers, Blog) or multiple confirmations (>=3).
+        - Medium: News articles / press releases or 2 independent confirmations.
+        - Low: Single unverified mentions (<=1) or community discussions.
         """
-        if source in OFFICIAL_SOURCES or occurrences >= 3:
+        if source in {"Company Careers", "Company Blog"} or occurrences >= 3:
             return "High"
-        elif occurrences == 2:
+        elif source in {"News / Press Releases", "Press Release"} or occurrences == 2:
             return "Medium"
         return "Low"
 
@@ -125,6 +124,13 @@ class SignalCollector:
         text_lower = text.lower()
         raw_lower = raw_type.lower()
 
+        if (
+            "competitor" in raw_lower
+            or "tech_stack" in raw_lower
+            or "switch" in text_lower
+            or any(comp.lower() in text_lower for comp in COMPETITORS)
+        ):
+            return SIGNAL_TYPES["COMPETITOR_USAGE"]
         if (
             "funding" in raw_lower
             or "funding" in text_lower
@@ -164,14 +170,13 @@ class SignalCollector:
             or "sentiment" in raw_lower
             or "issue" in text_lower
             or "complaint" in text_lower
+            or "delay" in text_lower
+            or "shipping" in text_lower
+            or "delivery" in text_lower
+            or "problem" in text_lower
+            or "wismo" in text_lower
         ):
             return SIGNAL_TYPES["CUSTOMER_COMPLAINT"]
-        if (
-            "competitor" in raw_lower
-            or "tech_stack" in raw_lower
-            or "switch" in text_lower
-        ):
-            return SIGNAL_TYPES["COMPETITOR_USAGE"]
 
         return SIGNAL_TYPES.get(raw_type.upper(), SIGNAL_TYPES["OTHER"])
 
@@ -343,6 +348,8 @@ class SignalCollector:
         queries = [
             f"{company_name} hiring growth expansion",
             f"{company_name} funding investment logistics",
+            f"{company_name} shipping delays customer complaint issue",
+            f"{company_name} AfterShip Narvar tracking software",
         ]
 
         seen_titles: set[str] = set()

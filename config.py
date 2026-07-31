@@ -43,8 +43,14 @@ SIGNAL_WEIGHTS: dict[str, int] = {
 # Target Competitors & Keyword Queries
 # ==============================================================================
 COMPETITORS: list[str] = [
-    "CompetitorA",
-    "CompetitorB",
+    "AfterShip",
+    "Narvar",
+    "ShipStation",
+    "ParcelLab",
+    "Wonderment",
+    "LateShipment",
+    "Shippo",
+    "Malomo",
 ]
 
 SEARCH_QUERIES: list[str] = [
