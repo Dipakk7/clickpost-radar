@@ -1,81 +1,10 @@
 [
   {
-    "company": "Our Place",
-    "intent_score": 65,
-    "priority": "Medium",
-    "confidence": "Medium",
-    "evidence_count": 9,
-    "detected_signals": [
-      "CUSTOMER_COMPLAINT",
-      "FUNDING",
-      "HIRING",
-      "OTHER"
-    ],
-    "why_now": "Recent funding combined with active hiring suggests operational expansion and increasing logistics complexity."
-  },
-  {
-    "company": "Liquid Death",
-    "intent_score": 55,
-    "priority": "Medium",
-    "confidence": "Medium",
-    "evidence_count": 6,
-    "detected_signals": [
-      "EXPANSION",
-      "FUNDING",
-      "HIRING",
-      "LEADERSHIP_CHANGE",
-      "OTHER"
-    ],
-    "why_now": "Recent funding combined with active hiring suggests operational expansion and increasing logistics complexity."
-  },
-  {
-    "company": "Outdoor Voices",
-    "intent_score": 50,
-    "priority": "Medium",
-    "confidence": "Medium",
-    "evidence_count": 8,
-    "detected_signals": [
-      "CUSTOMER_COMPLAINT",
-      "EXPANSION",
-      "FUNDING",
-      "OTHER"
-    ],
-    "why_now": "Public customer feedback indicates opportunities to improve the post-purchase experience."
-  },
-  {
-    "company": "Jones Road Beauty",
-    "intent_score": 50,
-    "priority": "Medium",
-    "confidence": "Medium",
-    "evidence_count": 7,
-    "detected_signals": [
-      "CUSTOMER_COMPLAINT",
-      "EXPANSION",
-      "FUNDING",
-      "OTHER"
-    ],
-    "why_now": "Public customer feedback indicates opportunities to improve the post-purchase experience."
-  },
-  {
-    "company": "True Classic",
-    "intent_score": 45,
-    "priority": "Low",
-    "confidence": "High",
-    "evidence_count": 7,
-    "detected_signals": [
-      "EXPANSION",
-      "FUNDING",
-      "HIRING",
-      "OTHER"
-    ],
-    "why_now": "Recent funding combined with active hiring suggests operational expansion and increasing logistics complexity."
-  },
-  {
     "company": "Vuori",
     "intent_score": 45,
     "priority": "Low",
     "confidence": "High",
-    "evidence_count": 6,
+    "evidence_count": 9,
     "detected_signals": [
       "EXPANSION",
       "FUNDING",
@@ -83,19 +12,6 @@
       "OTHER"
     ],
     "why_now": "Recent funding combined with active hiring suggests operational expansion and increasing logistics complexity."
-  },
-  {
-    "company": "Caraway",
-    "intent_score": 40,
-    "priority": "Low",
-    "confidence": "Medium",
-    "evidence_count": 6,
-    "detected_signals": [
-      "CUSTOMER_COMPLAINT",
-      "FUNDING",
-      "OTHER"
-    ],
-    "why_now": "Public customer feedback indicates opportunities to improve the post-purchase experience."
   },
   {
     "company": "Blueland",
@@ -110,7 +26,7 @@
     "why_now": "Recent funding combined with active hiring suggests operational expansion and increasing logistics complexity."
   },
   {
-    "company": "Brooklinen",
+    "company": "Liquid Death",
     "intent_score": 30,
     "priority": "Low",
     "confidence": "Medium",
@@ -128,7 +44,7 @@
     "intent_score": 30,
     "priority": "Low",
     "confidence": "High",
-    "evidence_count": 4,
+    "evidence_count": 5,
     "detected_signals": [
       "EXPANSION",
       "FUNDING",
@@ -138,41 +54,30 @@
     "why_now": "Recent capital infusion paired with market expansion points to rapid business growth."
   },
   {
-    "company": "Parade Underwear",
-    "intent_score": 30,
-    "priority": "Low",
-    "confidence": "Medium",
-    "evidence_count": 3,
-    "detected_signals": [
-      "CUSTOMER_COMPLAINT",
-      "OTHER"
-    ],
-    "why_now": "Public customer feedback indicates opportunities to improve the post-purchase experience."
-  },
-  {
-    "company": "Ridge Wallet",
-    "intent_score": 25,
-    "priority": "Low",
-    "confidence": "Medium",
-    "evidence_count": 3,
-    "detected_signals": [
-      "HIRING",
-      "OTHER"
-    ],
-    "why_now": "Active hiring expansion across key departments indicates organizational growth."
-  },
-  {
     "company": "Rothy's",
     "intent_score": 20,
     "priority": "Low",
     "confidence": "Medium",
-    "evidence_count": 5,
+    "evidence_count": 4,
     "detected_signals": [
       "EXPANSION",
       "LEADERSHIP_CHANGE",
       "OTHER"
     ],
     "why_now": "Active operational and market expansion indicates growing scalability demands."
+  },
+  {
+    "company": "Brooklinen",
+    "intent_score": 20,
+    "priority": "Low",
+    "confidence": "Medium",
+    "evidence_count": 3,
+    "detected_signals": [
+      "EXPANSION",
+      "FUNDING",
+      "OTHER"
+    ],
+    "why_now": "Recent capital infusion paired with market expansion points to rapid business growth."
   },
   {
     "company": "Manscaped",
@@ -188,7 +93,7 @@
     "why_now": "Recent capital infusion paired with market expansion points to rapid business growth."
   },
   {
-    "company": "Olipop",
+    "company": "Magic Spoon",
     "intent_score": 10,
     "priority": "Low",
     "confidence": "Medium",
@@ -198,65 +103,78 @@
       "OTHER"
     ],
     "why_now": "Recent funding allocation indicates financial backing for strategic growth initiatives."
+  },
+  {
+    "company": "Outdoor Voices",
+    "intent_score": 10,
+    "priority": "Low",
+    "confidence": "Medium",
+    "evidence_count": 4,
+    "detected_signals": [
+      "EXPANSION",
+      "OTHER"
+    ],
+    "why_now": "Active operational and market expansion indicates growing scalability demands."
+  },
+  {
+    "company": "True Classic",
+    "intent_score": 10,
+    "priority": "Low",
+    "confidence": "High",
+    "evidence_count": 4,
+    "detected_signals": [
+      "EXPANSION",
+      "OTHER"
+    ],
+    "why_now": "Active operational and market expansion indicates growing scalability demands."
   },
   {
     "company": "Poppi",
     "intent_score": 10,
     "priority": "Low",
     "confidence": "Medium",
-    "evidence_count": 6,
+    "evidence_count": 4,
     "detected_signals": [
       "FUNDING",
       "OTHER"
     ],
     "why_now": "Recent funding allocation indicates financial backing for strategic growth initiatives."
-  },
-  {
-    "company": "Magic Spoon",
-    "intent_score": 10,
-    "priority": "Low",
-    "confidence": "Medium",
-    "evidence_count": 5,
-    "detected_signals": [
-      "FUNDING",
-      "OTHER"
-    ],
-    "why_now": "Recent funding allocation indicates financial backing for strategic growth initiatives."
-  },
-  {
-    "company": "Feastables",
-    "intent_score": 10,
-    "priority": "Low",
-    "confidence": "Medium",
-    "evidence_count": 3,
-    "detected_signals": [
-      "FUNDING",
-      "OTHER"
-    ],
-    "why_now": "Recent funding allocation indicates financial backing for strategic growth initiatives."
-  },
-  {
-    "company": "Graza",
-    "intent_score": 10,
-    "priority": "Low",
-    "confidence": "Medium",
-    "evidence_count": 2,
-    "detected_signals": [
-      "LEADERSHIP_CHANGE",
-      "OTHER"
-    ],
-    "why_now": "Recent C-suite and leadership additions signal upcoming strategic transformations."
   },
   {
     "company": "Chubbies",
     "intent_score": 10,
     "priority": "Low",
     "confidence": "High",
-    "evidence_count": 1,
+    "evidence_count": 2,
     "detected_signals": [
-      "EXPANSION"
+      "EXPANSION",
+      "OTHER"
     ],
     "why_now": "Active operational and market expansion indicates growing scalability demands."
+  },
+  {
+    "company": "Olipop",
+    "intent_score": 10,
+    "priority": "Low",
+    "confidence": "Medium",
+    "evidence_count": 2,
+    "detected_signals": [
+      "FUNDING",
+      "OTHER"
+    ],
+    "why_now": "Recent funding allocation indicates financial backing for strategic growth initiatives."
+  },
+  {
+    "company": "Caraway",
+    "intent_score": 10,
+    "priority": "Low",
+    "confidence": "Medium",
+    "evidence_count": 2,
+    "detected_signals": [
+      "FUNDING",
+      "OTHER"
+    ],
+    "why_now": "Recent funding allocation indicates financial backing for strategic growth initiatives."
   },
   {
     "company": "Kosas",
@@ -264,17 +182,6 @@
     "priority": "Low",
     "confidence": "Medium",
     "evidence_count": 3,
-    "detected_signals": [
-      "OTHER"
-    ],
-    "why_now": "Public signals indicate ongoing market activity and account evaluation potential."
-  },
-  {
-    "company": "Native Deodorant",
-    "intent_score": 0,
-    "priority": "Low",
-    "confidence": "Medium",
-    "evidence_count": 2,
     "detected_signals": [
       "OTHER"
     ],
@@ -292,7 +199,7 @@
     "why_now": "Public signals indicate ongoing market activity and account evaluation potential."
   },
   {
-    "company": "Beardbrand",
+    "company": "Feastables",
     "intent_score": 0,
     "priority": "Low",
     "confidence": "Medium",
@@ -303,7 +210,74 @@
     "why_now": "Public signals indicate ongoing market activity and account evaluation potential."
   },
   {
+    "company": "Ridge Wallet",
+    "intent_score": 0,
+    "priority": "Low",
+    "confidence": "Medium",
+    "evidence_count": 1,
+    "detected_signals": [
+      "OTHER"
+    ],
+    "why_now": "Public signals indicate ongoing market activity and account evaluation potential."
+  },
+  {
+    "company": "Our Place",
+    "intent_score": 0,
+    "priority": "Low",
+    "confidence": "Medium",
+    "evidence_count": 1,
+    "detected_signals": [
+      "OTHER"
+    ],
+    "why_now": "Public signals indicate ongoing market activity and account evaluation potential."
+  },
+  {
+    "company": "Graza",
+    "intent_score": 0,
+    "priority": "Low",
+    "confidence": "Low",
+    "evidence_count": 0,
+    "detected_signals": [],
+    "why_now": "No meaningful buying intent signals were detected from the available public sources."
+  },
+  {
+    "company": "Native Deodorant",
+    "intent_score": 0,
+    "priority": "Low",
+    "confidence": "Low",
+    "evidence_count": 0,
+    "detected_signals": [],
+    "why_now": "No meaningful buying intent signals were detected from the available public sources."
+  },
+  {
+    "company": "Beardbrand",
+    "intent_score": 0,
+    "priority": "Low",
+    "confidence": "Low",
+    "evidence_count": 0,
+    "detected_signals": [],
+    "why_now": "No meaningful buying intent signals were detected from the available public sources."
+  },
+  {
+    "company": "Jones Road Beauty",
+    "intent_score": 0,
+    "priority": "Low",
+    "confidence": "Low",
+    "evidence_count": 0,
+    "detected_signals": [],
+    "why_now": "No meaningful buying intent signals were detected from the available public sources."
+  },
+  {
     "company": "Tushy",
+    "intent_score": 0,
+    "priority": "Low",
+    "confidence": "Low",
+    "evidence_count": 0,
+    "detected_signals": [],
+    "why_now": "No meaningful buying intent signals were detected from the available public sources."
+  },
+  {
+    "company": "Parade Underwear",
     "intent_score": 0,
     "priority": "Low",
     "confidence": "Low",

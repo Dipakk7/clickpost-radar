@@ -333,6 +333,34 @@ class SignalCollector:
 
         return signals
 
+    def _is_article_relevant(self, company_name: str, title: str, description: str) -> bool:
+        """Validate that the target company is explicitly referenced in title or description.
+
+        Args:
+            company_name: Target company name.
+            title: News article title.
+            description: Cleaned news article snippet/description.
+
+        Returns:
+            bool: True if company is explicitly mentioned, False otherwise.
+        """
+        norm_company = re.sub(r"[^a-z0-9]", "", company_name.lower())
+        norm_text = re.sub(r"[^a-z0-9]", "", (title + " " + description).lower())
+
+        if norm_company in norm_text:
+            return True
+
+        # Check key brand tokens for multi-word or punctuated names (e.g. "Jones Road Beauty" -> "jones", "road")
+        tokens = [
+            re.sub(r"[^a-z0-9]", "", t.lower())
+            for t in company_name.split()
+            if len(t) > 2
+        ]
+        if tokens and all(token in norm_text for token in tokens):
+            return True
+
+        return False
+
     def _collect_news(self, company_name: str) -> list[Signal]:
         """Priority 3: Collect signals from News & Press Releases via RSS search queries.
 
@@ -346,10 +374,10 @@ class SignalCollector:
         signals: list[Signal] = []
 
         queries = [
-            f"{company_name} hiring growth expansion",
-            f"{company_name} funding investment logistics",
-            f"{company_name} shipping delays customer complaint issue",
-            f"{company_name} AfterShip Narvar tracking software",
+            f'"{company_name}" hiring growth expansion',
+            f'"{company_name}" funding investment logistics',
+            f'"{company_name}" shipping delays customer complaint issue',
+            f'"{company_name}" AfterShip Narvar tracking software',
         ]
 
         seen_titles: set[str] = set()
@@ -374,7 +402,6 @@ class SignalCollector:
                     )
                     if title in seen_titles:
                         continue
-                    seen_titles.add(title)
 
                     link = link_elem.text.strip() if link_elem else rss_url
                     pub_date = (
@@ -385,6 +412,18 @@ class SignalCollector:
                     raw_desc = desc_elem.text.strip() if desc_elem else title
                     clean_desc = BeautifulSoup(raw_desc, "html.parser").get_text()
 
+                    # Relevance validation: Reject articles that do not mention the target company
+                    if not self._is_article_relevant(
+                        company_name, title, clean_desc
+                    ):
+                        logger.debug(
+                            "Rejected irrelevant news article for %s: '%s'",
+                            company_name,
+                            title,
+                        )
+                        continue
+
+                    seen_titles.add(title)
                     mapped_type = self._map_signal_type("NEWS", title)
 
                     signals.append(
@@ -396,7 +435,9 @@ class SignalCollector:
                             source="News / Press Releases",
                             url=link,
                             date=pub_date,
-                            confidence=self._determine_confidence("News / Press Releases"),
+                            confidence=self._determine_confidence(
+                                "News / Press Releases"
+                            ),
                         )
                     )
             except Exception as err:

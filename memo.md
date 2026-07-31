@@ -32,6 +32,7 @@ IntentIQ follows a modular 4-stage pipeline execution architecture:
          ▼
  1. Signal Collection (collector.py)
     • Priority Sources: Careers ➔ Blog ➔ News RSS ➔ Trustpilot ➔ Reddit
+    • Exact Quoted Queries & Article Relevance Validation
     • Resilient HTTP Retries & Graceful Failure Handling
          │
          ▼

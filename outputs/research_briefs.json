@@ -1,18 +1,34 @@
 [
   {
-    "company": "Our Place",
-    "buying_intent_summary": "Our Place shows strong buying intent with active customer_complaint, funding signals and notable growth across operations.",
+    "company": "Vuori",
+    "buying_intent_summary": "Vuori shows strong buying intent with active expansion, funding signals and notable growth across operations.",
     "key_signals": [
-      "CUSTOMER_COMPLAINT",
+      "EXPANSION",
       "FUNDING",
       "HIRING"
     ],
     "evidence": [
-      "AI Will Reshape More Jobs Than It Replaces.",
-      "Create Energy Acquires 338,000-Square-Foot Facility, Expansion to Create 1,000 New Jobs.",
-      "Creating Jobs in Allegheny County: Governor Shapiro Secures $80 Million Investment from Curtiss-Wright to Expand Operations, Creating 150 New Jobs.",
-      "6 Best Business Majors for Your Goals.",
-      "Central government holding back growth by blocking regional transport development, finds IPPR."
+      "Vuori Careers – Retail & Corporate Job Openings in Athletic Apparel.",
+      "Vuori.",
+      "Vuori names first Chief Product Officer.",
+      "Vuori Names Heather Archibald Chief Product Officer as Activewear Brand Scales Global Expansion.",
+      "Vuori expands global footprint with new stores in Seoul and Beijing."
+    ],
+    "why_now": "Recent funding combined with active hiring suggests operational expansion and increasing logistics complexity.",
+    "suggested_persona": "VP of Supply Chain / Head of E-commerce Logistics",
+    "recommended_outreach_angle": "AI-powered post-purchase tracking, carrier exception handling, and delivery experience scaling"
+  },
+  {
+    "company": "Blueland",
+    "buying_intent_summary": "Blueland shows strong buying intent with active funding, hiring signals and notable growth across operations.",
+    "key_signals": [
+      "FUNDING",
+      "HIRING"
+    ],
+    "evidence": [
+      "Blueland.",
+      "Blueland Raises $20 Million for New Category and Retail Expansion to Eliminate More Single-Use Plastic.",
+      "DTC brand Blueland raises US$20 million for new category and retail expansion."
     ],
     "why_now": "Recent funding combined with active hiring suggests operational expansion and increasing logistics complexity.",
     "suggested_persona": "VP of Supply Chain / Head of E-commerce Logistics",
@@ -24,74 +40,52 @@
     "key_signals": [
       "EXPANSION",
       "FUNDING",
-      "HIRING",
       "LEADERSHIP_CHANGE"
     ],
     "evidence": [
       "Exclusive: $1.4 billion beverage company Liquid Death names new CFO as it gears up for expansion.",
-      "Food Plant Openings and Expansions April 2026.",
       "Liquid Death swipes PepsiCo alum for CFO in growth push.",
       "‘Entertain or die:’ Liquid Death CEO talks effective brand building at UND.",
-      "Liquid Death closes funding round valuing business at $1.4B."
+      "Liquid Death closes funding round valuing business at $1.4B.",
+      "Liquid Death raises $75M in funding round that values water brand at more than $500M."
     ],
-    "why_now": "Recent funding combined with active hiring suggests operational expansion and increasing logistics complexity.",
+    "why_now": "Recent capital infusion paired with market expansion points to rapid business growth.",
     "suggested_persona": "VP of Supply Chain / Head of E-commerce Logistics",
     "recommended_outreach_angle": "AI-powered post-purchase tracking, carrier exception handling, and delivery experience scaling"
   },
   {
-    "company": "Outdoor Voices",
-    "buying_intent_summary": "Outdoor Voices shows strong buying intent with active customer_complaint, expansion signals and notable growth across operations.",
-    "key_signals": [
-      "CUSTOMER_COMPLAINT",
-      "EXPANSION",
-      "FUNDING"
-    ],
-    "evidence": [
-      "Stitch Fix Bets on Activewear, Footwear and Accessories to Unlock $1 Billion Opportunity.",
-      "Sam’s Club revives shuttered activewear brand, offers lower prices.",
-      "After abruptly shuttering its stores, Outdoor Voices has a new owner.",
-      "Maharashtra CM Approves Outer Ring Road, Logistics Hubs, IBFC And Funding Plan For Nagpur Under NMRDA.",
-      "Outdoor Voices brings spring collection to Sam’s Club."
-    ],
-    "why_now": "Public customer feedback indicates opportunities to improve the post-purchase experience.",
-    "suggested_persona": "VP of Supply Chain / Head of E-commerce Logistics",
-    "recommended_outreach_angle": "AI-powered post-purchase tracking, carrier exception handling, and delivery experience scaling"
-  },
-  {
-    "company": "Jones Road Beauty",
-    "buying_intent_summary": "Jones Road Beauty shows strong buying intent with active customer_complaint, expansion signals and notable growth across operations.",
-    "key_signals": [
-      "CUSTOMER_COMPLAINT",
-      "EXPANSION",
-      "FUNDING"
-    ],
-    "evidence": [
-      "More Americans are starting companies. Bobbi Brown and other founders share their advice.",
-      "Jones Road Beauty Opens Its First West Coast Boutique in Santa Monica.",
-      "Jones Road Plots New Retail, Category Expansions.",
-      "Key drivers and trends fueling the Jones Act financial market.",
-      "Iris Finance Raises $6.2M In Seed Funding To Become CPG Brands’ AI-Powered CFO."
-    ],
-    "why_now": "Public customer feedback indicates opportunities to improve the post-purchase experience.",
-    "suggested_persona": "VP of Supply Chain / Head of E-commerce Logistics",
-    "recommended_outreach_angle": "AI-powered post-purchase tracking, carrier exception handling, and delivery experience scaling"
-  },
-  {
-    "company": "True Classic",
-    "buying_intent_summary": "True Classic shows strong buying intent with active expansion, funding signals and notable growth across operations.",
+    "company": "Momofuku Goods",
+    "buying_intent_summary": "Momofuku Goods shows strong buying intent with active expansion, funding signals and notable growth across operations.",
     "key_signals": [
       "EXPANSION",
       "FUNDING",
-      "HIRING"
+      "LEADERSHIP_CHANGE"
     ],
     "evidence": [
-      "True Classic Journal.",
-      "True Classic Secures Strategic Investment from 1686 Partners, Accelerating Global Expansion and Category Growth.",
-      "The Vogue Business Funding Tracker.",
-      "Stord Inc. announces $40+ million expansion in Hebron, creating over 500 well-paying jobs.",
-      "Logistics startup Stord raises $250 million at $3 billion valuation."
+      "Momofuku Goods Journal.",
+      "Momofuku Goods Names Paddy Spence as CEO to Lead Next Phase of Growth.",
+      "How Momofuku Goods Became a $67 Million Powerhouse and Defied Its Doubters.",
+      "Paddy Spence Hired as CEO of Momofuku Goods.",
+      "Momofuku Goods Announces New Growth Funding from Alliance Consumer Growth."
     ],
-    "why_now": "Recent funding combined with active hiring suggests operational expansion and increasing logistics complexity.",
+    "why_now": "Recent capital infusion paired with market expansion points to rapid business growth.",
+    "suggested_persona": "VP of Supply Chain / Head of E-commerce Logistics",
+    "recommended_outreach_angle": "AI-powered post-purchase tracking, carrier exception handling, and delivery experience scaling"
+  },
+  {
+    "company": "Rothy's",
+    "buying_intent_summary": "Rothy's shows strong buying intent with active expansion, leadership_change signals and notable growth across operations.",
+    "key_signals": [
+      "EXPANSION",
+      "LEADERSHIP_CHANGE"
+    ],
+    "evidence": [
+      "Rothy’s Charts International Expansion With a Pop-Up in Liberty London.",
+      "Rothy’s taps Old Navy CMO for chief marketer role as it builds out C-suite.",
+      "Rothy’s names new CEO, president as co-founders step down from the roles.",
+      "“It’s more than a shoe, it’s a sisterhood”: inside the Rothy’s fandom."
+    ],
+    "why_now": "Active operational and market expansion indicates growing scalability demands.",
     "suggested_persona": "VP of Supply Chain / Head of E-commerce Logistics",
     "recommended_outreach_angle": "AI-powered post-purchase tracking, carrier exception handling, and delivery experience scaling"
   }

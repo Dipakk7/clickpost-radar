@@ -202,14 +202,16 @@ Export complete.
 ## 💡 Key Design Decisions
 
 1. **Centralized Taxonomy & Internal Filtering**: Supports six signal categories (`HIRING`, `FUNDING`, `EXPANSION`, `LEADERSHIP_CHANGE`, `CUSTOMER_COMPLAINT`, `COMPETITOR_USAGE`). Five categories triggered in the current sample dataset execution run. Internal `OTHER` categories are filtered out of all SDR-facing outputs.
-2. **Deterministic Intent Scoring**: Implements a transparent weighted scoring system (capped at 100) with rule-based "Why Now" explanations. No opaque AI scoring black-boxes.
-3. **Dual Generator Engine**: Integrates OpenAI GPT-4o when `OPENAI_API_KEY` is present, while providing a seamless, zero-hallucination evidence-grounded fallback synthesis engine when offline.
-4. **Conversational SDR CTAs**: Follow-up emails use soft, permission-based value CTAs instead of rigid time-slot demands.
+2. **News Evidence Relevance Validation**: Exact quoted Google News queries (`"{company_name}"`) and post-fetch normalization check verify that target company names explicitly appear in article titles or descriptions before accepting evidence.
+3. **Deterministic Intent Scoring**: Implements a transparent weighted scoring system (capped at 100) with rule-based "Why Now" explanations. No opaque AI scoring black-boxes.
+4. **Dual Generator Engine**: Integrates OpenAI GPT-4o when `OPENAI_API_KEY` is present, while providing a seamless, zero-hallucination evidence-grounded fallback synthesis engine when offline.
+5. **Conversational SDR CTAs**: Follow-up emails use soft, permission-based value CTAs instead of rigid time-slot demands.
 
 ---
 
 ## ⚠️ Limitations & Real-World Dataset Observations
 
+- **News Attribution & Heuristic Entity Matching**: Google News evidence undergoes relevance validation to reject false-positive articles. Entity matching uses heuristic brand token normalization, which minimizes false attributions while preserving genuine news coverage.
 - **Competitor Usage Detection**: The pipeline implements competitor keyword mapping (`AfterShip`, `Narvar`, `ShipStation`, `ParcelLab`, `Wonderment`, `LateShipment`, `Shippo`, `Malomo`). Competitor usage did not trigger in this specific 25-account sample dataset because monitored competitor names were not present in collected public content.
 - **Anti-Bot Defenses**: Public endpoints like Reddit and Trustpilot return HTTP 403 Forbidden under standard automated HTTP requests. Customer complaints are captured via public news RSS search queries (`"shipping delays customer complaint issue"`), while direct community endpoints are handled gracefully without crashing.
 - **Future Integration**: Connect Clearbit/ZoomInfo for contact enrichment, and integrate Playwright with residential proxy pools for headless web scraping.

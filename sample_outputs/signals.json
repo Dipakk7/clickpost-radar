@@ -1,8 +1,8 @@
 [
   {
     "company": "Chubbies",
-    "collected_at": "2026-07-31T08:54:53.970432+00:00",
-    "signals_count": 1,
+    "collected_at": "2026-07-31T09:13:16.185592+00:00",
+    "signals_count": 2,
     "signals": [
       {
         "company": "Chubbies",
@@ -13,13 +13,23 @@
         "url": "https://www.chubbies.com/blog",
         "date": "2026-07-31",
         "confidence": "High"
+      },
+      {
+        "company": "Chubbies",
+        "signal_type": "OTHER",
+        "title": "How Chubbies Uses Logistics to Encourage Business Success - U.S. Chamber of Commerce",
+        "evidence": "How Chubbies Uses Logistics to Encourage Business Success  U.S. Chamber of Commerce",
+        "source": "News / Press Releases",
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPR3l1ZFU2VVBqNkJnak0tMVpqeERaajNwemhySWJxT0JMUGFRODZMZjBTVUIxSWhGaFVkTndqbF9rem50WEdqcFlSQThOVksxVmNldlRmWXZCNjZLeDhCSDFfNmY2dXNLRlNVOGtzU2JLdU9MYlFZVGJTZWUxMmZmVjg0VC1lZw?oc=5",
+        "date": "Tue, 08 Oct 2019 07:00:00 GMT",
+        "confidence": "Medium"
       }
     ]
   },
   {
     "company": "Rothy's",
-    "collected_at": "2026-07-31T08:55:10.343503+00:00",
-    "signals_count": 5,
+    "collected_at": "2026-07-31T09:13:23.623288+00:00",
+    "signals_count": 4,
     "signals": [
       {
         "company": "Rothy's",
@@ -39,16 +49,6 @@
         "source": "News / Press Releases",
         "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB0ZGljU2EtTDlmcUFWcmpJeURGREVISWhKR1VULTloNXZ3QXJSb2FCMzJhQmUwZDA1UkFsUW1UZUFIR0pXNnpxZVF0MFE1alZUVGNhUWdRdzFzXzdYdkVhLVJNVDJxTVhObTZFaGNzcFI4am5tR0E?oc=5",
         "date": "Fri, 04 Nov 2022 07:00:00 GMT",
-        "confidence": "Medium"
-      },
-      {
-        "company": "Rothy's",
-        "signal_type": "OTHER",
-        "title": "9 Reverse Logistics Startups Raising Funds to Tackle Returns - Business Insider",
-        "evidence": "9 Reverse Logistics Startups Raising Funds to Tackle Returns  Business Insider",
-        "source": "News / Press Releases",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQLW5ncllNbVV3TklIRFpFNFJMZlM5eWtFbU5ZVl9mXzQwc3paaE5UR1kteXBhMFZTdUp6UXVQQ2dWRC04Q1c1WWUwYnM3elNOaWlSQXRYcDAycWJWZXdJQlRLdGNXc2tlVzU0amppTWt5NlN6TTYxNGR6cEtDcV9Bc0pyQUZFdzd4cU9BU0EwUkx6allzaENrcVBaWXBpLXhuX0phTk1FdWV0amtEYkE?oc=5",
-        "date": "Mon, 24 Jan 2022 08:00:00 GMT",
         "confidence": "Medium"
       },
       {
@@ -75,19 +75,9 @@
   },
   {
     "company": "Brooklinen",
-    "collected_at": "2026-07-31T08:55:28.058264+00:00",
-    "signals_count": 5,
+    "collected_at": "2026-07-31T09:13:33.680716+00:00",
+    "signals_count": 3,
     "signals": [
-      {
-        "company": "Brooklinen",
-        "signal_type": "OTHER",
-        "title": "The most important new role at DTCs: Retention specialists - Modern Retail",
-        "evidence": "The most important new role at DTCs: Retention specialists  Modern Retail",
-        "source": "News / Press Releases",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQTXRuOExZZmczTW5vU0p5STk2bk1kZW03UEdYS2tsLWdvLWpab0pENWg5YnlMWFBJLUs0c3FHalBfX0I5RGNyaDdBVHQtUkE5bzB0Qld2clY0WkFJclhlODIxY1dHbldCZ2xDNGVsdlFKSzBnOE9USXI0U0pERHYtaGVnSm0yZFd5dWxvdlZ2OUxLdmdyY2N0Z1V2N2M?oc=5",
-        "date": "Wed, 11 Sep 2019 07:00:00 GMT",
-        "confidence": "Medium"
-      },
       {
         "company": "Brooklinen",
         "signal_type": "EXPANSION",
@@ -96,16 +86,6 @@
         "source": "News / Press Releases",
         "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQSlR3X2FDU0dSN2VJV2tJVGkzV1lFVTFrbkZJbGQxQUhtcVJKSXBHWlp4aWZKWFZubW5ORnlybTVObFdLNnFJTzh2dWpJUkF3VUY0ejhyYUdWeVFzRUUzaHVkeVREdXdwQnU1My04S3RYdm0xV3FtQWNCLVJDczkwcnRMYnZpYjM0a2xsQktJUDFnZUhBc1hnSV94MzBjUk5WZjZsbmJ2NVJyMEM3ekFQa3FKX2NaR2tjZHBMTWs0d2dxZGFMWm1ZRTJpajF1VXg0UnhZUlllcUgyRU02LUlZM0g4dVNwM1RkRVJpTVY3aW55NkM2dlE?oc=5",
         "date": "Tue, 12 Apr 2022 07:00:00 GMT",
-        "confidence": "Medium"
-      },
-      {
-        "company": "Brooklinen",
-        "signal_type": "LEADERSHIP_CHANGE",
-        "title": "Psychedelics Expansion: Field Trip Health Hires Former Peloton CMO Vicki Reed As Chief Growth Officer - Forbes",
-        "evidence": "Psychedelics Expansion: Field Trip Health Hires Former Peloton CMO Vicki Reed As Chief Growth Officer  Forbes",
-        "source": "News / Press Releases",
-        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOdEhyR1pMbjJzMHpMbkgxVHNYZVpjNmlEZHFwV3VyaDB6M3RmUVJDcVk4emw1SmF6YlowWnpzZXVqRmY5S2d4Z055cEZTVFFmTkpjSVl6YnhaRmdiSjRrekRUMEp6V29CQUdEaVlNSDdzZnZPVE5vOU5ZZmJuVmxDcTNmY1hsVU40dUFzZlEzc3haX3cxWTZmTlREUlJEM2Q0bkgxbHhvdkpUT2Q0NmJzaVY4S0dzNk9TSmxvYVFiS3llejVHNi05S01VZWE0bkw1Vi1ZMEVJT0xJN1NkWTVmOThockNJZGc?oc=5",
-        "date": "Tue, 30 Nov 2021 08:00:00 GMT",
         "confidence": "Medium"
       },
       {
@@ -120,37 +100,37 @@
       },
       {
         "company": "Brooklinen",
-        "signal_type": "FUNDING",
-        "title": "The 10 Largest NYC Tech Startup Funding Rounds of March 2020 - AlleyWatch",
-        "evidence": "The 10 Largest NYC Tech Startup Funding Rounds of March 2020  AlleyWatch",
+        "signal_type": "OTHER",
+        "title": "Brooklinen's Email Marketing Is All About Personalization - ADWEEK",
+        "evidence": "Brooklinen's Email Marketing Is All About Personalization  ADWEEK",
         "source": "News / Press Releases",
-        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQWXhQVzgwdGlJb01oUjlPd2hOSFB2NzViZUMzRXYxVzFTMFlQVDhFYjlaNXFCVjdRQUZHZjgzTDlNQVpGSXJmN3hoOTA1clI3b0Z3S081dWRJSTdUaHdBLVlRNG52RW9MLXVVX25haVRMcGpxYUJsNldHMEJRUWdNTzh3d1I3NzQ5?oc=5",
-        "date": "Wed, 01 Apr 2020 14:29:40 GMT",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQOExNSHFNVUlOSlZENW9vclZWVFY2eG9PNUlEa29lWlJmQ2RveG4wbUprVGMxZWZRS3ZZZ21UQVUwcmFwbUhtcy05TVhBZ2twcHdPVUh6S25tejJ1NEdoeFhzVDhEekNpMmhJVDlybWhLa091VHg0UFgxLTB1aWtBVnVWUlczS1ZIUmpGclZZZVZCaThjeVZ6dmIwQk9wQ0UyeFBYZVpGWG43NUFSck9ZZA?oc=5",
+        "date": "Thu, 03 Sep 2020 07:00:00 GMT",
         "confidence": "Medium"
       }
     ]
   },
   {
     "company": "Solo Stove",
-    "collected_at": "2026-07-31T08:55:52.822340+00:00",
+    "collected_at": "2026-07-31T09:13:45.208310+00:00",
     "signals_count": 1,
     "signals": [
       {
         "company": "Solo Stove",
         "signal_type": "OTHER",
-        "title": "Dentsu Adds Three Senior Leaders to Media Practice - ADWEEK",
-        "evidence": "Dentsu Adds Three Senior Leaders to Media Practice  ADWEEK",
+        "title": "CMOs from Lowe’s, Solo Stove, Kickstarter and more on what’s changed most about the job - Ad Age",
+        "evidence": "CMOs from Lowe’s, Solo Stove, Kickstarter and more on what’s changed most about the job  Ad Age",
         "source": "News / Press Releases",
-        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQd2pMbGJQUzJDQ3o3T3BISFRYWmFZcjhhZWxyZzd3cmc1Ql9XejhBSkdhQTVuWThkR2lpb2w4b3Z1REczNDN3WTJhQ2N1LUNUR1M2dEI2R2xGZWEtTVFzR1hSdGtMTnNTaXprOWFDMTZ5ZWRtNnpBWDQ5R0E0TG04NGUzdjBnRGZXVWZZ?oc=5",
-        "date": "Thu, 29 May 2025 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNS1NJbUFBb1JXcllrbkJVd1JwMlRPd3NzcGRzV2ZyX3dhcUtWRlVPN1AxeXgycU5PZlZRWEgtNXBnZjFOR1c1YUJmZGlBTmRlOExoY2dZbjFSVDhmVkFxbjkyZnVGQlhycEpndXUwdFRydFRHOVlZTHkzaEoza1RjclZYNm0ycUU3N0lVcDdIcF9zcGNZ?oc=5",
+        "date": "Tue, 09 Jun 2026 07:00:00 GMT",
         "confidence": "Medium"
       }
     ]
   },
   {
     "company": "Vuori",
-    "collected_at": "2026-07-31T08:56:07.816223+00:00",
-    "signals_count": 6,
+    "collected_at": "2026-07-31T09:13:56.350393+00:00",
+    "signals_count": 9,
     "signals": [
       {
         "company": "Vuori",
@@ -174,6 +154,36 @@
       },
       {
         "company": "Vuori",
+        "signal_type": "OTHER",
+        "title": "Vuori names first Chief Product Officer - Sporting Goods Intelligence Europe",
+        "evidence": "Vuori names first Chief Product Officer  Sporting Goods Intelligence Europe",
+        "source": "News / Press Releases",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNQmxKSzRmMm40b01wYnRNeTBnWTV2MGRHeFhBZEptbHVKVXRXWW1aRXNpeGxiWE1TVTJHWjY3dDRNblZzaTdzSF8yN3pMZG9TYW0yUkRZM3d6RTNrcmFjb25SbzJ3N3lETW9aXzlob1FySEpweFI3dFdRZjhXNUhDWThXNUhMRGlwbDFLdjZkMWoxb3NO?oc=5",
+        "date": "Wed, 15 Apr 2026 07:00:00 GMT",
+        "confidence": "Medium"
+      },
+      {
+        "company": "Vuori",
+        "signal_type": "EXPANSION",
+        "title": "Vuori Names Heather Archibald Chief Product Officer as Activewear Brand Scales Global Expansion - citybiz",
+        "evidence": "Vuori Names Heather Archibald Chief Product Officer as Activewear Brand Scales Global Expansion  citybiz",
+        "source": "News / Press Releases",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOcDdvb3hPWXBQZndDV0xfd3pWcWoxNjR5VTRpRVZJMy1RNVp4OHZDZUxFM2IycnliZmtCQ1dSUk11bllHRnhQM0RPd0xiZTFwby1ELXBnR1FpYjA3TWZsWkZFcmhRX01tM0JRdm1sNGgyaVQ3RkgwMjk3TkdLUDd1TXNLdy0tOEpxeVl5R0lHRzJ3SHBnWEdrZDNXS2Q2T1NzN3lLeW5XN2JCZ2V3Vks1NDBncDByRXdSbjNaZV96WDN1Slc3emluQkV4X0VhY0E?oc=5",
+        "date": "Wed, 15 Apr 2026 07:00:00 GMT",
+        "confidence": "Medium"
+      },
+      {
+        "company": "Vuori",
+        "signal_type": "EXPANSION",
+        "title": "Vuori expands global footprint with new stores in Seoul and Beijing - FashionNetwork - The World's Fashion Business News",
+        "evidence": "Vuori expands global footprint with new stores in Seoul and Beijing  FashionNetwork - The World's Fashion Business News",
+        "source": "News / Press Releases",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOd2VyMWUyNEphbEliWVJQN25LaUpuMEhKOVVEVUdzczJiN3hscDB5LS1OX1hVcjdJN3RWQkNLX2k1V3JYMFRRa29hVXJ1S1Q4Q3N6TWxBcWNfRDVBQVRuTGYzSXNUMnNSbnAwbUJTZll5UFZhQUpjLURnNlBDREJmRkIxQTBwcVNaOVkxU1JJRkM1MEliZDZ2TXNZM2hfREhaRXJEN0pZbEI3WVk1ZlZxcWpJdUlhQQ?oc=5",
+        "date": "Mon, 21 Jul 2025 07:00:00 GMT",
+        "confidence": "Medium"
+      },
+      {
+        "company": "Vuori",
         "signal_type": "FUNDING",
         "title": "Vuori’s $400 million funding round marks largest investment in a private apparel brand - glossy.co",
         "evidence": "Vuori’s $400 million funding round marks largest investment in a private apparel brand  glossy.co",
@@ -184,22 +194,22 @@
       },
       {
         "company": "Vuori",
+        "signal_type": "EXPANSION",
+        "title": "Vuori Launches in Asia, Mexico, and the Middle East as International Expansion Continues - PR Newswire",
+        "evidence": "Vuori Launches in Asia, Mexico, and the Middle East as International Expansion Continues  PR Newswire",
+        "source": "News / Press Releases",
+        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQT2JuQkpWcFZJTzJubnM4dERwV2ZGLVNWNVYyVHRRb2tzQlpxd0lMNVo2bUE0emllUTV6a3hpekY3cS13dWEwNXZoVk9YQlNnMUQ4T0JxU3M1bzhYZTNiQjhtcEpVUnVnZ21Gd1lzSjNadkJwcUpLM25ZbGlsTEtGWk5ya1FickliMEplN0xNN1VxVEhLY2JvbEpKR05hZ0N2SlVDd2dfbHl0R3ZId1FGdWdnT3ZkbEFBU0xUcGRQZ2VDTGI5SldLeEVXeGFpVzhERGpZY0ktOTI2V0Q0S1E?oc=5",
+        "date": "Wed, 28 Sep 2022 07:00:00 GMT",
+        "confidence": "Medium"
+      },
+      {
+        "company": "Vuori",
         "signal_type": "FUNDING",
         "title": "With latest investment, Vuori’s valuation hits $5.5B - Retail Dive",
         "evidence": "With latest investment, Vuori’s valuation hits $5.5B  Retail Dive",
         "source": "News / Press Releases",
         "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQVDZ0ZDR4YTRkQWJDVl9PZW1zQzRSYzhtN2ZXR29UMllTMVpVeUhfRnEwNGRFMEZLM0tmUUdGbU8tbVg0T2xJSTl0SmtZQXM5OUNiUm1Ib2hsaDExVktUT1I0cFJudUVIUVJTaldFMEJ6SkZFWGxkSmhGWE9rUmE0ZG9QbHBUVUZpRlRhTnFsVHI3Tms1bUE?oc=5",
         "date": "Mon, 11 Nov 2024 08:00:00 GMT",
-        "confidence": "Medium"
-      },
-      {
-        "company": "Vuori",
-        "signal_type": "FUNDING",
-        "title": "Vuori’s brand valuation shoots up to $5.5 billion on new investment - Chain Store Age",
-        "evidence": "Vuori’s brand valuation shoots up to $5.5 billion on new investment  Chain Store Age",
-        "source": "News / Press Releases",
-        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQcFp5YUdnSjlvVGVyeEZwdXptb3NHLWZfV3MzUVFqbHFpMVA1WVdRZGVrWWhldXRZWVJ3R19XcnRFRVhYUWJuOFVMcXFtR1hYTVZKY29sVUY1dlNXSDFxSDZ6VXRKN2p5WDljOEUxTjZoUVh4Wl9IUlRVakVqTzNWaldQMWxfazRw?oc=5",
-        "date": "Fri, 08 Nov 2024 08:00:00 GMT",
         "confidence": "Medium"
       },
       {
@@ -216,29 +226,9 @@
   },
   {
     "company": "Outdoor Voices",
-    "collected_at": "2026-07-31T08:56:23.621200+00:00",
-    "signals_count": 8,
+    "collected_at": "2026-07-31T09:14:09.011834+00:00",
+    "signals_count": 4,
     "signals": [
-      {
-        "company": "Outdoor Voices",
-        "signal_type": "OTHER",
-        "title": "Stitch Fix Bets on Activewear, Footwear and Accessories to Unlock $1 Billion Opportunity - Retail TouchPoints",
-        "evidence": "Stitch Fix Bets on Activewear, Footwear and Accessories to Unlock $1 Billion Opportunity  Retail TouchPoints",
-        "source": "News / Press Releases",
-        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOaThGQnNWcVhxdGJhZ0gzbUtma1NLYlRZb1NmOHI4YkxpaE9sYXk5d2d2cFVfeG9ZazlLbkxHeVZPTWxYcW54THotZG9HNXZjZ1JUeWtlSTBLZ1QycUVCVEZKSWZOYWdERVFRSHhLQkdYajI0ZmlvbkxGc1ZnQmxjcG1uUVlEYVZCYUF6UUxZbnlrVzJZS21pZWlhYVRpQWVxdE5DaUdWMVZsMENYTHFHWmxaaGVjSm12Vk9RMEpaeVBYVXpIakNyNWhLNkNMUQ?oc=5",
-        "date": "Mon, 15 Jun 2026 07:00:00 GMT",
-        "confidence": "Medium"
-      },
-      {
-        "company": "Outdoor Voices",
-        "signal_type": "OTHER",
-        "title": "Sam’s Club revives shuttered activewear brand, offers lower prices - thestreet.com",
-        "evidence": "Sam’s Club revives shuttered activewear brand, offers lower prices  thestreet.com",
-        "source": "News / Press Releases",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQWUhvem9ycEVjX1ZYY2tab3lnN2ItX3NLVEV4U1VnZkdlbHExZUJ1RU52c0pWeS1XTUlpeW5PNjNhSi15VmJMZDBqXzVXNzJvbWFnX1ZlWUo0c1VPT2tNdTlIM2hfT1FSN002VkVjSFdxMURfXzRBRjdLaEFxaklwZmV3cGIwSkFhaW1xdjNJc1g3aTNsc3pBNmJ2OU5aT1p4Q3l2MXpKQWFaVjNuOTdr?oc=5",
-        "date": "Thu, 26 Feb 2026 08:00:00 GMT",
-        "confidence": "Medium"
-      },
       {
         "company": "Outdoor Voices",
         "signal_type": "EXPANSION",
@@ -247,16 +237,6 @@
         "source": "News / Press Releases",
         "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQQzVpWGxQekQtekt2ejZReWptRTZMbHdEQ2pObV92MXo1ODBmVG82YUljTEFqNmxxaFlkS2N6VTVlVWl3MlhFVFoxUExPTkZxN2JCQkhPbmx1aUt1NEFmQkd3WjRJSFVzZXRUcGk4MktXSFNsbXNhZ0ZILV9SLVFnaUtRSFFSOGNQcGNmaW5yUm10Mzg?oc=5",
         "date": "Tue, 04 Jun 2024 07:00:00 GMT",
-        "confidence": "Medium"
-      },
-      {
-        "company": "Outdoor Voices",
-        "signal_type": "FUNDING",
-        "title": "Maharashtra CM Approves Outer Ring Road, Logistics Hubs, IBFC And Funding Plan For Nagpur Under NMRDA - Swarajya",
-        "evidence": "Maharashtra CM Approves Outer Ring Road, Logistics Hubs, IBFC And Funding Plan For Nagpur Under NMRDA  Swarajya",
-        "source": "News / Press Releases",
-        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQQ3BkSERoVERxdzQxMXR2ejNadzBxUlNrNFJqb2pnTG1sMjNpeWFPd21JdHZkV0Z3bWJxZHdBdGx1Ny1XdzU1Nlg4MUFyVEd2LXlRWGdJejloMmdLeUw0ZmJkN0NOT3lEZmxpek9LTXFrYnVuM0U1Z1piSmVvX2RxWUdrQURwUTI4aXloNFhWTDhGQXVMQ1B2aFlnNUxSd1F0R19ZemZQTDBibkplTXlPRWxEbkxSZFJLdmsxZjVYa1dTQVR5c1JndnlqSHhXVFnSAd8BQVVfeXFMT2lIMHE5ZjZMZ3Y3dThndlNzZGxTYkZyNjlBZmhCTmNzdGdYX3diVjdIcGtZbHdxbnp0WjA3WGVTNW1jbndvTmlKd05TVmVwV1hqTFFLNzBwX3BzNmJHTzdmbjhMSkEza0xMNGl0dmF2WkxEd0RpS1A2X0QwbFNoSzhnMVgwV25BLUNyelluTzhGeWJ5MnJJWG9PcGx0cy0yZVJUblI4czJMeTdDTklKNG1qTjQ3SU02bk9YbmJlVU9ILXRaNnJIa2FCeHVfTDdtclFiZ3ZCd0dZT2h1Q0Z4SQ?oc=5",
-        "date": "Mon, 04 May 2026 07:00:00 GMT",
         "confidence": "Medium"
       },
       {
@@ -271,39 +251,29 @@
       },
       {
         "company": "Outdoor Voices",
-        "signal_type": "FUNDING",
-        "title": "HappyRobot Raises $15.6 Million Series A Funding Led by a16z to Transform Logistics with Agentic AI - PR Newswire",
-        "evidence": "HappyRobot Raises $15.6 Million Series A Funding Led by a16z to Transform Logistics with Agentic AI  PR Newswire",
+        "signal_type": "OTHER",
+        "title": "How Outdoor Voices, a Start-Up Darling, Imploded (Published 2020) - The New York Times",
+        "evidence": "How Outdoor Voices, a Start-Up Darling, Imploded (Published 2020)  The New York Times",
         "source": "News / Press Releases",
-        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQZGttQU5LLVVyWlFtM2UxTmw3anFzQ09SWjFMaG1RUTduYms4TW9qOVY2ckd2bUwyR0NmQkZFZWQxbTNpbWI2UHpaaFpiQmdoNVFPQWF3UVI4Zm5tQWsxYnBZVDZubmZHUTBHVmw2ZVl4aElEdmc4b0tRYURmX09PV3FQbmZEdFBJSFBlLUJfQTd3VEpFNUtqVGs4ZVplaWxPd2wzaGdCcHVhU0t6S2EyTjV2Z0RwcDhLQ25pMjZCN1JwdktlZEdOWHhZTEtobjRtMi1KTTB5bDA3X1A3TzdpUFVVYkRUOGdBZEE?oc=5",
-        "date": "Wed, 04 Dec 2024 08:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPbXp1VE9XTHlOeXo0NlZBNGhoYzVhWHRMSUdUcmtWbF9EaUVDbW5zUFdoZmRoRGIxTEs5c2IzVDFaTnN2RFl4eVVjUHVsWVkxLXpwUU9iZmxlWmUweW14ajdEeU5WOWFSd2NqR1UzUGNtWTR0N0hWWVFTbkxjRHJuWDdGNWRIRHNxQ00ySE1uZDk?oc=5",
+        "date": "Tue, 10 Mar 2020 07:00:00 GMT",
         "confidence": "Medium"
       },
       {
         "company": "Outdoor Voices",
-        "signal_type": "CUSTOMER_COMPLAINT",
-        "title": "BurnPeak Reviews: Ingredients, Complaints, Side Effects, Pricing, and Legitimacy Explained - ACCESS Newswire",
-        "evidence": "BurnPeak Reviews: Ingredients, Complaints, Side Effects, Pricing, and Legitimacy Explained  ACCESS Newswire",
+        "signal_type": "OTHER",
+        "title": "Outdoor Voices Now Ships To Canada - ELLE Canada Magazine",
+        "evidence": "Outdoor Voices Now Ships To Canada  ELLE Canada Magazine",
         "source": "News / Press Releases",
-        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNajBKaV9jZFpmV0pWd2ctX1RqM29nMkxXbUVkQm9BeHJSRmgyVjhfSlhVTkJpSkRwM3Rhcm05RXZXVm5iNXo4R01rQWZRWDM0LWtOSUZqQ1FTNDh5a2NZNVpjQ0dRSUlpdjlQQjJTUXA2eldDdEZyaTlXOGNEQnMxQXBGQ01jNk12aHlULUpGWTdqeXJTZ1hkczB1cktsTVFqN1NVM0lQdXBmdXB3RDJ6UzRjd01lVW9LWE5FM00zNXZINGxqYU11eDQ0cUFWckRhME84OWRjdHVoMWZUODBHRjZlTi0?oc=5",
-        "date": "Mon, 06 Oct 2025 07:00:00 GMT",
-        "confidence": "Medium"
-      },
-      {
-        "company": "Outdoor Voices",
-        "signal_type": "CUSTOMER_COMPLAINT",
-        "title": "FedEx admits to delivery delays in Asheville as frustrated customers voice concerns - WLOS",
-        "evidence": "FedEx admits to delivery delays in Asheville as frustrated customers voice concerns  WLOS",
-        "source": "News / Press Releases",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNM21YY0h0Nkk0b3JHWkttNDNtYm5fSEp0UVk3ZlFQOFF1YXRZX2lHVGMySThHOW5lSTBDX2l3TnhTbVRoSDhMUU42bnlSX2lYY1NiU01INnN1U09aY1J2VUhvOTk3VXFDMDdJVk5td3EyS2R0ZGU0aE9PRGZ2WGp5YUtBM1ptaHhFX0RoemE5Vm10Z3JlNjVnaVNsSjNpRzlZTVpSaHdiYnp6QThhaHE2WG8zS2JTQ2VOUnVZQg?oc=5",
-        "date": "Mon, 16 Dec 2024 08:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOODBjajY3OGlVMWI3cGJFbHRUYUQ3a1FmVHNPeTJQeTN5VWV0SllWOFp2Q3ltTmYwbXloOEwySTlQOG5LZG1VLXItZGIxbHFIVXZVNXpWZE5TN0RDa05nQk5RaDlFVEZLTVBneTFpRlVuZExSM1JkaFBUN0hhX21USkpBZGg?oc=5",
+        "date": "Wed, 16 Sep 2020 07:00:00 GMT",
         "confidence": "Medium"
       }
     ]
   },
   {
     "company": "Blueland",
-    "collected_at": "2026-07-31T08:56:44.385286+00:00",
+    "collected_at": "2026-07-31T09:14:17.787125+00:00",
     "signals_count": 3,
     "signals": [
       {
@@ -340,8 +310,8 @@
   },
   {
     "company": "True Classic",
-    "collected_at": "2026-07-31T08:57:01.287622+00:00",
-    "signals_count": 7,
+    "collected_at": "2026-07-31T09:14:29.057729+00:00",
+    "signals_count": 4,
     "signals": [
       {
         "company": "True Classic",
@@ -355,52 +325,12 @@
       },
       {
         "company": "True Classic",
-        "signal_type": "FUNDING",
-        "title": "True Classic Secures Strategic Investment from 1686 Partners, Accelerating Global Expansion and Category Growth - Business Wire",
-        "evidence": "True Classic Secures Strategic Investment from 1686 Partners, Accelerating Global Expansion and Category Growth  Business Wire",
-        "source": "News / Press Releases",
-        "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNZkFTbHVHRURnQndqS3c1cWpSa3FUVGRLcjJMR2NSbklIV2M5NUN5QW1lUjZoZlYySkdRRGFKX3JqNW91WDdROEVBNXFsdjJ3Q0VpYk0xV0pSWTQ2dTFES0EwOW1XUEdjbm12X2YxUGdjZXdSdFNqUVZhY1NwckFucjFmRDhNSnhjTE1NZE9sdmgzMXRrT0hjcHZacDhCN05QdzhtMENkWC12YkU2eTNQLTVVbzQ5M2JFcUhvSXB5cHVHeHRIT0RISW4tajF3aDBfQ3U2NWhGN3EzMUF1bzEtU0R5bm12YW1adWRNbXdqNlVjaENPRE9tZDhkbw?oc=5",
-        "date": "Thu, 01 May 2025 07:00:00 GMT",
-        "confidence": "Medium"
-      },
-      {
-        "company": "True Classic",
-        "signal_type": "FUNDING",
-        "title": "The Vogue Business Funding Tracker - Vogue",
-        "evidence": "The Vogue Business Funding Tracker  Vogue",
-        "source": "News / Press Releases",
-        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE02b2Y4OEVBeU4yMzJ6UFdZNlFOZzBMWWdfVGVJaWVIVnREZVM2OEZBdkRfQ21lWlR3T1QxSHZ6dHZDVHR6VU82U1YzY2xObU1UejJ4QzVRRXpvM3R5SXBGdDMyNXRaTnBNTmlSRnQ3OHhsZw?oc=5",
-        "date": "Tue, 04 Nov 2025 09:07:28 GMT",
-        "confidence": "Medium"
-      },
-      {
-        "company": "True Classic",
-        "signal_type": "HIRING",
-        "title": "Stord Inc. announces $40+ million expansion in Hebron, creating over 500 well-paying jobs - Northern Kentucky Tribune",
-        "evidence": "Stord Inc. announces $40+ million expansion in Hebron, creating over 500 well-paying jobs  Northern Kentucky Tribune",
-        "source": "News / Press Releases",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNekVYVV9NMnVvczJUb2tDUlg3NnJNSm1GQXE4bUJrSlFWWnlCNlgzb0dxa2tlWktwZmJVcDBVdGhTNkhmQXNscU1nM19QQmZjdlpacDJqLVJDZ0hHdURBUU42RjRTcEJTa292OXpXVnoxckJBcnFNaGVaTWtVSzFvdktzb0V4VVBDWFc2Nm9QOUdneDl6RGg3N2k4WHZHbTJwWFEtdlgyV2ZSUGNpOXpWY1NjVHlSZlQy?oc=5",
-        "date": "Fri, 19 Dec 2025 08:00:00 GMT",
-        "confidence": "Medium"
-      },
-      {
-        "company": "True Classic",
-        "signal_type": "FUNDING",
-        "title": "Logistics startup Stord raises $250 million at $3 billion valuation - The Economic Times",
-        "evidence": "Logistics startup Stord raises $250 million at $3 billion valuation  The Economic Times",
-        "source": "News / Press Releases",
-        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPS3pSNWpkazFCX0JwQlREaHoyMkJkanVNc0lLNUNhNENEcFUzbm5YX1E2MUY1V2YwMS1GdlUzanMydTdPYzZMckRSMGFFSjBSUkFBTktfSmhfWkx3MXNrSmZQWnU3NFpWZWluV2VVdTJ6clRvSk9uNVgydmNudWNpTGJJM2NRSFNtbkhNalMzVU1yWG9QdG53VEpJajVLYVgteDJEbDNIUGdmYXNldFE2am5VbnhoZ1hoV1BLZFN2M25CeE1vS1VZYVBkak7SAdIBQVVfeXFMTVQ2cDdIVlR6MTlRdEQwXzFERUo3UkpPYlRmNnJ2aUNGMnEzWElzcUg0MmlxWEFkT1ZXUlR0MnpDMXNDQzZlRDU4QzJhcm5BNjNLVWI3cVg3RGNyMkRhM2NYYTZ2bDU4TEVKNE5KX2Zqd0V0UnI2YUZlV2d1LXgtWjhFLWJjRXNKVjluOGpadmZxS29QaXdvM3ZiakxZOUFlMVczT2J4S2prVEROa0FKTzRKejJuMERlNXo4WW4xd01ON2oyYWRYWG1rTHlqTjJmSVV3?oc=5",
-        "date": "Tue, 26 May 2026 07:00:00 GMT",
-        "confidence": "Medium"
-      },
-      {
-        "company": "True Classic",
         "signal_type": "OTHER",
-        "title": "InfraRed and Pantheon launch maiden digital infra strategy - infrastructureinvestor.com",
-        "evidence": "InfraRed and Pantheon launch maiden digital infra strategy  infrastructureinvestor.com",
+        "title": "True Classic Renews Partnership with Global-e Following International Success, with Over 25% of Total E-Commerce Revenue Now Driven by International Markets - Yahoo Finance",
+        "evidence": "True Classic Renews Partnership with Global-e Following International Success, with Over 25% of Total E-Commerce Revenue Now Driven by International Markets  Yahoo Finance",
         "source": "News / Press Releases",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZUVsVldKNThmWHB0UlV0bWhiVE5HRnlpVDAwSkRERTVTMmVWMC1GWlRSUUtRZ2VvSjYxdE1kWnU3Y0ZwaUh6aWJ1U0Z6eEpmekZ0bnNPVlB0NXR2aXNwSUpJSmRtMTlpaVJNZjVqR1o4bmVkT29VcjJ6alo0RUJUQ2d2SVV3QWZCUy1XR2FoRGFzY3gyTGl4djRVQ0t6VW8?oc=5",
-        "date": "Mon, 08 Dec 2025 08:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxONmpSU2J3OTBzQmxGdUtfSTFsdGpaNDhKUk9HdENYMFlwN2dsbm9SdFp1OTlHeVk0dEJ6elNUXzBnN2RqU1F0Z3JianZpQ1pNbmc3amt5MlhJOGlxYzB1dkpXQTl1c0ZHTTdJLXhaTGhOSmJQM0FnV2FHbzE4bUs4dkVPR2RFd3pEUnl5Xw?oc=5",
+        "date": "Wed, 20 Aug 2025 07:00:00 GMT",
         "confidence": "Medium"
       },
       {
@@ -412,49 +342,39 @@
         "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNWE54U2hBN09mdEhhY3F3cHJhRVJndTN1VEJZVVBrZTIzVGlTUTZQNFBCUkJ5aU5FVVlXbWE1b1BkaGV3MmJMWmh0ZnB4T1NPTjZYTkVhOE05SVd5dElHOVBRSlMxcVNMeHRoeHpWbEtwMmxQaDB1dXQzdGE3alFkUlVFZ3VmdTFzTG90RXkySHdlb1BDZXlrUA?oc=5",
         "date": "Tue, 13 Jan 2026 08:00:00 GMT",
         "confidence": "Medium"
+      },
+      {
+        "company": "True Classic",
+        "signal_type": "OTHER",
+        "title": "True Classic Tees Review: Why We Don’t Recommend These Shirts - FashionBeans",
+        "evidence": "True Classic Tees Review: Why We Don’t Recommend These Shirts  FashionBeans",
+        "source": "News / Press Releases",
+        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE12WEdfR1hucDdwUUFGdkFoVGhZbVhOTVdOcmlmWXlnbUpfWUh0SXdDelJiUGlFVUFnVEprNnhxdENvclVwcUVBM1FaY1lDek1JWmd1MFZ1V25vYnJBTHJBNTBrNVQ5VmNUZW53d29ycw?oc=5",
+        "date": "Wed, 18 Feb 2026 08:00:00 GMT",
+        "confidence": "Medium"
       }
     ]
   },
   {
     "company": "Feastables",
-    "collected_at": "2026-07-31T08:57:23.333648+00:00",
-    "signals_count": 3,
+    "collected_at": "2026-07-31T09:14:38.419140+00:00",
+    "signals_count": 1,
     "signals": [
       {
         "company": "Feastables",
         "signal_type": "OTHER",
-        "title": "Ontario Twinning Highway 3 in St. Thomas - ontario.ca",
-        "evidence": "Ontario Twinning Highway 3 in St. Thomas  ontario.ca",
+        "title": "Internal MrBeast docs reveal a growth slowdown at his Feastables chocolate brand - businessinsider.com",
+        "evidence": "Internal MrBeast docs reveal a growth slowdown at his Feastables chocolate brand  businessinsider.com",
         "source": "News / Press Releases",
-        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPbWZIaEVra3JWX2J1amhha3NWeXpCY3pyQW4tQUxQcFJka2pOeExDTHVFdHVZempnbkIxUEVsdzdqb3diT3M2UDBlTE1YYjhzd2o4cEpxNzRuRDd0emFxS1RLbVA3QUI1Qy1xNWxqem5Lb1kwRjBOS2d3QTRmaDlXUnVjSU9TNXZoZWc?oc=5",
-        "date": "Tue, 28 Jul 2026 19:03:54 GMT",
-        "confidence": "Medium"
-      },
-      {
-        "company": "Feastables",
-        "signal_type": "OTHER",
-        "title": "Toronto Film Festival’s New Market Unveils Four Additions To Leadership Team - Deadline",
-        "evidence": "Toronto Film Festival’s New Market Unveils Four Additions To Leadership Team  Deadline",
-        "source": "News / Press Releases",
-        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPdGJWeFdGS3pQaTdkS25ULWNsbDI3TmowdXFmRHVmeVQ5LTBCTG5uRjdCbTZZT2VadGxacVRWT1h1V1N4cFFWQ3ljVzA4MTdGamxqMi1qVlRTcmY0SEVESTQ0RWtHSXpwcDdEd09EYk1QUURzQWFTUlJkRmVUWTRraXBRdWQ2M0NRQk9kLUkxTXFHMFU?oc=5",
-        "date": "Sun, 15 Feb 2026 08:00:00 GMT",
-        "confidence": "Medium"
-      },
-      {
-        "company": "Feastables",
-        "signal_type": "FUNDING",
-        "title": "£30 million funding boost to help the next generation of games developers take their ideas to the next level - GOV.UK",
-        "evidence": "£30 million funding boost to help the next generation of games developers take their ideas to the next level  GOV.UK",
-        "source": "News / Press Releases",
-        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPekxhN0NuRWR6aG5QdkpUV2xMUmVpLWJsXzBVVEtKOHREZmtHdXhNMVQwMWdJVTJKR1RsWXY0UWVLUTY0M1hCN0Z0VE9YNzlySzdLZnNSMGx5ZXZKT2Q4MENDNmVWY2IwRUYweVRQWElmQlUybjFoU0xITHlCLTJFM29CVko5N0xSNzN2cGZhX00waVJGVDdFRXRwZ1FNM1VaRDdfNDFkakRkdGVpZzF5Y1dWNk5qSy1hc29xY3I1RVRRWWxQWFdTY0pVanZXZk12THRpdFRwYTN2Zw?oc=5",
-        "date": "Mon, 13 Apr 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQSi16UlFnQnAzaE5QdXB5Sm9zeUcxWnNETVJ3VXhhTnZWRmN1XzBLWTA2RlIxVTNMTmxBckZBeDBmNEpNS083clh6NVQwLVRidHNNQ3VFMU9tNVBlZ19oSmJiV2NlbjJNMGZTREg2LWpiUzE4c0NFLUFTRXhiUXJTaXBtXzR3SGxBX3hEbXpybGgwb2l2bnNLR0NaaHRSdFZhUHh4MzkxWUJBc3l0NE9ocGFmX0xDdw?oc=5",
+        "date": "Fri, 10 Jul 2026 07:00:00 GMT",
         "confidence": "Medium"
       }
     ]
   },
   {
     "company": "Kosas",
-    "collected_at": "2026-07-31T08:57:46.335868+00:00",
+    "collected_at": "2026-07-31T09:14:50.139335+00:00",
     "signals_count": 3,
     "signals": [
       {
@@ -491,19 +411,9 @@
   },
   {
     "company": "Olipop",
-    "collected_at": "2026-07-31T08:58:03.535407+00:00",
-    "signals_count": 6,
+    "collected_at": "2026-07-31T09:15:02.780713+00:00",
+    "signals_count": 2,
     "signals": [
-      {
-        "company": "Olipop",
-        "signal_type": "FUNDING",
-        "title": "How Olipop's founders turned a $100,000 investment into a ‘healthier’ soda brand bringing in $20 million a month - CNBC",
-        "evidence": "How Olipop's founders turned a $100,000 investment into a ‘healthier’ soda brand bringing in $20 million a month  CNBC",
-        "source": "News / Press Releases",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNY0FFekRVRVY4YTJtak5KeXN4OVMxYVVKdjVnVHVMT0x1QlhKZDlIbXFwQzhuVy1jbXFqOFk4ZHlGcGxfTEs2QktPdUlKeXgyb3pVMjNnRFdTX3QzdjZSOXhsVTlSWF9ycEVTbjdtcldtc2QzUWpuelRQZk9heVVwUmxqX0FmXzJjN1VHa0FvMS1JeThzVVVSRmJ4elJ6ZXFhdlM0Rk9DaVlSQdIBrwFBVV95cUxNOXVhc2RfaFMzWjU3ak4wSndUNl91aUJzcFl4Y0dsR0stVHNaakhwTFhLQk9SaVYyTnE1MUVtczVVNWw1WnlmazlSV09qbWpSMEVkZWVpVnk1cnZWaVRxdGxYVmRwNGl2V1FxbHlCQnVKZDBPSjE3YTUybEphTE1oWWxGMkUwdFFqT0R1SnE1TTVMQWJGYTZMbnZXcHY5N080Yk5CYmNlRWFXc2IzMHA4?oc=5",
-        "date": "Sat, 16 Sep 2023 07:00:00 GMT",
-        "confidence": "Medium"
-      },
       {
         "company": "Olipop",
         "signal_type": "OTHER",
@@ -516,79 +426,49 @@
       },
       {
         "company": "Olipop",
-        "signal_type": "OTHER",
-        "title": "The 21 booming DTC companies to bet your career on in 2021, from Vuori and Thrive Market to Mirror - Business Insider",
-        "evidence": "The 21 booming DTC companies to bet your career on in 2021, from Vuori and Thrive Market to Mirror  Business Insider",
-        "source": "News / Press Releases",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOc1gybEtiNnQ4V1lpX3ZwczFrUnBISDNaaFVEdDRTUkhWR3FUNy0tNXNsVUxPQzEzVXNFZ2pzb1J2LUdEclF4NmRyUnZGWW1kZzNFTzlLWDRydjhUQ0NlUGs5UFFuOXg0U1hDWTN3VjNTLUZNRVdlVTd3VEdKTUR0M1BjU1B5NjItOTRuYzJZR1JNaWpXQ1Q0cDN0bE9ibzd1STgzTlRR?oc=5",
-        "date": "Wed, 16 Dec 2020 13:14:31 GMT",
-        "confidence": "Medium"
-      },
-      {
-        "company": "Olipop",
         "signal_type": "FUNDING",
-        "title": "Loop raises $95m Series C to power supply chain AI - FinTech Global",
-        "evidence": "Loop raises $95m Series C to power supply chain AI  FinTech Global",
+        "title": "How Olipop's founders turned a $100,000 investment into a ‘healthier’ soda brand bringing in $20 million a month - CNBC",
+        "evidence": "How Olipop's founders turned a $100,000 investment into a ‘healthier’ soda brand bringing in $20 million a month  CNBC",
         "source": "News / Press Releases",
-        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPVGJGZGU5cGJuamhjckJ1YTBQR0ZQaElLV2dmVC1JRmtab3pxQkprM3dNRXhlOG9tT3pSYnR1aVR0SndqU2kwcWZZYnl2OEJXUDdxZ1MydWFfVEg4QmxSM25HYl9taXBWMHBwUngyUkpOcE5raE1WNW1LV0Voc3ZBSVM5dm5FNlFQdmNEUA?oc=5",
-        "date": "Mon, 20 Apr 2026 07:00:00 GMT",
-        "confidence": "Medium"
-      },
-      {
-        "company": "Olipop",
-        "signal_type": "FUNDING",
-        "title": "Loop’s AI Logistics Data Platform Gets US$95m Funding - AI Magazine",
-        "evidence": "Loop’s AI Logistics Data Platform Gets US$95m Funding  AI Magazine",
-        "source": "News / Press Releases",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOWUJsWkY4WWpmVF82eDdWY01OY2V6dzI3RF9oSnM4WEZOVFR1WDVJU1VVd2pWQ2JoTEZJZnZiUzhJVnVVdU92OWlxRnNEdTBhUGk4MHR6R19rZXdCZWZ6cWFjbUdpNTNDMG5jUURqTW16RHE5OF96UzNrUFZzRTlkVl9PSEYyZVU?oc=5",
-        "date": "Thu, 23 Apr 2026 07:00:00 GMT",
-        "confidence": "Medium"
-      },
-      {
-        "company": "Olipop",
-        "signal_type": "FUNDING",
-        "title": "Enterprise supply chain planning platform Enmovil has raised $6 million in a funding round led by Sorin Investments, the early-stage venture capital firm cofounded by Sanjay Nayar (former KKR India chief) and Angad Banga (CEO of Caravel Group). The roun - LinkedIn",
-        "evidence": "Enterprise supply chain planning platform Enmovil has raised $6 million in a funding round led by Sorin Investments, the early-stage venture capital firm cofounded by Sanjay Nayar (former KKR India chief) and Angad Banga (CEO of Caravel Group). The r",
-        "source": "News / Press Releases",
-        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQMDk1QjBJb1VkLThrVXFFa1ItNGRkVDNhOW9FZk85MngyQUJCTFpGVEo2eFZJSHdLdm1ZTWVyVG9UX1RIQTVTaDJwNVNnNk04Zk4xMUNyM2pjR0JYLXpHSVhCSUtjRTRPdE9BbHc2Y0ZVVjFLRWtXSmhZWlVNWUZCRlZoVWVkU2x5YzR0bDBxRTBuOVUzQ0JJbUNhUFU4MVhFNzBwbVNBV3p3NDd2NVBzZVdRSjJNaWNhc1JiemtIeDZPOEJqWElkT01HUQ?oc=5",
-        "date": "Mon, 25 Aug 2025 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNY0FFekRVRVY4YTJtak5KeXN4OVMxYVVKdjVnVHVMT0x1QlhKZDlIbXFwQzhuVy1jbXFqOFk4ZHlGcGxfTEs2QktPdUlKeXgyb3pVMjNnRFdTX3QzdjZSOXhsVTlSWF9ycEVTbjdtcldtc2QzUWpuelRQZk9heVVwUmxqX0FmXzJjN1VHa0FvMS1JeThzVVVSRmJ4elJ6ZXFhdlM0Rk9DaVlSQdIBrwFBVV95cUxNOXVhc2RfaFMzWjU3ak4wSndUNl91aUJzcFl4Y0dsR0stVHNaakhwTFhLQk9SaVYyTnE1MUVtczVVNWw1WnlmazlSV09qbWpSMEVkZWVpVnk1cnZWaVRxdGxYVmRwNGl2V1FxbHlCQnVKZDBPSjE3YTUybEphTE1oWWxGMkUwdFFqT0R1SnE1TTVMQWJGYTZMbnZXcHY5N080Yk5CYmNlRWFXc2IzMHA4?oc=5",
+        "date": "Sat, 16 Sep 2023 07:00:00 GMT",
         "confidence": "Medium"
       }
     ]
   },
   {
     "company": "Magic Spoon",
-    "collected_at": "2026-07-31T08:58:28.042023+00:00",
-    "signals_count": 5,
+    "collected_at": "2026-07-31T09:15:11.233023+00:00",
+    "signals_count": 6,
     "signals": [
       {
         "company": "Magic Spoon",
         "signal_type": "OTHER",
-        "title": "How Magic Spoon found the perfect recipe for growth - RSM US LLP",
-        "evidence": "How Magic Spoon found the perfect recipe for growth  RSM US LLP",
+        "title": "Magic Spoon Debuts Protein Pastries and Marshmallow Protein Cereal, Expanding Its Better-For-You Breakfast Lineup - Yahoo Finance",
+        "evidence": "Magic Spoon Debuts Protein Pastries and Marshmallow Protein Cereal, Expanding Its Better-For-You Breakfast Lineup  Yahoo Finance",
         "source": "News / Press Releases",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNUlZKWjdPUjhEQ0NHVkVVaGtQUTBKcEMzeHlXMko5NmxkaFJrRGgyRFJ1eVI1M3FKU1JocEs4ZHBVU2o5S0FlbzRvVzduQ05PdXhCUG5KV0h4SnFzZDc3aXEwZmladUlZLW50cmhvLTFNOXB2aU8yeU55V0RHT3JsdXBwMWF2UzhWWDRmU2R5UThHYmxsT0FyTWdIVTdqT0NwV09EaUg0WnUzdXh0?oc=5",
-        "date": "Sun, 30 Jul 2023 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQSWx1UDcxVG5IcFk3SnlnQnhtbjZnSzlpT2RHTmFqRGJxSGp4VjB1endZeW1paV9PTDFrRndtQjhRSEU0cTZkN0ZaQVVTbEFQeTAtWDF3RFVDcGZvRE54aExSLTlLRVYzeHF4NjBNdnBLSmxldFhpcWdmQ3dSNzdUTWQyN200Z2Jo?oc=5",
+        "date": "Wed, 21 Jan 2026 08:00:00 GMT",
         "confidence": "Medium"
       },
       {
         "company": "Magic Spoon",
         "signal_type": "OTHER",
-        "title": "The 21 booming DTC companies to bet your career on in 2021, from Vuori and Thrive Market to Mirror - Business Insider",
-        "evidence": "The 21 booming DTC companies to bet your career on in 2021, from Vuori and Thrive Market to Mirror  Business Insider",
+        "title": "Magic Spoon lifts subscriptions 29% and scales TikTok into seven-figure channel with Shopify - Shopify",
+        "evidence": "Magic Spoon lifts subscriptions 29% and scales TikTok into seven-figure channel with Shopify  Shopify",
         "source": "News / Press Releases",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOc1gybEtiNnQ4V1lpX3ZwczFrUnBISDNaaFVEdDRTUkhWR3FUNy0tNXNsVUxPQzEzVXNFZ2pzb1J2LUdEclF4NmRyUnZGWW1kZzNFTzlLWDRydjhUQ0NlUGs5UFFuOXg0U1hDWTN3VjNTLUZNRVdlVTd3VEdKTUR0M1BjU1B5NjItOTRuYzJZR1JNaWpXQ1Q0cDN0bE9ibzd1STgzTlRR?oc=5",
-        "date": "Wed, 16 Dec 2020 13:14:31 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE56ZDRpbk0ybHJzc3ZULXhrc2FIZGZFVDBxUC1pbHFKUFZWUk1oRmNSWTNORTBtZ0pWZW9rV0hXWExpWWxqNWU5QThfT1N1VTczaWE1T2pYQktKLUJv?oc=5",
+        "date": "Thu, 30 Oct 2025 00:57:59 GMT",
         "confidence": "Medium"
       },
       {
         "company": "Magic Spoon",
         "signal_type": "OTHER",
-        "title": "$85 Million to the Clearance Bin – Is Magic Spoon Done? - The Food Institute",
-        "evidence": "$85 Million to the Clearance Bin – Is Magic Spoon Done?  The Food Institute",
+        "title": "Cereal maker Magic Spoon scoops up $85M as it lands spot on Target shelves - techcrunch.com",
+        "evidence": "Cereal maker Magic Spoon scoops up $85M as it lands spot on Target shelves  techcrunch.com",
         "source": "News / Press Releases",
-        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNcEpDX3ZSb2pQbk9iUFFTUkxUMTlRYXVpSklFb3JmeFdSSUxkM1Z0RzBhd2NhdDlULUtDWEtqQ2tvVWhLYVlUMFJmS1VNYVdCakJ1V0lJRTlKY0x0NDF3LVREcHhWbHNoNFB3LWNrMjN3Y0kxSWZ6cXdQQVVSOWR6ZW1OcEZFYTk3N2RWbQ?oc=5",
-        "date": "Thu, 11 Apr 2024 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9DVUwwMGFSQUtmSlpnMmxjdDJyVWJNd3ZadV9CbWJOUFpFME1kSWlLYVh5SVRLZkk0TGRDNEZXbXNYTmVMN20yV2xnMFNyajlreDM0SHdVZWNSQWxWTGVHWmN3MjlrTlk4d1pHaUxHVEpmVU1nXzZIbA?oc=5",
+        "date": "Mon, 13 Jun 2022 07:00:00 GMT",
         "confidence": "Medium"
       },
       {
@@ -604,19 +484,29 @@
       {
         "company": "Magic Spoon",
         "signal_type": "OTHER",
-        "title": "Secretive Defense Tech Startup Anduril Reaches Unicorn Status: Term Sheet - Fortune",
-        "evidence": "Secretive Defense Tech Startup Anduril Reaches Unicorn Status: Term Sheet  Fortune",
+        "title": "How cereal nostalgia gave Magic Spoon a coronavirus boost - Modern Retail",
+        "evidence": "How cereal nostalgia gave Magic Spoon a coronavirus boost  Modern Retail",
         "source": "News / Press Releases",
-        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBDX2w3OG9jNXNkeUZQbWEyMWdhWGJ6MGtwdGUxODVoSWhIaUNucUxOYVRIWkJqaEVKeU9MckVvQlZJanplRFBlYzU0WXdCNFM5YXB2T2J5Q2p5OVA4OHJ2Nm9vM214eF95NzFfUWt1cDNkdw?oc=5",
-        "date": "Thu, 12 Sep 2019 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQMlZ4d0hmWkRWZkFRTENaYkQ3aWJObzVSeFUyTWkyNThTNF9vZW9iNklZMl8tN0xDVDJsckpsQzlHakpWNFBzUXJGOWFYakxkbmZrSDQyX2pzcHNtdi1JNU1nVldVNllwQWYyVHc5T1FvSnVrWTVZR0dFNXpnQm1ZTW5aMW8ycXo4eFNUUVJSOEhKeFBnbzFSejlOU0E?oc=5",
+        "date": "Mon, 31 Oct 2022 17:43:04 GMT",
+        "confidence": "Medium"
+      },
+      {
+        "company": "Magic Spoon",
+        "signal_type": "OTHER",
+        "title": "Magic Spoon DTC Cereal Company Thrives on Instagram in Pandemic - businessinsider.com",
+        "evidence": "Magic Spoon DTC Cereal Company Thrives on Instagram in Pandemic  businessinsider.com",
+        "source": "News / Press Releases",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNdUpKTHMxckF2bzZFOGRpM1BQZVdpSzNLNy1wQi1aNWgxQUE4amxZNkJNM3lid1h4RkNyN1pmQV9LN0VnbzN2ZzBjemROM1JXV0FDOFlsWGNYeWFSQ3hYOUc2TVF1TElyWFRtYnhFajA1NUttRUpjSjItZkFOLVp6ZU1XbUxMYk9Rb3RjczlWYXFDMy1HcjY3ekNQQUs5andfcnZYYg?oc=5",
+        "date": "Wed, 06 May 2020 07:00:00 GMT",
         "confidence": "Medium"
       }
     ]
   },
   {
     "company": "Liquid Death",
-    "collected_at": "2026-07-31T08:58:44.262663+00:00",
-    "signals_count": 6,
+    "collected_at": "2026-07-31T09:15:17.689032+00:00",
+    "signals_count": 5,
     "signals": [
       {
         "company": "Liquid Death",
@@ -626,16 +516,6 @@
         "source": "News / Press Releases",
         "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOTldJNGNXNHBYbmM3QWlFOWotWXg3R3lLbWF5QkpIcFZpeXEzNUVYTUVUYjVXY05DOVIyX1dNbVNhaG5KTjVsSVotdENySnVNUVdkRGs1QU4zaXZoWGE2XzhzRjV6b2dndFFqcGR3QmxBZlVxWTFER0Z6Z1lDZUVhTGNn?oc=5",
         "date": "Tue, 14 Oct 2025 07:00:00 GMT",
-        "confidence": "Medium"
-      },
-      {
-        "company": "Liquid Death",
-        "signal_type": "HIRING",
-        "title": "Food Plant Openings and Expansions April 2026 - foodengineeringmag.com",
-        "evidence": "Food Plant Openings and Expansions April 2026  foodengineeringmag.com",
-        "source": "News / Press Releases",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOX1hPVVpwcENJN3h1TmFnR1F1R3VraXRadHV0aFQxbXFWMFNPRmZ5cGpZVEJvVVBwN2c5QzA1OHdES0xoRlBiSzMwbUlLSm1uZVVFZzRSc0JBdWhBNU1fQmRkbVlhdlY5YTE1NUVmb2hLSjVPdFotQUFhMGQtaDdXQ3VpN0NaTklTT0R3cFhtdV9vNmNNeTQyS1M4d2M?oc=5",
-        "date": "Tue, 19 May 2026 07:00:00 GMT",
         "confidence": "Medium"
       },
       {
@@ -670,20 +550,20 @@
       },
       {
         "company": "Liquid Death",
-        "signal_type": "OTHER",
-        "title": "Seeking Liquidity - Los Angeles Business Journal",
-        "evidence": "Seeking Liquidity  Los Angeles Business Journal",
+        "signal_type": "FUNDING",
+        "title": "Liquid Death raises $75M in funding round that values water brand at more than $500M - Food Dive",
+        "evidence": "Liquid Death raises $75M in funding round that values water brand at more than $500M  Food Dive",
         "source": "News / Press Releases",
-        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBWTFBPMzZMaGdJUEhjQ1BUN2xodTJVenpCY0hXb0RmUHhBVFM0T3J1RVh5a25yTVRCSUstX2RCM1BmaUpoZ3c4QkF3QjZuTXhKbXpoalZpeVBkU2IzVVRXeU5BME8?oc=5",
-        "date": "Mon, 08 Apr 2024 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQM1poQl9zeUZ0MGpyNkM3cTBVMXNsWlU0ZDlWTDZBTk1WYlEtXzEtSlo5cXNPLXJaZ045Z3BCRENWN3cyRk1MRERxckRtNXZ3cU5ackRWd0VYejNWeGlPZWFkRDltdl96U2lYQzAyTVdjc3NVa01NTUh0SjJabE94T3dNWTNpZGVwRnUyakZFeEJhVXJWdmhzMmNySVFJa0NjVm55dUxWeDhQX0dJR3dERTF3?oc=5",
+        "date": "Thu, 06 Jan 2022 08:00:00 GMT",
         "confidence": "Medium"
       }
     ]
   },
   {
     "company": "Poppi",
-    "collected_at": "2026-07-31T08:58:55.463713+00:00",
-    "signals_count": 6,
+    "collected_at": "2026-07-31T09:15:23.403667+00:00",
+    "signals_count": 4,
     "signals": [
       {
         "company": "Poppi",
@@ -693,26 +573,6 @@
         "source": "News / Press Releases",
         "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxObmNFTzVCSUdhQ3lReVlXN0J4bzhsOUVsSTdCOUVqY3NuVmRaRW82Smc3aEVDeTBxQTRENEluYk9aUW04QnZjRXB3QnpqTWprQ29PUmc2THJVR3ZfZ0FhWHVkQXFQT2N3NWNxdWdMX29qTGxlZUN6NjF3UjhCZGdmM2htSFBGeWtJYldYUUU0RnQzRmsyVmItSFh6T1pSaktsZmJsOUhKVmNnWkxUYl9xeExZOGI?oc=5",
         "date": "Tue, 31 Mar 2026 07:00:00 GMT",
-        "confidence": "Medium"
-      },
-      {
-        "company": "Poppi",
-        "signal_type": "FUNDING",
-        "title": "Jesse & Ben’s Raises $10 Million Series A As Clean-Label Fry Brand Expands Nationally - Pulse 2.0",
-        "evidence": "Jesse & Ben’s Raises $10 Million Series A As Clean-Label Fry Brand Expands Nationally  Pulse 2.0",
-        "source": "News / Press Releases",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPMVRqakJBS3ZwN0tOZUF4QW92WnYydVJ4djZhdVpjbmppc2JpVWd2NV85Rm92R1IzMWpHS0tGSktES2tkQzNyd0F2X1Q3SzNZV09odUtXM3kzYm5RY0w4Wl93NFoxa29WVklPbHR3VU93Zk9vY29BNTg2LVRFVi1ldFVsMEtsa2JhWk0zYWxmSVJWRnpqU2pNTmdfUl9KNkVzbjJr0gGoAUFVX3lxTFBNN1JZdVhPTWhZUXFVRnRjVEZVZGRROUg5M01xLXEwZHpZcV9mcWlVV2szTzAxQWhFc2h2Vml1c1JZZGFSMkR2a01lZGM3VUc4Wmh4OTNadm5xcFNWVGVxRkRYOHZpN3hqdVU0a1g2Zy10T1NhUFlKY2VfZU0zQUhKR1ZRcFhZWmtKelhPWHJSZzBDcWUtQlhucnpYcXRIRFh2YU9XNzdIZA?oc=5",
-        "date": "Fri, 08 May 2026 07:00:00 GMT",
-        "confidence": "Medium"
-      },
-      {
-        "company": "Poppi",
-        "signal_type": "OTHER",
-        "title": "The 21 Biggest CMO Shakeups of 2025 - ADWEEK",
-        "evidence": "The 21 Biggest CMO Shakeups of 2025  ADWEEK",
-        "source": "News / Press Releases",
-        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOanVNdU1rVy1XY1NxQ29GdVhQcU1nZlVDazg3RmtVSHRxSnJHeXhyUWNsOGRLTWVjSHJENVplUUtJZ2Nqa0hHUU55UUFqaHZQamIwemRaUkxTY0ZXbGNmWktMSVVYVFBEeFpLY2V4Sm1mVFJ6eFhoaXI0RV9wZ1BiZw?oc=5",
-        "date": "Thu, 18 Dec 2025 08:00:00 GMT",
         "confidence": "Medium"
       },
       {
@@ -749,71 +609,30 @@
   },
   {
     "company": "Graza",
-    "collected_at": "2026-07-31T08:59:11.281433+00:00",
-    "signals_count": 2,
-    "signals": [
-      {
-        "company": "Graza",
-        "signal_type": "OTHER",
-        "title": "The 23 most important VCs in the Rocky Mountain region, according to other VCs - Business Insider",
-        "evidence": "The 23 most important VCs in the Rocky Mountain region, according to other VCs  Business Insider",
-        "source": "News / Press Releases",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNbzI1VXpOdGtSRHFQZkdnSGd5cE1KUUFJcDFTbzNDaHh4QUIzN3ZIWjhheTVBMU41LVA1bE1iQnZ2XzRFcUlFSnE1dGZGMEZJdngxcGdlQnFobW13RjlaTzNrVXZTazBxbUdRUkJNQ05oWGphTUxPOWdyTDlLT0lvNmF2cGlsdzVjdWNMYnNpdUtWMnVpRzlMWFRfRTdnZ01pYjVpeWM1SWdnZ3hFX2czSjZR?oc=5",
-        "date": "Mon, 14 Aug 2023 07:00:00 GMT",
-        "confidence": "Medium"
-      },
-      {
-        "company": "Graza",
-        "signal_type": "LEADERSHIP_CHANGE",
-        "title": "Olive Oil CEO Apologizes for Accusing Rival of Copying Squeeze Bottle - Business Insider",
-        "evidence": "Olive Oil CEO Apologizes for Accusing Rival of Copying Squeeze Bottle  Business Insider",
-        "source": "News / Press Releases",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQZzg2U1J4RU1DT0tNMmlaUEh6cjRsTklQbzJZN3FyZl95N2dMcXgtb0JNZmpfcTEzWlRpeVIzMi1DTF83TW9kYWRQOThRbXNtYWFvVVJMWDJ5eFVCdHFqODBMZG1pQ3VZd2dJU2x0Mm1xUzdRXzZYYjZSWDBmNGQyb0JTWkhDOHB0WV9vR0FXbERkeTRpLWdpcUw5ZkNyQ1QzVGFFblVNSHJsbUZwdGxV?oc=5",
-        "date": "Wed, 26 Apr 2023 07:00:00 GMT",
-        "confidence": "Medium"
-      }
-    ]
+    "collected_at": "2026-07-31T09:15:30.409677+00:00",
+    "signals_count": 0,
+    "signals": []
   },
   {
     "company": "Ridge Wallet",
-    "collected_at": "2026-07-31T08:59:31.532314+00:00",
-    "signals_count": 3,
+    "collected_at": "2026-07-31T09:15:36.611684+00:00",
+    "signals_count": 1,
     "signals": [
       {
         "company": "Ridge Wallet",
-        "signal_type": "HIRING",
-        "title": "Nuclear fuel supplier to create nearly 430 jobs, invest more than $560 million in Oak Ridge - WVLT",
-        "evidence": "Nuclear fuel supplier to create nearly 430 jobs, invest more than $560 million in Oak Ridge  WVLT",
-        "source": "News / Press Releases",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOYVBqemlXVjYxbGZjbnZuM2Rsb3FaanBqWjdMVmFha2xSeGN4ZGtueWZnc2xTejVENWRwWkNhc2lFR0FCdWN0anRocEpDVFk0WWo1blctdmpQWWZ2YUtvUmZqRmllcTJyZTNndmhaQ1FLR2tjVlRpV0RpOEh2aEVOcTFzdVJmWVpucFhzV29YSXg0OURRT19jSTlmRl9nMFkyVWIyam04M0J0aTBjbkhnMkZzSmNLd9IBygFBVV95cUxQRVZpYkIwNlo2aE1VSkl3clJzbElvYVU2d0FReUJLX0MtT2J1TFZTemRlVms4di12UEl6a05zRHoyVzZSVC1VbXhzVDRyWHpjLWZqLXZKcHJlcFZsUUwwdS1XRk1UWEtZWlJSRWIxZC1uUjhlbzB4XzlzVmp4ellGNkRwdFhuRjhVdE5DZVA2N0dZNGExWGlwRFdPMGgxWk0tZGR0Qm5HM1FCcldGUEUzUFFVS0ZrLUxEOEEtdzllQ3VTZlNxSFc4XzRn?oc=5",
-        "date": "Fri, 23 Jan 2026 08:00:00 GMT",
-        "confidence": "Medium"
-      },
-      {
-        "company": "Ridge Wallet",
         "signal_type": "OTHER",
-        "title": "Ridge Revenue: How the Brand Scaled to 9 Figures - Shopify",
-        "evidence": "Ridge Revenue: How the Brand Scaled to 9 Figures  Shopify",
+        "title": "Is the Ridge Wallet Right for You? - Gear Patrol",
+        "evidence": "Is the Ridge Wallet Right for You?  Gear Patrol",
         "source": "News / Press Releases",
-        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5XREt2ajhOSHZnSTQtOFhvalUwS1ZOMXFic1BmNUU4S0l6X2JiczBQNTNBUlo3RUk5OUVYSEN0VWtqdmdwYV82emV3ZTRsWFY3MTB5YjBGWQ?oc=5",
-        "date": "Thu, 25 Jan 2024 08:00:00 GMT",
-        "confidence": "Medium"
-      },
-      {
-        "company": "Ridge Wallet",
-        "signal_type": "HIRING",
-        "title": "Nuclear growth in Oak Ridge fuels hiring push - WVLT",
-        "evidence": "Nuclear growth in Oak Ridge fuels hiring push  WVLT",
-        "source": "News / Press Releases",
-        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1RVEZHM3VEWU1NLWNITUxTUlVlTHZwQTl2Y01iUU1adzVROU8xajBaaFNsOVgzbEFvUDF3czVCdlNXVHd3S3Q1VG9GZmVsOVFpY29mc2VDNjhxc1MyYkREMngyWHF5cFZsZXhjb3Nuekx0ckVnWGZiRlYyZ1Qzcnc?oc=5",
-        "date": "Thu, 07 May 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBBVzBIRFAzS2xNdTFzNU40VTZkNDlZSGVfSGVIaFNVTHZEOEFHenhPOFowMlVQaDBURi0yODhveVhFNkd6YVZyQWlLMWlvWTlneWE5ZkdBTFpGRDV1ck4xQ0FRNnVXckk?oc=5",
+        "date": "Sun, 17 Oct 2021 07:00:00 GMT",
         "confidence": "Medium"
       }
     ]
   },
   {
     "company": "Manscaped",
-    "collected_at": "2026-07-31T08:59:55.271939+00:00",
+    "collected_at": "2026-07-31T09:15:42.326740+00:00",
     "signals_count": 3,
     "signals": [
       {
@@ -850,83 +669,21 @@
   },
   {
     "company": "Native Deodorant",
-    "collected_at": "2026-07-31T09:00:11.159375+00:00",
-    "signals_count": 2,
-    "signals": [
-      {
-        "company": "Native Deodorant",
-        "signal_type": "OTHER",
-        "title": "Deodorant Market Trends, Revenue, Analysis Forecast 2035 - Market Research Future",
-        "evidence": "Deodorant Market Trends, Revenue, Analysis Forecast 2035  Market Research Future",
-        "source": "News / Press Releases",
-        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBsNFRjNGxSWjFZV3hESWF6V05JbEctOFlDamN0Yms2eDc2NFZjazVra0xtOEdnUVhZYTg3ZEVYYkw5SWl4VkRWNFZqaG9PSDZxaUttOUdORzdCMmRWZERnbGJJQmU3cnJsZGtnT29GbTlqOWtKZXc?oc=5",
-        "date": "Thu, 16 Apr 2026 07:00:00 GMT",
-        "confidence": "Medium"
-      },
-      {
-        "company": "Native Deodorant",
-        "signal_type": "OTHER",
-        "title": "Deodorant Market Size, Share, Trends | Growth Analysis [2034] - Fortune Business Insights",
-        "evidence": "Deodorant Market Size, Share, Trends | Growth Analysis [2034]  Fortune Business Insights",
-        "source": "News / Press Releases",
-        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5uWUZSWU9PeUlvWmpvYUc4MjVaUDhBejJZWnVoU05iTjNIUy1LSUNkX3FQd0FQazV3b19ESDdvTm9VZDhtRHVtMWc5RWlOakEyT2JCb2gzZEFIWGhrR0NNODJndVUyZl9nRHROZGRMQXE?oc=5",
-        "date": "Wed, 29 Apr 2020 06:52:02 GMT",
-        "confidence": "Medium"
-      }
-    ]
+    "collected_at": "2026-07-31T09:15:50.310869+00:00",
+    "signals_count": 0,
+    "signals": []
   },
   {
     "company": "Beardbrand",
-    "collected_at": "2026-07-31T09:00:29.510753+00:00",
-    "signals_count": 1,
-    "signals": [
-      {
-        "company": "Beardbrand",
-        "signal_type": "OTHER",
-        "title": "Why some DTC brands are pulling out of Amazon - Modern Retail",
-        "evidence": "Why some DTC brands are pulling out of Amazon  Modern Retail",
-        "source": "News / Press Releases",
-        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE13VWNtUUdtQTBoazR4OUhjZ1NMOWdVVnR3VjlfUEVURndwbTBSTml0WG9jS0JULXBORXVhek1INjFfVUUxTEZEMDJVSFAwLUZXeHNRSko5VGlwc2F0WnByN3E5N29qXzRtTTJiaE1qb29mUQ?oc=5",
-        "date": "Wed, 05 Feb 2020 08:00:00 GMT",
-        "confidence": "Medium"
-      }
-    ]
+    "collected_at": "2026-07-31T09:15:54.608180+00:00",
+    "signals_count": 0,
+    "signals": []
   },
   {
     "company": "Caraway",
-    "collected_at": "2026-07-31T09:00:51.097853+00:00",
-    "signals_count": 6,
+    "collected_at": "2026-07-31T09:16:00.777960+00:00",
+    "signals_count": 2,
     "signals": [
-      {
-        "company": "Caraway",
-        "signal_type": "OTHER",
-        "title": "Southern Classic Food to invest an additional $14.2 million at Pike County facility - Alabama Department of Commerce",
-        "evidence": "Southern Classic Food to invest an additional $14.2 million at Pike County facility  Alabama Department of Commerce",
-        "source": "News / Press Releases",
-        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNTmI0aFpfU3Rwa2FuaDd5UGM3WEhsN0sxT2dzVV9zMDU1WHFYbUdTY2lyRkl2bDJtM1pRenZWMlVONVBJWHJmckZ5YUUyNVdMbF9nYlJVUnFDTDl5VnVvNlBjWEZ1d04zRWQ0OU1jSi1EeFBEaTZCdDRhLVJXWlBINVczamdnaS1Gd2FWYVFuSExFU2VoNVhpU0Q2ZV9teW42UDVuMnlkOG5NM1hXMllGampNcmwyY1l1S2JXeVJB?oc=5",
-        "date": "Fri, 01 May 2026 07:00:00 GMT",
-        "confidence": "Medium"
-      },
-      {
-        "company": "Caraway",
-        "signal_type": "OTHER",
-        "title": "Third Coast Bank bolsters Texas presence through strategic Austin-based acquisition - The Business Journals",
-        "evidence": "Third Coast Bank bolsters Texas presence through strategic Austin-based acquisition  The Business Journals",
-        "source": "News / Press Releases",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQS3B0elVYaTlDUXJrNXNyNVVQUHctYmthU3h3Q3RGUzdBN2tiVkJqWmJWUTJkd3lvRDRwYVFqTkNtVmxLZElaN2pVV2s3N1o5UXR2U01OZVZFR2JtbjJPZnZMZV9ScnZqNDdNenRtWUREaHNvNndyLU1YOE5iN1Q1RlBuejZZMWpoVnlJUUs1WDY0ckJvNEgzc1JfY29qamxpV3dsbjZUZU1fdw?oc=5",
-        "date": "Tue, 28 Oct 2025 07:00:00 GMT",
-        "confidence": "Medium"
-      },
-      {
-        "company": "Caraway",
-        "signal_type": "OTHER",
-        "title": "Food products company pumping $14.2 million into Alabama factory, to hire 82 - AL.com",
-        "evidence": "Food products company pumping $14.2 million into Alabama factory, to hire 82  AL.com",
-        "source": "News / Press Releases",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPTUZmZGZUQ0g1THpxM3pBRUVGZjhIVk4tcm9YWHRzZ25SWjUyQWs0NVZ1NzlrLTNodFhNQmpzTzgwNFNmbzBvUFVIbU51R3FSZWhBY2RvRUZ0ZzhVSlhkY2lCNHUxWmlod3lZMnM2Qk1KZUlvbXg3RGNvRUFNc3VUdk02ZFl2aWZPem1UMGx4WDdXdC1qRlpyUXpscXhoaVVhVnhDbElDSWVRR3RXRzZNclpFcEc?oc=5",
-        "date": "Mon, 04 May 2026 07:00:00 GMT",
-        "confidence": "Medium"
-      },
       {
         "company": "Caraway",
         "signal_type": "FUNDING",
@@ -946,203 +703,42 @@
         "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPN3VleHc3blNiejh2Q3hkSWZWS3JSSnN5ZmhqdktzUFl1dHU3ZGhscnVTTmtpY1NBTVNyYWl1aVNDUXRLZjFwMFVndkZTd3oyTFgtZ3pxUmZLUW9FRXJ4UEFZZkpUeHRlbVByRlRMWjdSN3NLWmUyWkU5ODdQSVZDMENNeno2ZEk5VGxJR18tQkV0WnROOTVQSmxSU3pVRzljemRmdFdLbFNfZkI4MVF5MjdiOGNldw?oc=5",
         "date": "Fri, 01 Apr 2022 07:00:00 GMT",
         "confidence": "Medium"
-      },
-      {
-        "company": "Caraway",
-        "signal_type": "CUSTOMER_COMPLAINT",
-        "title": "Emura Pan Review 2025: Real Reviews, Complaints, Price, and is It Legit or Worth Buying - ACCESS Newswire",
-        "evidence": "Emura Pan Review 2025: Real Reviews, Complaints, Price, and is It Legit or Worth Buying  ACCESS Newswire",
-        "source": "News / Press Releases",
-        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPaTNVMW5MU0xNWExwdU44RmtIVXBBbEhraFBlbExYc3BjZW1wVXg0aWJUdVVIdFB6S3lsYUI1YmpmRVdBSHJvNHRYTDlDeG9Xc29OS1ZnSW45YmItb3NUMHhUZUhFWFN6UG4yaWpVdGQzUm5OV0hnUjlqTEk5QmNjU1l3ODJ4MkRtYUFJTTI1czJCTDhZeW94WFYxQkpHbVpGejBHMC1nYVRWUzZnT1IzV3NfUzJsdEd2VF8yeUJLNDFYekk4ZjhoYXRTTUsxUUVxQUc4ZTVRVWgyUmFHZTZmTk9nTmY?oc=5",
-        "date": "Sat, 11 Oct 2025 07:00:00 GMT",
-        "confidence": "Medium"
       }
     ]
   },
   {
     "company": "Our Place",
-    "collected_at": "2026-07-31T09:01:04.929060+00:00",
-    "signals_count": 9,
+    "collected_at": "2026-07-31T09:16:30.518904+00:00",
+    "signals_count": 1,
     "signals": [
       {
         "company": "Our Place",
-        "signal_type": "HIRING",
-        "title": "AI Will Reshape More Jobs Than It Replaces - Boston Consulting Group",
-        "evidence": "AI Will Reshape More Jobs Than It Replaces  Boston Consulting Group",
-        "source": "News / Press Releases",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNeW56WnUtMU9qZzJrVktDLXJqTXB6eVdHWG0tbG9mb2tHZUpEQ2JfUHJqZW4tMXRxQjVqOWdNbmF5V1V5Qm9TNnZjOEdFTWNWQW44dmMwZzhENDlGODR4YWFYS2Jhd2FsZmN3SXlpMEZqemZPMUFFQTA3eGZnUEE4aWJQMFQwaXM?oc=5",
-        "date": "Fri, 03 Apr 2026 07:00:00 GMT",
-        "confidence": "Medium"
-      },
-      {
-        "company": "Our Place",
-        "signal_type": "HIRING",
-        "title": "Create Energy Acquires 338,000-Square-Foot Facility, Expansion to Create 1,000 New Jobs - Tennessee Department of Economic and Community Development",
-        "evidence": "Create Energy Acquires 338,000-Square-Foot Facility, Expansion to Create 1,000 New Jobs  Tennessee Department of Economic and Community Development",
-        "source": "News / Press Releases",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQUW5KY0djbklEOVMxeFFCVjljZmk0VXByZjdHNVUyQW1zemJVWEtUNnhlckNETFhNUXdZQzVDcmxfeFlTbFFMVlB6UEdFcElIZ2hpTTc3b2IwS3BYNDE1eThLOU54eVdybVVWWHRfTk1CZ2hibGJHTGtDVnJQV1l3Umc4RW4tVzdOSVl4R2h6TTJNdEtVSHoyd0N0T3BNY2VucElRMEVNV2M4NXBw?oc=5",
-        "date": "Wed, 11 Mar 2026 07:00:00 GMT",
-        "confidence": "Medium"
-      },
-      {
-        "company": "Our Place",
-        "signal_type": "FUNDING",
-        "title": "Creating Jobs in Allegheny County: Governor Shapiro Secures $80 Million Investment from Curtiss-Wright to Expand Operations, Creating 150 New Jobs - PA Department of Community & Economic Development (.gov)",
-        "evidence": "Creating Jobs in Allegheny County: Governor Shapiro Secures $80 Million Investment from Curtiss-Wright to Expand Operations, Creating 150 New Jobs  PA Department of Community & Economic Development (.gov)",
-        "source": "News / Press Releases",
-        "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPQmgwSW9CaTFMcEhIU2xGMGNua25wZjU5UXBoWHpNZ19NdEF2YlhyS21ibEtzYng3MkRRVHNhQnBMMTlsQ2NZVXRYS2x4S3NhNmFueVVuVnI3UGptWUM4QU5zUzRrSUpCX1lRNDJERFlCQnJSRmxPSWpERWN3M19xUDVBdExpMU5FQ2FvS3RkMmRWb1Jfd2xMRHJpM0k1ZURXRnlWcVRSU2xPbFZXTmpTTEM5UDJURzlPVTc5RkM5TllzSC03c29sVDRVWEt4Z0N2NlNuMk9fMnRkUGdNZGtiMUhZQ3RNdnZMMFQwOVh4RllnM09YWTZ2cU5uUzZQWEQ4T2Vr?oc=5",
-        "date": "Mon, 06 Jul 2026 07:00:00 GMT",
-        "confidence": "Medium"
-      },
-      {
-        "company": "Our Place",
         "signal_type": "OTHER",
-        "title": "6 Best Business Majors for Your Goals - Coursera",
-        "evidence": "6 Best Business Majors for Your Goals  Coursera",
+        "title": "Our parent company Morgan Sindall Group announces positive full year results - Muse Places",
+        "evidence": "Our parent company Morgan Sindall Group announces positive full year results  Muse Places",
         "source": "News / Press Releases",
-        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9Sc0V5RUROWGJmc1JfdU81V04tQXJ4dFFsbWJxeFdFR3FXOVdCcWZWMWIwd0RrYTdWVmJNRFd3Qm9kQ1pnbHNVN0N3aWxBSlROUWREc0k3SFhvZHN6aXZMZVE3UHg?oc=5",
-        "date": "Wed, 10 Jun 2026 07:00:00 GMT",
-        "confidence": "Medium"
-      },
-      {
-        "company": "Our Place",
-        "signal_type": "OTHER",
-        "title": "Central government holding back growth by blocking regional transport development, finds IPPR - IPPR",
-        "evidence": "Central government holding back growth by blocking regional transport development, finds IPPR  IPPR",
-        "source": "News / Press Releases",
-        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOVndBTy1IOFJKQ29FZE4yWW54WHV5VnFIVXd0aERqeFlWdjVnNV92dGVUUm1qTHN4NnA1dFhnLU1la1NKYWxsOGJsU2c4S1dYSlFHV2Q5VC1GenFFczZWVkc2X1ppNzVsbnJGOWgzcUVaZXRpeDNDV2ZZdFpabXFGVFFZT3ZWbm8zQ1ZvLUlwRF9pMkg5LVNwVTlkMGt1dU5lVVhQMlF0enZNUXNrZGRDTHJ0ZGdQYVc0UzlXcFlReHM2YkJR?oc=5",
-        "date": "Wed, 18 Feb 2026 08:00:00 GMT",
-        "confidence": "Medium"
-      },
-      {
-        "company": "Our Place",
-        "signal_type": "HIRING",
-        "title": "Amazon invests record $340 billion in U.S. infrastructure, jobs, and communities in 2025 - About Amazon",
-        "evidence": "Amazon invests record $340 billion in U.S. infrastructure, jobs, and communities in 2025  About Amazon",
-        "source": "News / Press Releases",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQVU1VZjRTeDNHUHhVOEtKdGpWYlViMHltQW4zai1PN05qRUtpVjQ0ZDAzb19ZT3lhX0Y5X2U3cGFhaF84Q04wa2RnQVRFTDZONFNLeUkxZEF1Y1FNOTBCMWx5eDM2M1I2VHM1YUZGaHBNdTNFYW5WUGR6UDN4UjVvVmhOSmN2eExMckI5WkgtYm5mUmVxWmRtU3JhVQ?oc=5",
-        "date": "Tue, 24 Feb 2026 11:08:08 GMT",
-        "confidence": "Medium"
-      },
-      {
-        "company": "Our Place",
-        "signal_type": "CUSTOMER_COMPLAINT",
-        "title": "9 Reasons for Shipping Delays and How to Resolve Them (2026) - Shopify",
-        "evidence": "9 Reasons for Shipping Delays and How to Resolve Them (2026)  Shopify",
-        "source": "News / Press Releases",
-        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9ReEc3TzFOUWhUeU5taGNCR3NBa1ZVallUZU40MzNYMzVjYnQ2Ry10cG9CTV9TcmlPWl9BUHB0MUIweUZvYWpwZnZJWjhTdV9McVlrXzh0RQ?oc=5",
-        "date": "Tue, 24 Feb 2026 01:47:33 GMT",
-        "confidence": "Medium"
-      },
-      {
-        "company": "Our Place",
-        "signal_type": "CUSTOMER_COMPLAINT",
-        "title": "Winter storm could cause delivery delays ahead of Christmas - ABC News - Breaking News, Latest News and Videos",
-        "evidence": "Winter storm could cause delivery delays ahead of Christmas  ABC News - Breaking News, Latest News and Videos",
-        "source": "News / Press Releases",
-        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOLUlVeEZBY19aT1hCbGJlQkZrZjNGZFU1MlI0MERDeVpHc05zSDVxWkJTazN1a0NJN0V5TUFKSlFTTUJxM1lqTFd2NW1WMlpacnhJVkN2TUk1djIxM25pbEJuN25vdnBXVmdMV0FpN2MwVXQ2YV9OUEFLNDJmMFR3Ym5HRXlGQ2QwaDV2cDBDZHRuY3ZLd0HSAZsBQVVfeXFMTWJSczJPZE9qREZCUHJLVmp4blBBdll2WmlWQTZxQ2Rva2dVV0FTcVYwTXFRMklxV2JseVN5RWJUMTFwbVFZY2wweUhCTmRNZFFoTWN2LWVhZmo0cV9RWDFRS044QjVyZjJsVjN6ZGhvcG1iNFBPZ1JOWTZmRmxETEVIdXl2NFFRQXdwMzd4dU4yQnR3MElEX01iUWc?oc=5",
-        "date": "Sun, 15 Feb 2026 07:13:39 GMT",
-        "confidence": "Medium"
-      },
-      {
-        "company": "Our Place",
-        "signal_type": "CUSTOMER_COMPLAINT",
-        "title": "dhl-express-holiday-shipping-guide - DHL",
-        "evidence": "dhl-express-holiday-shipping-guide  DHL",
-        "source": "News / Press Releases",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPQWE3S2tDN0VzYnlNalVBQjlyTTBrSE5FeC1LMTFYVVFwTmhqSmI4NnhWTXFaVHhUSEZQS1hUMXdxajBoQWRPQ1dOVWhCOVI5NC1WZVlzZDZyTG44YkFZbkJMdmd5aUFPLUNmaEJEaGR0UnM3TDBEcmxNY0tNd2ZxYVFEZEw4SEYxX1RJTTZYTUhqS0lIdGVQb09vLUplOE0?oc=5",
-        "date": "Sun, 01 Feb 2026 08:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPUXJkaFo1eFB3by1VMFVuNG80RU8zcm5mUnNKbTYzV1dDaWtxbFhVQzFVNmxKNFR1S3NFb0FkTFNQWHZYSnZPWEJmc0VyeDJnbTlTRDlRMlhYVVd2aUU1WHJoSjBwdEJoZ2xiVnNINVkxd0NmZW1kYUFSLWp1dnpaaFR6NGotNm00RE1Wb3Nld3RvU1J5N21zRWRIQXlnaURDS09CQmk2UUxvUVpq?oc=5",
+        "date": "Wed, 25 Feb 2026 08:00:00 GMT",
         "confidence": "Medium"
       }
     ]
   },
   {
     "company": "Jones Road Beauty",
-    "collected_at": "2026-07-31T09:01:18.111539+00:00",
-    "signals_count": 7,
-    "signals": [
-      {
-        "company": "Jones Road Beauty",
-        "signal_type": "OTHER",
-        "title": "More Americans are starting companies. Bobbi Brown and other founders share their advice. - Business Insider",
-        "evidence": "More Americans are starting companies. Bobbi Brown and other founders share their advice.  Business Insider",
-        "source": "News / Press Releases",
-        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPZEJTd3FIX2N3UmZvMTI3dXpUZXd6dmVjeWxDeF82bmRaTGU2bzJmUzFVNEs1aHRRcEtvODlLUGlHRWFsY2NlcmI5SmNlTDNyNkpzUlRYZEtGWVpBdjhTa3c5SVdvQjQweElPS1N2VFRuU0FUX040U2I3bnBBcnpRZEtSTlBfb2diREZz?oc=5",
-        "date": "Fri, 17 Jul 2026 07:00:00 GMT",
-        "confidence": "Medium"
-      },
-      {
-        "company": "Jones Road Beauty",
-        "signal_type": "OTHER",
-        "title": "Jones Road Beauty Opens Its First West Coast Boutique in Santa Monica - Patch",
-        "evidence": "Jones Road Beauty Opens Its First West Coast Boutique in Santa Monica  Patch",
-        "source": "News / Press Releases",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPb1hneVFfbTA5M1B6VFJDZGFZWjQyQUpyMEx3TWhHZmM1UndWdGlCTEFGMERqc2NUczN0U1hnWDVWNXNGbWROelhYRTJFalB3SjI5TTRwNEppaWVIMGowUS1rNzNnUTBIZExEVzVYVnRDV0dOYlZCVUduelBCTTU4cFRlSVREUUxLdVhESENZcVJNamp3YmZDQUp0UmZLSFUyV3pqR1dZRk1Ic1E?oc=5",
-        "date": "Wed, 08 Jul 2026 07:00:00 GMT",
-        "confidence": "Medium"
-      },
-      {
-        "company": "Jones Road Beauty",
-        "signal_type": "EXPANSION",
-        "title": "Jones Road Plots New Retail, Category Expansions - WWD",
-        "evidence": "Jones Road Plots New Retail, Category Expansions  WWD",
-        "source": "News / Press Releases",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNRVRyeUZHcm9wNUpzOXpxXzdnR0tUZGRURTExbUZsc0dLRWdYSGg0S3ZSUTRfaWl4NHRIeUtpS0gxZzhablZCck5UUUVPa0pJX3FEZW1NdF9xcmp1cHA4Xzg5Y3FzbGhIR3lWM0hXU2lXUGF2cnBYX1FlZ1dxclNad1diX3gzN05HakFSTi1oYlBjdW0yYkdfaDl0ZmRsUFV2aTh3NVNMRi1pdFE?oc=5",
-        "date": "Thu, 10 Apr 2025 07:00:00 GMT",
-        "confidence": "Medium"
-      },
-      {
-        "company": "Jones Road Beauty",
-        "signal_type": "OTHER",
-        "title": "Key drivers and trends fueling the Jones Act financial market - WorkBoat",
-        "evidence": "Key drivers and trends fueling the Jones Act financial market  WorkBoat",
-        "source": "News / Press Releases",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNZlpmSnNBdnJoMWl4OFNHa20yamgtRng4bnZRNTAzM3pjSnV6X0VSaEJubXVEd3BHUlVxWjZ6d0lGbUl2M3JXNnJwanAteFFNQUtONmJMNm45Q0RzMkI5S05femJMc1JWdkttaUFTUWd3dWtwSlNpT0xxOW95RnR1czNFU1Y5T0xNdlQ3OWFkZw?oc=5",
-        "date": "Tue, 26 May 2026 07:00:00 GMT",
-        "confidence": "Medium"
-      },
-      {
-        "company": "Jones Road Beauty",
-        "signal_type": "FUNDING",
-        "title": "Iris Finance Raises $6.2M In Seed Funding To Become CPG Brands’ AI-Powered CFO - Beauty Independent",
-        "evidence": "Iris Finance Raises $6.2M In Seed Funding To Become CPG Brands’ AI-Powered CFO  Beauty Independent",
-        "source": "News / Press Releases",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQSDJMQXU0NTRTeUUyTkpUZjliblpYaDF6TGxObXdMRUI0d1NvcUJBZlh2U2lUQTFwM3NHcEoyUDlQSldUNzhoWHNpWWhjUWpSQzlyU1VqWXk4RE1IQzRhdmlZOXAxS3RJMWo1SFFSYXdmM2tRV2E0WUZzSW9oZ3BTNTQ2a19LTFRwcTJ4aFZSd2t1S0ozNDdKRnh3SzB3SUktT2pv?oc=5",
-        "date": "Tue, 16 Sep 2025 07:00:00 GMT",
-        "confidence": "Medium"
-      },
-      {
-        "company": "Jones Road Beauty",
-        "signal_type": "OTHER",
-        "title": "Inside Anchorage Capital Partners, the very private PE deal makers - afr.com",
-        "evidence": "Inside Anchorage Capital Partners, the very private PE deal makers  afr.com",
-        "source": "News / Press Releases",
-        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQX3F4Si1IY3ZQdWVEVnliX0YwN09yQWhaZkRPeVFCeXdlX0RZZ2FzSHN3TVMzRFhtTDZUZzJTMl9OaGREWU1uU19XV1dnZ2UzaGt4bHNoTmMyWEl2b0thaHhyMzIzUnAyZnR6WlNnaFhTdTEwQXFYVGpDUnFOS2NET0NmUkhkcnJ0VHAxNDNiWmpEc0hpTVVleUdVMGxGdVI5NlNPQUlMc0tpNzdnaVcyUFlGUzNOQ2VuUTVySVh6czZJUnJidlBJT19R?oc=5",
-        "date": "Sun, 12 Mar 2023 08:00:00 GMT",
-        "confidence": "Medium"
-      },
-      {
-        "company": "Jones Road Beauty",
-        "signal_type": "CUSTOMER_COMPLAINT",
-        "title": "I Hired a Lab to Counterfeit-Test a Dozen Suspicious Beauty Products I Bought Online. Every Single One Had a Problem. | Reviews by Wirecutter - The New York Times",
-        "evidence": "I Hired a Lab to Counterfeit-Test a Dozen Suspicious Beauty Products I Bought Online. Every Single One Had a Problem. | Reviews by Wirecutter  The New York Times",
-        "source": "News / Press Releases",
-        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFA5X0xPWkozempoVXZXRUVPa29JbS1wOHI2YUJSdUxpaC0yOEptem5UYUdNSHJfc21QdkJSVDV2TEljQl9oaEY2bmNGWGhCVThwUlFlVDRzakQ4cFBIU3ZDWlEtU1VDc2c1ZXpGNEVvU3IzZkxWUExrUkpDQQ?oc=5",
-        "date": "Mon, 02 Mar 2026 08:00:00 GMT",
-        "confidence": "Medium"
-      }
-    ]
+    "collected_at": "2026-07-31T09:16:35.757928+00:00",
+    "signals_count": 0,
+    "signals": []
   },
   {
     "company": "Tushy",
-    "collected_at": "2026-07-31T09:01:33.454418+00:00",
+    "collected_at": "2026-07-31T09:16:42.611256+00:00",
     "signals_count": 0,
     "signals": []
   },
   {
     "company": "Momofuku Goods",
-    "collected_at": "2026-07-31T09:01:41.415709+00:00",
-    "signals_count": 4,
+    "collected_at": "2026-07-31T09:16:50.730445+00:00",
+    "signals_count": 5,
     "signals": [
       {
         "company": "Momofuku Goods",
@@ -1166,6 +762,26 @@
       },
       {
         "company": "Momofuku Goods",
+        "signal_type": "OTHER",
+        "title": "How Momofuku Goods Became a $67 Million Powerhouse and Defied Its Doubters - inc.com",
+        "evidence": "How Momofuku Goods Became a $67 Million Powerhouse and Defied Its Doubters  inc.com",
+        "source": "News / Press Releases",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPTlBacGFGRDlDcEV4N0VHMElPeWZKNU1NWDF0NXkzWFJ6bEo2SEFkTWo5OHZ2Nk1UWVFOTURYZW9ZZ2Zkakx0Qmp5eDl0WjRzRG5yVjRQX21nVFd5Mzl5cHZTMzlqdGRSV2dKS2wxQk1mYk9UczAxcU85bVBxbkdiT1VLN3N5VFRVV05XNHBOeVBhS0t0V3NQZEpJVzYxWHBncW0yODI3aUpuTUItNDE5Q3d3dEQ?oc=5",
+        "date": "Tue, 12 Aug 2025 07:00:00 GMT",
+        "confidence": "Medium"
+      },
+      {
+        "company": "Momofuku Goods",
+        "signal_type": "LEADERSHIP_CHANGE",
+        "title": "Paddy Spence Hired as CEO of Momofuku Goods - foodprocessing.com",
+        "evidence": "Paddy Spence Hired as CEO of Momofuku Goods  foodprocessing.com",
+        "source": "News / Press Releases",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOejZmYXkwRkViN0wweVdHZE1oQUdQZzJ4WDRwUzFPX2h3TWlkWUJjcUszTktWNFpPcUMtendnUXhZeHVWLTRJY0pTZ1NKRFRySDZLQkhmLWduTFNxZVhFT1Fub3FHQlR4V0pENFFYUzVMbG45amVhYkxPRnNiUkxicUNJUUVYQ2lWMk1pdUV0YWJMdHZvN3pXLTBlREVNVXdWVGlDVkpWTDdVZnZvdjdQYjN2TExwUDNM?oc=5",
+        "date": "Wed, 26 Feb 2025 08:00:00 GMT",
+        "confidence": "Medium"
+      },
+      {
+        "company": "Momofuku Goods",
         "signal_type": "FUNDING",
         "title": "Momofuku Goods Announces New Growth Funding from Alliance Consumer Growth - PR Newswire",
         "evidence": "Momofuku Goods Announces New Growth Funding from Alliance Consumer Growth  PR Newswire",
@@ -1173,54 +789,13 @@
         "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNRGxmWm00QlNsUE9kN2xtRXJUQ21iOF9oaXM5RjdKNFNFRzJqLXYzT21ubGlXUURzTy1DSVJIVjBTUkp1eDdCdVRZVHV2UlhDN2U3Q3pid185QzUzTkJNRXNiVUpqYmhVd2xOM25HaTlBdm1DNDhHLUphMGV2dG1KcUozS1J4T0k4SjRUdlJzUHZtTkdtQU5VbWViRmJEOW0tUkoySUQ0eW84MFA1akEyOVQta1o2T3g2aUxPejVZczRLNDU3QjFCQw?oc=5",
         "date": "Wed, 06 Sep 2023 07:00:00 GMT",
         "confidence": "Medium"
-      },
-      {
-        "company": "Momofuku Goods",
-        "signal_type": "OTHER",
-        "title": "Alliance Consumer Growth Closes Fifth Fund - PR Newswire",
-        "evidence": "Alliance Consumer Growth Closes Fifth Fund  PR Newswire",
-        "source": "News / Press Releases",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNaVJDbXZ1Q1hKZV9vUEVWaElMLUY5bGEyXzhvc2NDYXFTYXVra21ZYjQ5ZW5qNmJ5dUJ4TVVnS1NId3F5SFZZWVEwUU5VcWM2WE1xU0tZanU1RldDM1VOem9FajRDZm1sV1EzMTZvR1BGWHJHOW1OeG9wbnRSTWpwT3k5dG1PM1IxZ2ZNUTFKVjdXdEVOeGU2b3k1UzRoQUU?oc=5",
-        "date": "Wed, 10 Jul 2024 07:00:00 GMT",
-        "confidence": "Medium"
       }
     ]
   },
   {
     "company": "Parade Underwear",
-    "collected_at": "2026-07-31T09:01:58.817926+00:00",
-    "signals_count": 3,
-    "signals": [
-      {
-        "company": "Parade Underwear",
-        "signal_type": "OTHER",
-        "title": "How DTC startup Parade is moving beyond underwear and into new retail channels - Modern Retail",
-        "evidence": "How DTC startup Parade is moving beyond underwear and into new retail channels  Modern Retail",
-        "source": "News / Press Releases",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQMTFhMWI5QWx1ZmgwOWZEdG1ObXFmd3ZMM090ckVrb0FIcTUwTHJqbVQzZEM0ZDh5ZVZTS1NLNGVhTWZaMWJYUkFSTUVMczQxc0FjWHlGYVQyMmFHLUZYYVc1b21wT2hLMjBxNnpaeDZmaWtCYVlITF9wQnk3emJHWlgyb1Uyd3VQVjZzeFFnS0kyX3RYdVBkRWNqZldyUWlxWUhoLUdCYjc2aVBlZ3Vib0UtSmczUy1P?oc=5",
-        "date": "Wed, 27 Jul 2022 07:00:00 GMT",
-        "confidence": "Medium"
-      },
-      {
-        "company": "Parade Underwear",
-        "signal_type": "OTHER",
-        "title": "The 21 booming DTC companies to bet your career on in 2021, from Vuori and Thrive Market to Mirror - Business Insider",
-        "evidence": "The 21 booming DTC companies to bet your career on in 2021, from Vuori and Thrive Market to Mirror  Business Insider",
-        "source": "News / Press Releases",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOc1gybEtiNnQ4V1lpX3ZwczFrUnBISDNaaFVEdDRTUkhWR3FUNy0tNXNsVUxPQzEzVXNFZ2pzb1J2LUdEclF4NmRyUnZGWW1kZzNFTzlLWDRydjhUQ0NlUGs5UFFuOXg0U1hDWTN3VjNTLUZNRVdlVTd3VEdKTUR0M1BjU1B5NjItOTRuYzJZR1JNaWpXQ1Q0cDN0bE9ibzd1STgzTlRR?oc=5",
-        "date": "Wed, 16 Dec 2020 13:14:31 GMT",
-        "confidence": "Medium"
-      },
-      {
-        "company": "Parade Underwear",
-        "signal_type": "CUSTOMER_COMPLAINT",
-        "title": "Popular women’s underwear company shuts down, stops shipping, no bankruptcy - thestreet.com",
-        "evidence": "Popular women’s underwear company shuts down, stops shipping, no bankruptcy  thestreet.com",
-        "source": "News / Press Releases",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQd1d4ZlEwTDE1LV9PUFo3Qkd3WEtNV1pENDFpMzAxSUc2SkctY1J4UkpYYnlXVUdRMk82b1RidnNXQjNoOE5SVXcyOGlzNUFXS3Z2cU00aFVmeTE4amxST0dpZWRsbWFLS0JjdFRma1EtSHVxOWZ0Y0tCejNfQ1Y5b0JhQWVXdGRkLUt0YXNkN3NZNFR0ckNTWGJ1UE5UcFh6Yk8wWXBB?oc=5",
-        "date": "Tue, 04 Nov 2025 08:00:00 GMT",
-        "confidence": "Medium"
-      }
-    ]
+    "collected_at": "2026-07-31T09:16:56.960615+00:00",
+    "signals_count": 0,
+    "signals": []
   }
 ]
