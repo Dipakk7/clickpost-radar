@@ -1,5 +1,25 @@
 [
   {
+    "company": "Liquid Death",
+    "buying_intent_summary": "Liquid Death shows strong buying intent with active expansion, funding signals and notable growth across operations.",
+    "key_signals": [
+      "EXPANSION",
+      "FUNDING",
+      "HIRING",
+      "LEADERSHIP_CHANGE"
+    ],
+    "evidence": [
+      "Careers\n – Liquid Death.",
+      "Exclusive: $1.4 billion beverage company Liquid Death names new CFO as it gears up for expansion.",
+      "Liquid Death swipes PepsiCo alum for CFO in growth push.",
+      "‘Entertain or die:’ Liquid Death CEO talks effective brand building at UND.",
+      "Liquid Death valued at $1.4B after latest funding round."
+    ],
+    "why_now": "Recent funding combined with active hiring suggests operational expansion and increasing logistics complexity.",
+    "suggested_persona": "VP of Supply Chain / Head of E-commerce Logistics",
+    "recommended_outreach_angle": "AI-powered post-purchase tracking, carrier exception handling, and delivery experience scaling"
+  },
+  {
     "company": "Vuori",
     "buying_intent_summary": "Vuori shows strong buying intent with active expansion, funding signals and notable growth across operations.",
     "key_signals": [
@@ -27,7 +47,6 @@
       "HIRING"
     ],
     "evidence": [
-      "Blueland Targets Retail Operations Expansion With New Planning Hire.",
       "Blueland Raises $20 Million for New Category and Retail Expansion to Eliminate More Single-Use Plastic.",
       "DTC brand Blueland raises US$20 million for new category and retail expansion."
     ],
@@ -36,20 +55,18 @@
     "recommended_outreach_angle": "AI-powered post-purchase tracking, carrier exception handling, and delivery experience scaling"
   },
   {
-    "company": "Liquid Death",
-    "buying_intent_summary": "Liquid Death shows strong buying intent with active expansion, funding signals and notable growth across operations.",
+    "company": "Manscaped",
+    "buying_intent_summary": "Manscaped shows strong buying intent with active expansion, funding signals and notable growth across operations.",
     "key_signals": [
       "EXPANSION",
       "FUNDING",
-      "LEADERSHIP_CHANGE"
+      "HIRING"
     ],
     "evidence": [
-      "Exclusive: $1.4 billion beverage company Liquid Death names new CFO as it gears up for expansion.",
-      "Liquid Death swipes PepsiCo alum for CFO in growth push.",
-      "‘Entertain or die:’ Liquid Death CEO talks effective brand building at UND.",
-      "Liquid Death valued at $1.4B after latest funding round."
+      "Smash Ventures, Backer of Epic Games and Manscaped, Raises $500 Million for New Fund.",
+      "Manscaped Men’s Grooming – A Business Breakdown."
     ],
-    "why_now": "Recent capital infusion paired with market expansion points to rapid business growth.",
+    "why_now": "Recent funding combined with active hiring suggests operational expansion and increasing logistics complexity.",
     "suggested_persona": "VP of Supply Chain / Head of E-commerce Logistics",
     "recommended_outreach_angle": "AI-powered post-purchase tracking, carrier exception handling, and delivery experience scaling"
   },
@@ -67,23 +84,6 @@
       "Momofuku Goods Announces New Growth Funding from Alliance Consumer Growth."
     ],
     "why_now": "Recent capital infusion paired with market expansion points to rapid business growth.",
-    "suggested_persona": "VP of Supply Chain / Head of E-commerce Logistics",
-    "recommended_outreach_angle": "AI-powered post-purchase tracking, carrier exception handling, and delivery experience scaling"
-  },
-  {
-    "company": "Rothy's",
-    "buying_intent_summary": "Rothy's shows strong buying intent with active expansion, leadership_change signals and notable growth across operations.",
-    "key_signals": [
-      "EXPANSION",
-      "LEADERSHIP_CHANGE"
-    ],
-    "evidence": [
-      "Rothy’s Charts International Expansion With a Pop-Up in Liberty London.",
-      "Rothy’s taps Old Navy CMO for chief marketer role as it builds out C-suite.",
-      "Rothy’s names new CEO, president as co-founders step down from the roles.",
-      "“It’s more than a shoe, it’s a sisterhood”: inside the Rothy’s fandom."
-    ],
-    "why_now": "Active operational and market expansion indicates growing scalability demands.",
     "suggested_persona": "VP of Supply Chain / Head of E-commerce Logistics",
     "recommended_outreach_angle": "AI-powered post-purchase tracking, carrier exception handling, and delivery experience scaling"
   }
