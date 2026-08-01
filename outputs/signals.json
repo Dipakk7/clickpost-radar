@@ -1,16 +1,36 @@
 {
-  "company": "Feastables",
-  "collected_at": "2026-08-01T03:28:53.877771+00:00",
-  "signals_count": 1,
+  "company": "Kosas",
+  "collected_at": "2026-08-01T03:29:05.322290+00:00",
+  "signals_count": 3,
   "signals": [
     {
-      "company": "Feastables",
+      "company": "Kosas",
       "signal_type": "OTHER",
-      "title": "Internal MrBeast docs reveal a growth slowdown at his Feastables chocolate brand - Business Insider",
-      "evidence": "Internal MrBeast docs reveal a growth slowdown at his Feastables chocolate brand  Business Insider",
+      "title": "Kosas said to be exploring sale options - Cosmetics Business",
+      "evidence": "Kosas said to be exploring sale options  Cosmetics Business",
       "source": "News / Press Releases",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQSi16UlFnQnAzaE5QdXB5Sm9zeUcxWnNETVJ3VXhhTnZWRmN1XzBLWTA2RlIxVTNMTmxBckZBeDBmNEpNS083clh6NVQwLVRidHNNQ3VFMU9tNVBlZ19oSmJiV2NlbjJNMGZTREg2LWpiUzE4c0NFLUFTRXhiUXJTaXBtXzR3SGxBX3hEbXpybGgwb2l2bnNLR0NaaHRSdFZhUHh4MzkxWUJBc3l0NE9ocGFmX0xDdw?oc=5",
-      "date": "Fri, 10 Jul 2026 07:00:00 GMT",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5tY0Z1OGxINjZHZm5yZVNacFZJRE04eDg4eGpNczZ6OGR0WXYta2hlLWxHYW9kd1BvOU81akxzb1JraGNwczVSa1JJM2VyRmdSSHZ5TlBCM21ONENrcWtCSVZ1MlMwTFBFR3k0ZjZhUjNZRGxRYlJNWQ?oc=5",
+      "date": "Thu, 11 Jan 2024 08:00:00 GMT",
+      "confidence": "Medium"
+    },
+    {
+      "company": "Kosas",
+      "signal_type": "OTHER",
+      "title": "Kosas Masters the Art of Reinvention - The Business of Fashion",
+      "evidence": "Kosas Masters the Art of Reinvention  The Business of Fashion",
+      "source": "News / Press Releases",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQaGR4WDVRYk02UUxzMDJaR0ZxZWFNVi1Cd0puU2duanVJUFZpRm1YbzVrbjI1Q3d3bF9MVmpRUXdyM2hXeGEwVVFaRmhMbWozd3BPOWwtdkZOcWt4eWVmQW9lT2tlWE90RHY1YURqaG9qVjE5TTNORW5Nb1lqVEw5Q2tkTjNTemx3dHdsRW9RSF8?oc=5",
+      "date": "Mon, 19 Feb 2024 08:00:00 GMT",
+      "confidence": "Medium"
+    },
+    {
+      "company": "Kosas",
+      "signal_type": "OTHER",
+      "title": "Kosas Cosmetics selects PFS for fulfilment operations - Cosmetics Business",
+      "evidence": "Kosas Cosmetics selects PFS for fulfilment operations  Cosmetics Business",
+      "source": "News / Press Releases",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPX3NrUHpUT3Z2TkZQdklLbTR2U0c2eHg1dmpDZ3oybWM2QmlSOTQyWUltdFR3cGNCVDgtSnRvcmpraFI2aXI3dkN1b1FNMDdGTlhPeXdHTDVId0h4MlptaVVmcVJ2Q3AzVjE3S2dWTUowTVVndjd1amNLNFRldEQwN05XU3NxV1Z2RjJBVmJBVmFYenpE?oc=5",
+      "date": "Wed, 21 Jun 2023 07:00:00 GMT",
       "confidence": "Medium"
     }
   ]
