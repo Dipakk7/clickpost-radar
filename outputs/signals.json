@@ -1,36 +1,56 @@
 {
-  "company": "Kosas",
-  "collected_at": "2026-08-01T03:29:05.322290+00:00",
-  "signals_count": 3,
+  "company": "Liquid Death",
+  "collected_at": "2026-08-01T03:29:42.989876+00:00",
+  "signals_count": 5,
   "signals": [
     {
-      "company": "Kosas",
-      "signal_type": "OTHER",
-      "title": "Kosas said to be exploring sale options - Cosmetics Business",
-      "evidence": "Kosas said to be exploring sale options  Cosmetics Business",
+      "company": "Liquid Death",
+      "signal_type": "HIRING",
+      "title": "Careers\n – Liquid Death",
+      "evidence": "Careers – Liquid Death Skip to content Beverages Sparkling Energy Soda-Flavored Sparkling Iced Tea Mountain Water Store Locator MERCH Shop All Best Sellers Newest Drops Drinkware Tees Sweatshirts + Hoodies Hats + Beanies Bottoms Lifestyle Collabs Las",
+      "source": "Company Careers",
+      "url": "https://liquiddeath.com/pages/careers",
+      "date": "2026-08-01",
+      "confidence": "High"
+    },
+    {
+      "company": "Liquid Death",
+      "signal_type": "EXPANSION",
+      "title": "Exclusive: $1.4 billion beverage company Liquid Death names new CFO as it gears up for expansion - Yahoo Finance",
+      "evidence": "Exclusive: $1.4 billion beverage company Liquid Death names new CFO as it gears up for expansion  Yahoo Finance",
       "source": "News / Press Releases",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5tY0Z1OGxINjZHZm5yZVNacFZJRE04eDg4eGpNczZ6OGR0WXYta2hlLWxHYW9kd1BvOU81akxzb1JraGNwczVSa1JJM2VyRmdSSHZ5TlBCM21ONENrcWtCSVZ1MlMwTFBFR3k0ZjZhUjNZRGxRYlJNWQ?oc=5",
-      "date": "Thu, 11 Jan 2024 08:00:00 GMT",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOTldJNGNXNHBYbmM3QWlFOWotWXg3R3lLbWF5QkpIcFZpeXEzNUVYTUVUYjVXY05DOVIyX1dNbVNhaG5KTjVsSVotdENySnVNUVdkRGs1QU4zaXZoWGE2XzhzRjV6b2dndFFqcGR3QmxBZlVxWTFER0Z6Z1lDZUVhTGNn?oc=5",
+      "date": "Tue, 14 Oct 2025 07:00:00 GMT",
       "confidence": "Medium"
     },
     {
-      "company": "Kosas",
+      "company": "Liquid Death",
       "signal_type": "OTHER",
-      "title": "Kosas Masters the Art of Reinvention - The Business of Fashion",
-      "evidence": "Kosas Masters the Art of Reinvention  The Business of Fashion",
+      "title": "Liquid Death swipes PepsiCo alum for CFO in growth push - CFO Dive",
+      "evidence": "Liquid Death swipes PepsiCo alum for CFO in growth push  CFO Dive",
       "source": "News / Press Releases",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQaGR4WDVRYk02UUxzMDJaR0ZxZWFNVi1Cd0puU2duanVJUFZpRm1YbzVrbjI1Q3d3bF9MVmpRUXdyM2hXeGEwVVFaRmhMbWozd3BPOWwtdkZOcWt4eWVmQW9lT2tlWE90RHY1YURqaG9qVjE5TTNORW5Nb1lqVEw5Q2tkTjNTemx3dHdsRW9RSF8?oc=5",
-      "date": "Mon, 19 Feb 2024 08:00:00 GMT",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNZU16amZqaVpGWGZvVGhCUUtaMzN1S1VWRG1SYTZCVVpqUjkzcnBxWnFfUUgtbFJrb0M0NHdfQ05jakRWUDNJZEx2Tng5b1RIWng0Z1JnQnRETWFxZ3lOTTVObE5xR3A0bHlRLVJOTVdTUDVRQUxmYVVSMTd4bDJaaEJuQlhFS05kTUJhb0N3?oc=5",
+      "date": "Tue, 14 Oct 2025 07:00:00 GMT",
       "confidence": "Medium"
     },
     {
-      "company": "Kosas",
-      "signal_type": "OTHER",
-      "title": "Kosas Cosmetics selects PFS for fulfilment operations - Cosmetics Business",
-      "evidence": "Kosas Cosmetics selects PFS for fulfilment operations  Cosmetics Business",
+      "company": "Liquid Death",
+      "signal_type": "LEADERSHIP_CHANGE",
+      "title": "‘Entertain or die:’ Liquid Death CEO talks effective brand building at UND - blogs.und.edu",
+      "evidence": "‘Entertain or die:’ Liquid Death CEO talks effective brand building at UND  blogs.und.edu",
       "source": "News / Press Releases",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPX3NrUHpUT3Z2TkZQdklLbTR2U0c2eHg1dmpDZ3oybWM2QmlSOTQyWUltdFR3cGNCVDgtSnRvcmpraFI2aXI3dkN1b1FNMDdGTlhPeXdHTDVId0h4MlptaVVmcVJ2Q3AzVjE3S2dWTUowTVVndjd1amNLNFRldEQwN05XU3NxV1Z2RjJBVmJBVmFYenpE?oc=5",
-      "date": "Wed, 21 Jun 2023 07:00:00 GMT",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPN2FfLTMxbXAzS2F4OUFTcDFvaXZJQkIwbm9FU1ZFQkhHOWJTYjc2MnZZQWN3ek1lOFhVcnFxN0xyalZwbEhXbWh0TENLdWF1d3M3MFFyeTNEMTdmUktwcV9IeWNIa1BObnBaVzRaYkdRa2g3YmF0R2ljZjRoSklXbkN6ekpVMmtNREQzNVZTWDY2bktXcUtKM3h4ZVhXdFNIS21VWFdoYkdhcmVndTNmQ1FYQV8xbVNz?oc=5",
+      "date": "Fri, 01 May 2026 07:00:00 GMT",
+      "confidence": "Medium"
+    },
+    {
+      "company": "Liquid Death",
+      "signal_type": "FUNDING",
+      "title": "Liquid Death valued at $1.4B after latest funding round - Food Dive",
+      "evidence": "Liquid Death valued at $1.4B after latest funding round  Food Dive",
+      "source": "News / Press Releases",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9PM1BudkRqRWFGYTMwbW5PLVpLcWg1MlRYbHNTbXFRQmRvV0RiQlk0Mlhwcjg4SVI1SmJ1TGd1QWVRdUN1RzlQLWJjMmExZHJVZ2k5YmRTUDZWRHFna2J3UnFwVGZmZFZUZTVpcHduUGZsRW1ORlY2dQ?oc=5",
+      "date": "Mon, 11 Mar 2024 07:00:00 GMT",
       "confidence": "Medium"
     }
   ]
