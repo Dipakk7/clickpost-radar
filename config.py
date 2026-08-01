@@ -66,6 +66,37 @@ REQUEST_TIMEOUT: int = 5  # seconds
 MAX_RETRIES: int = 1
 
 # ==============================================================================
+# Official Company Domains Mapping
+# ==============================================================================
+OFFICIAL_DOMAINS: dict[str, str] = {
+    "Chubbies": "chubbiesshorts.com",
+    "Rothy's": "rothys.com",
+    "Brooklinen": "brooklinen.com",
+    "Solo Stove": "solostove.com",
+    "Vuori": "vuori.com",
+    "Outdoor Voices": "outdoorvoices.com",
+    "Blueland": "blueland.com",
+    "True Classic": "trueclassic.com",
+    "Feastables": "feastables.com",
+    "Kosas": "kosas.com",
+    "Olipop": "drinkolipop.com",
+    "Magic Spoon": "magicspoon.com",
+    "Liquid Death": "liquiddeath.com",
+    "Poppi": "drinkpoppi.com",
+    "Graza": "graza.co",
+    "Ridge Wallet": "ridge.com",
+    "Manscaped": "manscaped.com",
+    "Native Deodorant": "nativecos.com",
+    "Beardbrand": "beardbrand.com",
+    "Caraway": "carawayhome.com",
+    "Our Place": "fromourplace.com",
+    "Jones Road Beauty": "jonesroadbeauty.com",
+    "Tushy": "hellotushy.com",
+    "Momofuku Goods": "shop.momofuku.com",
+    "Parade Underwear": "yourparade.com",
+}
+
+# ==============================================================================
 # Ranking & Export Settings
 # ==============================================================================
 TOP_ACCOUNTS: int = 5

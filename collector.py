@@ -17,6 +17,7 @@ from bs4 import BeautifulSoup
 from config import (
     COMPETITORS,
     MAX_RETRIES,
+    OFFICIAL_DOMAINS,
     OUTPUT_DIRECTORY,
     REQUEST_TIMEOUT,
     SEARCH_QUERIES,
@@ -235,12 +236,30 @@ class SignalCollector:
         logger.info("Searching source: Company Careers...")
         signals: list[Signal] = []
 
-        clean_name = re.sub(r"[^a-zA-Z0-9]", "", company_name.lower())
-        careers_urls = [
-            f"https://{clean_name}clothing.com/pages/careers",
-            f"https://www.{clean_name}.com/careers",
-            f"https://www.{clean_name}.com/jobs",
-        ]
+        if company_name in OFFICIAL_DOMAINS:
+            domain = OFFICIAL_DOMAINS[company_name]
+            logger.info("Trying official domain: https://%s", domain)
+            clean_name = re.sub(r"[^a-zA-Z0-9]", "", company_name.lower())
+            raw_urls = [
+                f"https://www.{domain}/careers",
+                f"https://www.{domain}/jobs",
+                f"https://www.{domain}/pages/careers",
+                f"https://{domain}/careers",
+                f"https://{domain}/jobs",
+                f"https://{domain}/pages/careers",
+                f"https://www.{clean_name}.com/careers",
+                f"https://www.{clean_name}.com/jobs",
+                f"https://www.{clean_name}.com/pages/careers",
+            ]
+            careers_urls = list(dict.fromkeys(raw_urls))
+        else:
+            logger.info("Official domain unavailable. Using heuristic domain generation.")
+            clean_name = re.sub(r"[^a-zA-Z0-9]", "", company_name.lower())
+            careers_urls = [
+                f"https://{clean_name}clothing.com/pages/careers",
+                f"https://www.{clean_name}.com/careers",
+                f"https://www.{clean_name}.com/jobs",
+            ]
 
         today_str = datetime.now(timezone.utc).strftime("%Y-%m-%d")
 
@@ -293,11 +312,25 @@ class SignalCollector:
         logger.info("Searching source: Company Blog...")
         signals: list[Signal] = []
 
-        clean_name = company_name.lower().replace(" ", "")
-        blog_urls = [
-            f"https://{clean_name}clothing.com/blogs/journal",
-            f"https://www.{clean_name}.com/blog",
-        ]
+        if company_name in OFFICIAL_DOMAINS:
+            domain = OFFICIAL_DOMAINS[company_name]
+            clean_name = company_name.lower().replace(" ", "")
+            raw_urls = [
+                f"https://www.{domain}/blog",
+                f"https://www.{domain}/blogs/journal",
+                f"https://{domain}/blog",
+                f"https://{domain}/blogs/journal",
+                f"https://www.{clean_name}.com/blog",
+                f"https://www.{clean_name}.com/blogs/journal",
+            ]
+            blog_urls = list(dict.fromkeys(raw_urls))
+        else:
+            logger.info("Official domain unavailable. Using heuristic domain generation.")
+            clean_name = company_name.lower().replace(" ", "")
+            blog_urls = [
+                f"https://{clean_name}clothing.com/blogs/journal",
+                f"https://www.{clean_name}.com/blog",
+            ]
 
         today_str = datetime.now(timezone.utc).strftime("%Y-%m-%d")
 
@@ -455,8 +488,12 @@ class SignalCollector:
         logger.info("Searching source: Trustpilot...")
         signals: list[Signal] = []
 
-        clean_name = re.sub(r'[^a-zA-Z0-9]', '', company_name.lower())
-        url = f"https://www.trustpilot.com/review/{clean_name}.com"
+        if company_name in OFFICIAL_DOMAINS:
+            domain = OFFICIAL_DOMAINS[company_name]
+            url = f"https://www.trustpilot.com/review/{domain}"
+        else:
+            clean_name = re.sub(r'[^a-zA-Z0-9]', '', company_name.lower())
+            url = f"https://www.trustpilot.com/review/{clean_name}.com"
 
         html = self._http_get(url, timeout=2, max_retries=1)
         if not html:

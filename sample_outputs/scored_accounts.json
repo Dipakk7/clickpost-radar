@@ -31,7 +31,7 @@
     "intent_score": 30,
     "priority": "High",
     "confidence": "Medium",
-    "evidence_count": 5,
+    "evidence_count": 4,
     "detected_signals": [
       "EXPANSION",
       "FUNDING",
@@ -45,7 +45,7 @@
     "intent_score": 30,
     "priority": "High",
     "confidence": "High",
-    "evidence_count": 5,
+    "evidence_count": 4,
     "detected_signals": [
       "EXPANSION",
       "FUNDING",
@@ -234,6 +234,17 @@
     "why_now": "Public signals indicate ongoing market activity and account evaluation potential."
   },
   {
+    "company": "Jones Road Beauty",
+    "intent_score": 0,
+    "priority": "Low",
+    "confidence": "Medium",
+    "evidence_count": 1,
+    "detected_signals": [
+      "OTHER"
+    ],
+    "why_now": "Public signals indicate ongoing market activity and account evaluation potential."
+  },
+  {
     "company": "Graza",
     "intent_score": 0,
     "priority": "Low",
@@ -253,15 +264,6 @@
   },
   {
     "company": "Beardbrand",
-    "intent_score": 0,
-    "priority": "Low",
-    "confidence": "Low",
-    "evidence_count": 0,
-    "detected_signals": [],
-    "why_now": "No meaningful buying intent signals were detected from the available public sources."
-  },
-  {
-    "company": "Jones Road Beauty",
     "intent_score": 0,
     "priority": "Low",
     "confidence": "Low",
