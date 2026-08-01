@@ -1,46 +1,36 @@
 {
-  "company": "Blueland",
-  "collected_at": "2026-08-01T03:28:24.306760+00:00",
-  "signals_count": 4,
+  "company": "True Classic",
+  "collected_at": "2026-08-01T03:28:36.795287+00:00",
+  "signals_count": 3,
   "signals": [
     {
-      "company": "Blueland",
-      "signal_type": "HIRING",
-      "title": "Blueland",
-      "evidence": "BluelandLocation typeAllOn-siteHybridRemoteLocationAllBoca Raton, FLNew York, NYRemoteTeamAllFinanceInnovationRetailWork typeAllFull-timeFull-time (Remote OK)FinanceApplySr. Manager, FP&ARemote — Full-time (Remote OK)New York, NYInnovationApplyDirect",
-      "source": "Company Careers",
-      "url": "https://www.blueland.com/careers",
-      "date": "2026-08-01",
-      "confidence": "High"
-    },
-    {
-      "company": "Blueland",
-      "signal_type": "EXPANSION",
-      "title": "The Cleanist | Blueland",
-      "evidence": "The Cleanist | BluelandA Cleaner Kind of CleanShop Blueland âA Cleaner Kind of Clean|Shop Blueland âNow shipping to CAN, UK, AUS, & NZ!All prices are in local currency.Now shipping to CAN, UK, AUS, & NZ!|All prices are in local currency.Slider Na",
-      "source": "Company Blog",
-      "url": "https://blueland.com/blog",
-      "date": "2026-08-01",
-      "confidence": "High"
-    },
-    {
-      "company": "Blueland",
-      "signal_type": "FUNDING",
-      "title": "Blueland Raises $20 Million for New Category and Retail Expansion to Eliminate More Single-Use Plastic - PR Newswire",
-      "evidence": "Blueland Raises $20 Million for New Category and Retail Expansion to Eliminate More Single-Use Plastic  PR Newswire",
+      "company": "True Classic",
+      "signal_type": "OTHER",
+      "title": "True Classic Renews Partnership with Global-e Following International Success, with Over 25% of Total E-Commerce Revenue Now Driven by International Markets - Yahoo Finance",
+      "evidence": "True Classic Renews Partnership with Global-e Following International Success, with Over 25% of Total E-Commerce Revenue Now Driven by International Markets  Yahoo Finance",
       "source": "News / Press Releases",
-      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNVXM1MnJNZ3JyNGhSVzVWYkhDV2lrRWhDbi05Zk9BTThwbEV4QlllblgteEp6M3M1aGxJQWl3Y3hfY1NtSDVGQjdrbGhGWnVyNGhFZzI0VEtKeWhSVlZWdzZQbDRaNGhNX2FjMWJsVU1ITGVKUGlKVUo0bEJ2b0Q0TjRTdFFBTmNXeU9uS201Y1hWT1VEZGRTajhyNWFibjBlbmVOcVdRVkk0UTVBaGlsVlBOcF9SVzljcXdaTnp4a2ZMYWxFT2p0Rnc5YlpjaE02QzBsajk5YjRLNGFQcTVINnpFVlpHTm5aV3hsdnBn?oc=5",
-      "date": "Wed, 16 Feb 2022 08:00:00 GMT",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxONmpSU2J3OTBzQmxGdUtfSTFsdGpaNDhKUk9HdENYMFlwN2dsbm9SdFp1OTlHeVk0dEJ6elNUXzBnN2RqU1F0Z3JianZpQ1pNbmc3amt5MlhJOGlxYzB1dkpXQTl1c0ZHTTdJLXhaTGhOSmJQM0FnV2FHbzE4bUs4dkVPR2RFd3pEUnl5Xw?oc=5",
+      "date": "Wed, 20 Aug 2025 07:00:00 GMT",
       "confidence": "Medium"
     },
     {
-      "company": "Blueland",
-      "signal_type": "FUNDING",
-      "title": "DTC brand Blueland raises US$20 million for new category and retail expansion - Global Cosmetics News",
-      "evidence": "DTC brand Blueland raises US$20 million for new category and retail expansion  Global Cosmetics News",
+      "company": "True Classic",
+      "signal_type": "OTHER",
+      "title": "How True Classic takes a proactive approach to the last mile - Customer Experience Dive",
+      "evidence": "How True Classic takes a proactive approach to the last mile  Customer Experience Dive",
       "source": "News / Press Releases",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQTjZ3TExMSDdHSmZNY3RWbFd3S3ZEd1U3eWxKa1dITWRLNXNQUWNWNndVQVVKMjN4UHBERVY5ZW9SbXZsVlJ4S2tGQm9FUTFGN3pULU12clIxTDBQNUR6OVAteXJrcnVaM0ozMXNHNGFLajllYXhjRTRfMlp4TjI5RlE3NGYxanpzbC1XUkpySW5yWVBWd3hfdlZkR2U2UjdyaXJYYWQ2aEZwOU9pS2xfeDZ6Zw?oc=5",
-      "date": "Tue, 22 Feb 2022 08:00:00 GMT",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNWE54U2hBN09mdEhhY3F3cHJhRVJndTN1VEJZVVBrZTIzVGlTUTZQNFBCUkJ5aU5FVVlXbWE1b1BkaGV3MmJMWmh0ZnB4T1NPTjZYTkVhOE05SVd5dElHOVBRSlMxcVNMeHRoeHpWbEtwMmxQaDB1dXQzdGE3alFkUlVFZ3VmdTFzTG90RXkySHdlb1BDZXlrUA?oc=5",
+      "date": "Tue, 13 Jan 2026 08:00:00 GMT",
+      "confidence": "Medium"
+    },
+    {
+      "company": "True Classic",
+      "signal_type": "OTHER",
+      "title": "True Classic Tees Review: Why We Don’t Recommend These Shirts - FashionBeans",
+      "evidence": "True Classic Tees Review: Why We Don’t Recommend These Shirts  FashionBeans",
+      "source": "News / Press Releases",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE12WEdfR1hucDdwUUFGdkFoVGhZbVhOTVdOcmlmWXlnbUpfWUh0SXdDelJiUGlFVUFnVEprNnhxdENvclVwcUVBM1FaY1lDek1JWmd1MFZ1V25vYnJBTHJBNTBrNVQ5VmNUZW53d29ycw?oc=5",
+      "date": "Wed, 18 Feb 2026 08:00:00 GMT",
       "confidence": "Medium"
     }
   ]
