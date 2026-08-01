@@ -1,7 +1,7 @@
 [
   {
     "company": "Chubbies",
-    "collected_at": "2026-08-01T03:27:21.799472+00:00",
+    "collected_at": "2026-08-01T03:42:22.869039+00:00",
     "signals_count": 2,
     "signals": [
       {
@@ -28,7 +28,7 @@
   },
   {
     "company": "Rothy's",
-    "collected_at": "2026-08-01T03:27:31.503914+00:00",
+    "collected_at": "2026-08-01T03:42:46.852354+00:00",
     "signals_count": 4,
     "signals": [
       {
@@ -75,7 +75,7 @@
   },
   {
     "company": "Brooklinen",
-    "collected_at": "2026-08-01T03:27:38.359191+00:00",
+    "collected_at": "2026-08-01T03:43:03.249632+00:00",
     "signals_count": 3,
     "signals": [
       {
@@ -112,7 +112,7 @@
   },
   {
     "company": "Solo Stove",
-    "collected_at": "2026-08-01T03:27:54.849880+00:00",
+    "collected_at": "2026-08-01T03:43:38.655056+00:00",
     "signals_count": 1,
     "signals": [
       {
@@ -129,7 +129,7 @@
   },
   {
     "company": "Vuori",
-    "collected_at": "2026-08-01T03:28:01.991929+00:00",
+    "collected_at": "2026-08-01T03:43:49.153618+00:00",
     "signals_count": 9,
     "signals": [
       {
@@ -215,8 +215,8 @@
       {
         "company": "Vuori",
         "signal_type": "OTHER",
-        "title": "Updated: Vuori to Add U.S. Warehouse Due to New Rules in Mexico - shop-eat-surf-outdoor.com",
-        "evidence": "Updated: Vuori to Add U.S. Warehouse Due to New Rules in Mexico  shop-eat-surf-outdoor.com",
+        "title": "Updated: Vuori to Add U.S. Warehouse Due to New Rules in Mexico - Shop Eat Surf Outdoor",
+        "evidence": "Updated: Vuori to Add U.S. Warehouse Due to New Rules in Mexico  Shop Eat Surf Outdoor",
         "source": "News / Press Releases",
         "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQVlNfTC1wOWl3Sl9oUVUzcEdvX2o1dnc4T0E3cjVqMUlWNzJQZVNIOUFITHF3bVlSVlJsSGwySFJtc2RJNXRLem1qQU95dEtYSVdZOEVwRUUtZHRnMFNnanpKZGxibElHNXlaNjhEcF9PeGl6aTFKc0JkQzhUS2FESWlkSXpRUEI5eXdyTDdOUndJY3JQNnVvdXhUQUpsQkd4VmxHYlctdWVZZk9jTFhDUQ?oc=5",
         "date": "Thu, 06 Feb 2025 08:00:00 GMT",
@@ -226,7 +226,7 @@
   },
   {
     "company": "Outdoor Voices",
-    "collected_at": "2026-08-01T03:28:10.353561+00:00",
+    "collected_at": "2026-08-01T03:44:17.149419+00:00",
     "signals_count": 4,
     "signals": [
       {
@@ -273,8 +273,8 @@
   },
   {
     "company": "Blueland",
-    "collected_at": "2026-08-01T03:28:24.306760+00:00",
-    "signals_count": 4,
+    "collected_at": "2026-08-01T03:44:29.694987+00:00",
+    "signals_count": 5,
     "signals": [
       {
         "company": "Blueland",
@@ -292,9 +292,19 @@
         "title": "The Cleanist | Blueland",
         "evidence": "The Cleanist | BluelandA Cleaner Kind of CleanShop Blueland âA Cleaner Kind of Clean|Shop Blueland âNow shipping to CAN, UK, AUS, & NZ!All prices are in local currency.Now shipping to CAN, UK, AUS, & NZ!|All prices are in local currency.Slider Na",
         "source": "Company Blog",
-        "url": "https://blueland.com/blog",
+        "url": "https://www.blueland.com/blog",
         "date": "2026-08-01",
         "confidence": "High"
+      },
+      {
+        "company": "Blueland",
+        "signal_type": "EXPANSION",
+        "title": "Blueland Targets Retail Operations Expansion With New Planning Hire - TipRanks",
+        "evidence": "Blueland Targets Retail Operations Expansion With New Planning Hire  TipRanks",
+        "source": "News / Press Releases",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPYU5lQ2FkcDhoMFRHOVVuSG1pczVIcm1WdF94Y3ZORDY2WGE4ZXd6UmZqdm1wLWZ1czhrQklCOXB5TW8yd19ZV1dRV08zTUlqTzVIZVhxTW5PSVV5S3gwdUxfZGVUVVRCNm1xSmZyYkFqYTN6TjZaSUNyTnNqOTRmaVNxX1ZLSXlqUGxKd0ZqMkhPOHhNLUZOSW85WDBYRDZHcTFqUWF5NEptNExiVi1XLXk4UEtlZw?oc=5",
+        "date": "Tue, 28 Jul 2026 07:00:00 GMT",
+        "confidence": "Medium"
       },
       {
         "company": "Blueland",
@@ -320,7 +330,7 @@
   },
   {
     "company": "True Classic",
-    "collected_at": "2026-08-01T03:28:36.795287+00:00",
+    "collected_at": "2026-08-01T03:44:42.268768+00:00",
     "signals_count": 3,
     "signals": [
       {
@@ -357,7 +367,7 @@
   },
   {
     "company": "Feastables",
-    "collected_at": "2026-08-01T03:28:53.877771+00:00",
+    "collected_at": "2026-08-01T03:44:53.303894+00:00",
     "signals_count": 1,
     "signals": [
       {
@@ -374,7 +384,7 @@
   },
   {
     "company": "Kosas",
-    "collected_at": "2026-08-01T03:29:05.322290+00:00",
+    "collected_at": "2026-08-01T03:45:00.762192+00:00",
     "signals_count": 3,
     "signals": [
       {
@@ -411,14 +421,14 @@
   },
   {
     "company": "Olipop",
-    "collected_at": "2026-08-01T03:29:27.425761+00:00",
+    "collected_at": "2026-08-01T03:45:23.504609+00:00",
     "signals_count": 2,
     "signals": [
       {
         "company": "Olipop",
         "signal_type": "OTHER",
-        "title": "An Inside Look At Olipop’s Dream Job Contest & The Creators Who Won - forbes.com",
-        "evidence": "An Inside Look At Olipop’s Dream Job Contest & The Creators Who Won  forbes.com",
+        "title": "An Inside Look At Olipop’s Dream Job Contest & The Creators Who Won - Forbes",
+        "evidence": "An Inside Look At Olipop’s Dream Job Contest & The Creators Who Won  Forbes",
         "source": "News / Press Releases",
         "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQS1hxMWdFWl9Ob1pMXzV6bURQMlJWVTJzdnZiVkgyU1VNa2pUTklkU2tkSVA1cHRWdGlnYXhmVHhXbnBXR0FFaTFXSEI5WS05bGlvX0xoSDJlRC15RXRBc3NDZzhaUGZNaGtwbEpwNE54ZWlvemczYjVKcS1JcnQyc0M4ZG1RWDVWU2xFQU03ZTU5QTRwenNUSnZUQ1A2ajhkN1FWY2dYNDFteUNVaUJXQmEyLUt1SlFMbDJN?oc=5",
         "date": "Tue, 16 Apr 2024 07:00:00 GMT",
@@ -438,7 +448,7 @@
   },
   {
     "company": "Magic Spoon",
-    "collected_at": "2026-08-01T03:29:35.037371+00:00",
+    "collected_at": "2026-08-01T03:45:31.037557+00:00",
     "signals_count": 6,
     "signals": [
       {
@@ -505,19 +515,9 @@
   },
   {
     "company": "Liquid Death",
-    "collected_at": "2026-08-01T03:29:42.989876+00:00",
-    "signals_count": 5,
+    "collected_at": "2026-08-01T03:45:40.377459+00:00",
+    "signals_count": 4,
     "signals": [
-      {
-        "company": "Liquid Death",
-        "signal_type": "HIRING",
-        "title": "Careers\n – Liquid Death",
-        "evidence": "Careers – Liquid Death Skip to content Beverages Sparkling Energy Soda-Flavored Sparkling Iced Tea Mountain Water Store Locator MERCH Shop All Best Sellers Newest Drops Drinkware Tees Sweatshirts + Hoodies Hats + Beanies Bottoms Lifestyle Collabs Las",
-        "source": "Company Careers",
-        "url": "https://liquiddeath.com/pages/careers",
-        "date": "2026-08-01",
-        "confidence": "High"
-      },
       {
         "company": "Liquid Death",
         "signal_type": "EXPANSION",
@@ -562,7 +562,7 @@
   },
   {
     "company": "Poppi",
-    "collected_at": "2026-08-01T03:30:07.363635+00:00",
+    "collected_at": "2026-08-01T03:45:52.394087+00:00",
     "signals_count": 4,
     "signals": [
       {
@@ -609,13 +609,13 @@
   },
   {
     "company": "Graza",
-    "collected_at": "2026-08-01T03:30:22.763679+00:00",
+    "collected_at": "2026-08-01T03:46:02.309711+00:00",
     "signals_count": 0,
     "signals": []
   },
   {
     "company": "Ridge Wallet",
-    "collected_at": "2026-08-01T03:30:34.458522+00:00",
+    "collected_at": "2026-08-01T03:46:29.382889+00:00",
     "signals_count": 2,
     "signals": [
       {
@@ -642,7 +642,7 @@
   },
   {
     "company": "Manscaped",
-    "collected_at": "2026-08-01T03:30:42.511191+00:00",
+    "collected_at": "2026-08-01T03:46:38.441376+00:00",
     "signals_count": 4,
     "signals": [
       {
@@ -689,19 +689,19 @@
   },
   {
     "company": "Native Deodorant",
-    "collected_at": "2026-08-01T03:31:00.670742+00:00",
+    "collected_at": "2026-08-01T03:46:55.114556+00:00",
     "signals_count": 0,
     "signals": []
   },
   {
     "company": "Beardbrand",
-    "collected_at": "2026-08-01T03:31:08.870363+00:00",
+    "collected_at": "2026-08-01T03:47:05.085286+00:00",
     "signals_count": 0,
     "signals": []
   },
   {
     "company": "Caraway",
-    "collected_at": "2026-08-01T03:31:18.639352+00:00",
+    "collected_at": "2026-08-01T03:47:20.405920+00:00",
     "signals_count": 2,
     "signals": [
       {
@@ -728,7 +728,7 @@
   },
   {
     "company": "Our Place",
-    "collected_at": "2026-08-01T03:31:36.515317+00:00",
+    "collected_at": "2026-08-01T03:47:33.817027+00:00",
     "signals_count": 2,
     "signals": [
       {
@@ -755,30 +755,19 @@
   },
   {
     "company": "Jones Road Beauty",
-    "collected_at": "2026-08-01T03:31:44.799909+00:00",
-    "signals_count": 1,
-    "signals": [
-      {
-        "company": "Jones Road Beauty",
-        "signal_type": "OTHER",
-        "title": "Jones Road Beauty Opens Its First West Coast Boutique in Santa Monica - Patch",
-        "evidence": "Jones Road Beauty Opens Its First West Coast Boutique in Santa Monica  Patch",
-        "source": "News / Press Releases",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPb1hneVFfbTA5M1B6VFJDZGFZWjQyQUpyMEx3TWhHZmM1UndWdGlCTEFGMERqc2NUczN0U1hnWDVWNXNGbWROelhYRTJFalB3SjI5TTRwNEppaWVIMGowUS1rNzNnUTBIZExEVzVYVnRDV0dOYlZCVUduelBCTTU4cFRlSVREUUxLdVhESENZcVJNamp3YmZDQUp0UmZLSFUyV3pqR1dZRk1Ic1E?oc=5",
-        "date": "Wed, 08 Jul 2026 07:00:00 GMT",
-        "confidence": "Medium"
-      }
-    ]
+    "collected_at": "2026-08-01T03:47:55.605968+00:00",
+    "signals_count": 0,
+    "signals": []
   },
   {
     "company": "Tushy",
-    "collected_at": "2026-08-01T03:31:57.292168+00:00",
+    "collected_at": "2026-08-01T03:48:24.752662+00:00",
     "signals_count": 0,
     "signals": []
   },
   {
     "company": "Momofuku Goods",
-    "collected_at": "2026-08-01T03:32:04.123002+00:00",
+    "collected_at": "2026-08-01T03:48:33.411549+00:00",
     "signals_count": 4,
     "signals": [
       {
@@ -825,7 +814,7 @@
   },
   {
     "company": "Parade Underwear",
-    "collected_at": "2026-08-01T03:32:14.621499+00:00",
+    "collected_at": "2026-08-01T03:48:42.404576+00:00",
     "signals_count": 0,
     "signals": []
   }
